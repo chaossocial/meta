@@ -7,8 +7,8 @@ date:   2018-04-15 10:00:00
 chaos.social celebrates its birthday today! We opened registration last year [on April 15th](https://chaos.social/@ordnung/1003) after sending our first toots on April 13th:  
 
 <div class="toot two-toots">
-<iframe src="https://chaos.social/@rami/1/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
-<iframe src="https://chaos.social/@rixx/2/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
+<iframe src="https://chaos.social/@rami/1/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" height="170"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
+<iframe src="https://chaos.social/@rixx/2/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" height="170"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
 </div>
 
 Since then, we've grown quite a bit. Since a few days ago, more than 2000 people call our instance their home, and we're connected to more than 2000 other instances in the Fediverse. Which has grown itself a lot, too! Mastodon doesn't only federate (nearly) seamlessly with the old and established federation parts like GNUSocial, but also with the newcomers like PeerTube. There's always something new going on and barely a month passes without new federtion parts and possibilites.
