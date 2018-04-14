@@ -1,0 +1,15 @@
+name: chaos.social blog
+description: because anarchy is much more fun with friends
+meta_description: "Insights of chaos.social"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://blog.chaos.social'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'https://blog.chaos.social'
+author:         'Leah & rixx'
