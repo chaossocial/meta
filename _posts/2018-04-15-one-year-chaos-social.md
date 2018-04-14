@@ -4,14 +4,14 @@ title:  "One year chaos.social!"
 date:   2018-04-15 10:00:00
 ---
 
-chaos.social celebrates its birthday today! We opened registration last year, on April 15th: [https://chaos.social/@ordnung/1003](https://chaos.social/@ordnung/1003), after sending our first toots on April 13th:  
+chaos.social celebrates its birthday today! We opened registration last year [on April 15th](https://chaos.social/@ordnung/1003) after sending our first toots on April 13th:  
 
 <div class="toot two-toots">
 <iframe src="https://chaos.social/@rami/1/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
 <iframe src="https://chaos.social/@rixx/2/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
 </div>
 
-Since then, we've grown quite a bit. Since yesterday, more than 2000 people call our instance their home, and we're connected to more than 2000 other instances in the Fediverse. Which has grown itself a lot, too! Mastodon doesn't only federate (nearly) seamlessly with the old and established federation parts like GNUSocial, but also with the newcomers like PeerTube. There's always something new going on and barely a month passes without new federtion parts and possibilites.
+Since then, we've grown quite a bit. Since a few days ago, more than 2000 people call our instance their home, and we're connected to more than 2000 other instances in the Fediverse. Which has grown itself a lot, too! Mastodon doesn't only federate (nearly) seamlessly with the old and established federation parts like GNUSocial, but also with the newcomers like PeerTube. There's always something new going on and barely a month passes without new federtion parts and possibilites.
 
 ## And you are  …?
 
@@ -21,6 +21,7 @@ We started chaos.social as an instance for the Chaos community around CCC, and w
 * Decentralisation: We're happy not to have grown too much or too fast. While our hardware could cope with more users (see below for details), every new wave of users has to get used to Mastodon and our instance. For more information of decentralisation of the Fediverse as a whole, check out the results of [Leah looking into network layer distribution of Fediverse instances](https://chaos.social/@leah/99837391793032137)!
 
 ## Usage
+
 
 ![User development over the last year]({{ "/assets/images/users.png"}})
 ![Toots per hour over the last year]({{ "/assets/images/toots.png"}})
