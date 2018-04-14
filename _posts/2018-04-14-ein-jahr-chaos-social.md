@@ -5,8 +5,11 @@ date:   2018-04-14 10:00:00
 ---
 
 chaos.social ist heute ein Jahr alt! Letztes Jahr, am 15. April, haben wir die Registrierung für euch geöffnet: [https://chaos.social/@ordnung/1003](https://chaos.social/@ordnung/1003), nachdem wir am 13. April lostooteten:
+
+<div class="toot two-toots">
 <iframe src="https://chaos.social/@rami/1/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
 <iframe src="https://chaos.social/@rixx/2/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400"></iframe><script src="https://chaos.social/embed.js" async="async"></script>
+</div>
 
 Seitdem sind wir ganz schön gewachsen. Mittlerweile nutzen über 2000 Menschen unsere Instanz und über 2000 weitere Instanzen sind im Fediverse mit uns verbunden. Das ist auch ordentlich gewachsen. Mastodon föderiert nicht nur (ziemlich) nahtlos mit den schon altbekannten Föderationsteilen wie GNUSocial, sondern auch mit den neueren wie z.B. PeerTube. Es steht nie still, und jeden Monat finden sich neue spannende Erweiterungen und Möglichkeiten im und ums Fediverse.
 
