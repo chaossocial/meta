@@ -44,7 +44,7 @@ our income transparently, so that our supporters can always see who took how muc
 Euro payments, which means no money is lost in currency conversion where there is no need for it.
 
 While we wait for liberapay to work again, we'd like to ask those of you who can and want to donate, to use [Leah's
-PayPal account](https://paypal.com/leahoswald) or ask her *privately* for her IBAN. We'll use the money to pay for the
+PayPal account](https://paypal.me/leahoswald) or ask her *privately* for her IBAN. We'll use the money to pay for the
 server even when resource requirements grow, pay for the domain, and probably for another round of stickers. The
 remaining money will be held by us for times where we have less income but continuing server costs. We'll also talk
 about our finances periodically, to give you an idea of what our situation is.
