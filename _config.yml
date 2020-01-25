@@ -8,7 +8,7 @@ logo: false
 paginate: 15
 baseurl: ""
 domain_name: 'https://blog.chaos.social'
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url:            'https://blog.chaos.social'
