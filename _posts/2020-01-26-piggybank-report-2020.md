@@ -6,7 +6,7 @@ date:   2020-01-26 19:00:00
 
 Our last report on the state of chaos.social was over a year ago, so we've written a small update. To make the post
 helpful for newcomers too, we're starting out with a bit of infomation on chaos.social itself.  Experienced users can
-skip the tutorial and **go to the [fincances](/2020/01/26/piggybank-report-2020.html#finances) section directly.** 😉
+skip the tutorial and **go to the [finances](/2020/01/26/piggybank-report-2020.html#finances) section directly.** 😉
 
 ## Infodump
 
