@@ -13,6 +13,15 @@ post_class: post-template
 </header>
 
 <main class="content" role="main">
+    {% if page.logo %}
+        <a class="blog-post-logo blog-logo" href="{{ site.baseurl }}">
+            <img src="{{ page.logo }}" alt="Blog Logo" />
+        </a>
+    {% else if site.logo %}
+        <a class="blog-post-logo blog-logo" href="{{ site.baseurl }}">
+            <img src="{{ site.logo }}" alt="Blog Logo" />
+        </a>
+    {% endif %}
 
     <article class="post">
 

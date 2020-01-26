@@ -33,6 +33,16 @@ header {
 		margin-top: auto;
 	}
 }
+.blog-logo.blog-post-logo {
+	position: fixed;
+	max-width: 300px;
+}
+@media(max-width: 1200px) {
+	.blog-logo.blog-post-logo { max-width: 150px }
+}
+@media(max-width: 1000px) {
+	.blog-logo.blog-post-logo { display: none }
+}
 @media(max-width: 600px) {
 	.blog-logo { display: none }
 }
