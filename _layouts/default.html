@@ -14,7 +14,15 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
     <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
-
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:description" content="{{ site.meta_description }}">
+    <meta property="og:image" content="https://blog.chaos.social/assets/images/mastodon-pencil.png">
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}">
+    {% else %}
+    <meta property="og:title" content="{{ site.name }}">
+    {% endif %}
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
 
