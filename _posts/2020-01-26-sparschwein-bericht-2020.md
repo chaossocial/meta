@@ -35,7 +35,7 @@ die Ressourcen natürlich nicht voll auslasten. Dadurch fallen bei uns **monatli
 geben wir auch gelegentlich etwas Geld für Sticker aus, und bezahlen die Domain.
 
 Den Kosten gegenüber stehen dreieinhalb Einnahmequellen: Man kann uns auf
-[liberapay](https://liberapay.com/chaos.social/) spenden, direkt an [Leah via PayPal](https://www.paypal.me/leahoswald),
+[liberapay](https://liberapay.com/chaos.social/) spenden,
 oder Leah privat nach ihrer Bankverbindung fragen. Gelegentlich drücken uns auch Leute persönlich auf
 Chaos-Veranstaltungen Geld in die Hand. Das macht zwar keinen signifikanten Anteil aus, aber freut uns auch immer sehr!
 

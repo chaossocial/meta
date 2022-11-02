@@ -34,7 +34,7 @@ though of course it never uses all the resources available. This server costs us
 Additionally, we also occasionally buy instance merch (stickers!) and pay for the domain.
 
 To offset the costs, we have three (and-a-half) sources of income: You can donate to us on
-[liberapay](https://liberapay.com/chaos.social), send money to [Leah via PayPal](https://www.paypal.me/leahoswald), or
+[liberapay](https://liberapay.com/chaos.social) or
 ask Leah privately for her bank details. Sometimes people also give us cash directly at Chaos events – and while this
 isn't a significant part of our income, we always enjoy meeting our users in person.
 

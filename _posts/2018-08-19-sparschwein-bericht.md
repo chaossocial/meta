@@ -45,7 +45,7 @@ quelloffen, es bietet transparentes Teammanagement, sodass alle immer sehen, wer
 den Euro-Markt abgestimmt, sodass nicht ein Haufen Geld in Währungstausch verschwindet.
 
 Deshalb werden wir auf Liberapay warten, und möchten euch solange bitten, falls ihr uns unterstützen könnt und wollt,
-[Leahs PayPal-Account](https://paypal.me/leahoswald) zu nehmen, oder Leah [privat](https://chaos.social/@leah) nach ihrer IBAN zu fragen.
+Leah [privat](https://chaos.social/@leah) nach ihrer IBAN zu fragen.
 
 Wir werden das Geld für den wachsenden Bedarf unseres Servers verwenden, für das jährliche Verlängern der Domain, und
 vermutlich, um noch mal eine Charge Sticker zu produzieren. Was dann bleibt, legen wir zurück, für wenn die
