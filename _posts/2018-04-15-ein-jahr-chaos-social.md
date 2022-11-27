@@ -2,6 +2,8 @@
 layout: post
 title:  "Ein Jahr chaos.social!"
 date:   2018-04-15 10:00:00
+language: de
+translation: one-year-chaos-social
 ---
 
 chaos.social ist heute ein Jahr alt! Letztes Jahr, am 15. April, haben wir die Registrierung für euch [geöffnet](https://chaos.social/@ordnung/1003), nachdem wir am 13. April lostooteten:

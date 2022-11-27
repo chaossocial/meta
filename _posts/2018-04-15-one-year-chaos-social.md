@@ -2,6 +2,8 @@
 layout: post
 title:  "One year chaos.social!"
 date:   2018-04-15 10:00:00
+language: en
+translation: ein-jahr-chaos-social
 ---
 
 chaos.social celebrates its birthday today! We opened registration last year [on April 15th](https://chaos.social/@ordnung/1003) after sending our first toots on April 13th:  

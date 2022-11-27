@@ -2,6 +2,8 @@
 layout: post
 title:  "Piggybank report"
 date:   2018-08-19 23:00:00
+language: en
+translation: sparschwein-bericht
 ---
 
 

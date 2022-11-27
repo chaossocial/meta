@@ -2,6 +2,8 @@
 layout: post
 title:  "Bericht: Sparschwein"
 date:   2018-08-19 23:00:00
+language: de
+translation: piggybank-report
 ---
 
 Nichts ist umsonst in der Welt – deshalb wollen wir kurz darüber reden, wie sich chaos.social finanziert.

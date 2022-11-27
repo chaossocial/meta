@@ -2,6 +2,8 @@
 layout: post
 title:  "Bericht: Sparschwein 2020"
 date:   2020-01-26 20:00:00
+language: de
+translation: piggybank-report-2020
 ---
 
 Unser letzter Bericht zu chaos.social ist schon anderthalb Jahre her, deshalb haben wir mal ein Update

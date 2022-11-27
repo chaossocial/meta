@@ -2,6 +2,8 @@
 layout: post
 title:  "Piggybank report 2020"
 date:   2020-01-26 19:00:00
+language: en
+translation: sparschwein-bericht-2020
 ---
 
 Our last report on the state of chaos.social was over a year ago, so we've written a small update. To make the post
