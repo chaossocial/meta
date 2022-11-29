@@ -44,8 +44,7 @@ Freund:innen und so weiter.** Dafür machen wir uns auch gerne die Hände schmut
 professionellere, allgemeinere Instanz würden wir das nicht tun. Aus diesem Gedanken heraus haben wir uns entschieden,
 die folgenden Änderungen einzuführen, damit der Betrieb von chaos.social wieder Spaß statt Plackerei ist.
 
-**Alle Änderungen in unseren [neuen Instanzregeln](https://blog.chaos.social/regeln) treten in zwei Wochen in Kraft, am
-13. Dezember. Eine Woche vorher, am 6. Dezember, werden wir schon anfangen, Warnungen für Verstöße auszusprechen.**
+**Alle Änderungen in unseren [neuen Instanzregeln](https://blog.chaos.social/regeln) treten in zwei Wochen in Kraft, am 13. Dezember. Eine Woche vorher, am 6. Dezember, werden wir schon anfangen, Warnungen für Verstöße auszusprechen.**
 
 (Übrigens liegen die Regeln jetzt erstmalig auf Deutsch vor!)
 
