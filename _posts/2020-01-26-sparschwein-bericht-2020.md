@@ -9,7 +9,7 @@ translation: piggybank-report-2020
 Unser letzter Bericht zu chaos.social ist schon anderthalb Jahre her, deshalb haben wir mal ein Update
 zusammengeschrieben. Damit dieser Post auch als Informationsquelle für Neuankömmlinge dienen kann, öffnen wir mit einer
 allgemeineren Übersicht über chaos.social – die alten Hasen können das Tutorial überspringen und **direkt zum Abschnitt
-zu den [Finanzen](/2020/01/26/sparschwein-bericht-2020.html#finanzen) gehen.** 😉
+zu den [Finanzen](/2020/01/26/sparschwein-bericht-2020#finanzen) gehen.** 😉
 
 ## Infodump
 
