@@ -3,7 +3,7 @@ layout: post
 title:  "Regeländerungen, geschlossene Anmeldungen, und mehr"
 date:   2022-11-29 19:00:00
 language: de
-translation: 2022/11/29/changes
+translation: changes
 ---
 
 Im vergangenen Monat hat sich das Fediverse, und damit auch unsere Instanz, stark und plötzlich verändert. Wir haben
