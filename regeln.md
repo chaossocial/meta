@@ -21,6 +21,10 @@ Nutzer:innen von chaos.social haben sich an die folgenden Regeln zu halten:
 - Posts auf der lokalen Timeline brauchen CWs (Inhaltswarnungen) für Gewalt, Sex, Tod/Krankheit und Politik.
 - Posts auf der lokalen Timeline brauchen Bildbeschreibungen.
 
+*Erläuterung:* Posts landen auf der lokalen Timeline, wenn sie mit dem Sichtbarkeitslevel "public" geschrieben werden.
+Wenn Posts nicht auf der lokalen Timeline landen sollen, bietet sich das Sichtbarkeitslevel "unlisted" an – damit sind
+die Posts immer noch für alle (Follower:innen und alle anderen) sichtbar, sie werden nur nicht auf der lokalen und
+föderierten Timeline gezeigt. Boosts landen auch nicht auf der lokalen Timeline.
 
 ## Best practices
 

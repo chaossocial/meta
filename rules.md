@@ -19,6 +19,10 @@ We expect users on chaos.social to adhere to the following rules:
 - When posting to the local timeline, provide Content Warnings for violence, sexually explicit content, death/disease, and politics.
 - When posting to the local timeline, provide image descriptions.
 
+*Clarification:* You post to the local timeline when you give your post "public" visibility. If you don't want to follow
+local timeline rules, you can post with visibility "unlisted" – posts will still be visible to everybody (your followers
+and everybody else), they just won't get shown on the local and federated timelines. Boosts also do not appear on the
+local timeline.
 
 ## Best practices
 
