@@ -79,11 +79,23 @@ wenn ihr einen Bot habt, für den das eurer Meinung nach zutrifft.
 ### Mehr CWs auf der lokalen Timeline
 
 Wir haben schon immer darum gebeten, dass ihr CWs (Inhaltswarnungen) nutzt, um Rücksicht aufeinander zu nehmen, und das
-hat ziemlich gut geklappt. Aber mit der Twitter-Welle haben wir jetzt beschlossen, einige Punkte von den "Best
-Practices" hoch in den Bereich der "Regeln" zu schieben. Insbesondere solltet ihr auf der lokalen Timeline CWs für
-Gewalt, Sex, Tod/Krankheit und Politik verwenden.
+hat ziemlich gut geklappt. Aber mit der Twitter-Welle haben wir jetzt beschlossen, einige Punkte von den “Best
+Practices” hoch in den Bereich der “Regeln” zu schieben. Insbesondere solltet ihr auf der lokalen Timeline CWs für
+Inhalte mit Gewalt, Sex, Tod/Krankheit und Politik (insbesondere bei negativen oder kontroversen Themen) verwenden.
 
-Wenn möglich, nutzt bitte hilfreiche CWs. Das könnte z.B. so etwas wie "depol, AFD" sein, oder "uspol, elections".
+Unser Ziel ist, dass angegriffene/marginalisierte Menschen auf der lokalen Timeline nicht konstant ungewollt mit
+belastenden Inhalten konfrontiert zu werden, sondern sich auszusuchen, wann die Zeit dafür ist. CWs schützen da vor
+Doomscrolling.
+
+Die Themenliste, für die wir CWs – auf der lokalen Timeline! – vorschreiben, ist nur genau das: eine Liste, nicht die
+CWs selber. Die CWs wären dann so etwas wie "Rant, depol, Bürgergeld", oder "uspol, Transfeindlichkeit, Texas".
+
+Es ist klar, dass es da immer Ausnahmen und Einzelfälle gibt – die Sache wird sich einschwingen. Es ist auch nicht, als
+ob Leute für Fehler von der Instanz fliegen – wir suchen bei Problemen immer das private Gespräch. CWs lassen sich auch
+später nachrüsten.
+
+Der Begriff "Warnung" scheint oft dramatisch (und [eine Änderung ist in
+Diskussion](https://github.com/mastodon/mastodon/issues/20117))) – seht es vielleicht eher als einen Hinweis/Notice.
 
 ### Bildbeschreibungen auf der lokalen Timeline
 
