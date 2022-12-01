@@ -18,7 +18,8 @@ Nutzer:innen von chaos.social haben sich an die folgenden Regeln zu halten:
 - Kein rechter Scheiß, kein Nazikram, keine Verschwörungstheorien.
 - Keine automatisierten Accounts (außer von der Moderation abgenickt). Das gilt insbesondere für Bots, Crossposter,
   Feedposter usw.
-- Posts auf der lokalen Timeline brauchen CWs (Inhaltswarnungen) für Gewalt, Sex, Tod/Krankheit und Politik.
+- Posts auf der lokalen Timeline brauchen CWs (Inhaltswarnungen) für Gewalt, Sex, Tod/Krankheit und Politik (Das sind
+  nur die Kategorien, eine CW könnte also z.B. "depol, Bürgergeld" sein).
 - Posts auf der lokalen Timeline brauchen Bildbeschreibungen.
 
 *Erläuterung:* Posts landen auf der lokalen Timeline, wenn sie mit dem Sichtbarkeitslevel "public" geschrieben werden.
