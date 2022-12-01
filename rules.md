@@ -17,7 +17,8 @@ We expect users on chaos.social to adhere to the following rules:
 - No right or alt-right bullshit, Nazi content, conspiracy narratives.
 - No automated accounts (unless approved by the moderators). This includes bots, crossposters, feedposters etc.
 - When posting to the local timeline, provide Content Warnings for violence, sexually explicit content, death/disease,
-  and politics (those are the larger categories, a CW might be something like "uspol, elections").
+  and politics, particularly when negative or controversial (those are the larger categories, a CW might be something
+  like "uspol, elections").
 - When posting to the local timeline, provide image descriptions.
 
 *Clarification:* You post to the local timeline when you give your post "public" visibility. If you don't want to follow
