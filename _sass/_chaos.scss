@@ -37,6 +37,23 @@ header {
 	position: fixed;
 	max-width: 300px;
 }
+nav.index-nav, nav.main-nav {
+	&.index-nav {
+		margin-top: 30px;
+	}
+	display: flex;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+	a {
+		text-decoration: none;
+		color: rgba(0,0,0,0.5);
+		margin: 0 8px;
+	}
+	a.current {
+		color: black;
+		text-decoration: underline;
+	}
+}
 @media(max-width: 1200px) {
 	.blog-logo.blog-post-logo { max-width: 150px }
 }

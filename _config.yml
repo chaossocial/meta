@@ -12,6 +12,18 @@ author: 'Leah & rixx'
 
 logo: "/assets/images/mastodon-pencil.svg"
 
-# Details for the RSS feed generator
-url:            'https://blog.chaos.social'
-author:         'Leah & rixx'
+navs:
+  de:
+    - name: Blog
+      url: /de
+    - name: Regeln
+      url: /regeln
+    - name: Ressourcen
+      url: /ressourcen
+  en:
+    - name: Blog
+      url: /
+    - name: Rules
+      url: /rules
+    - name: Resources
+      url: /resources

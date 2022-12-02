@@ -1,7 +1,5 @@
 ---
 layout: default
-title: Home
-cover: false
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -14,9 +12,6 @@ cover: false
             <img src="{{ site.logo }}" alt="Blog Logo" />
         </a>
     {% endif %}
-    <nav class="main-nav overlay clearfix">
-        <a class="subscribe-button" href="{{ site.baseurl }}{{ page.translation }}">{% if page.language == "en" %}auf Deutsch{% else %}in English{% endif %}</a>
-    </nav>
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
@@ -25,6 +20,19 @@ cover: false
                 {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
             </h2>
         </div>
+        <nav class="index-nav">
+            {% for nav in site.navs[page.language] %}
+                {% assign current = '' %}
+                {% if page.url == "/" and nav.url == "/index.html" %}
+                    {% assign current = 'current' %}
+                {% endif %}
+                {% if page.url contains nav.url %}
+                    {% assign current = 'current' %}
+                {% endif %}
+                <a class="{{ current }}" href="{{ nav.url }}">{{ nav.name }}</a>&middot;
+            {% endfor %}
+            <a href="{{ site.baseurl }}{{ page.translation }}">{% if page.language == "en" %}de{% else %}en{% endif %}</a>
+        </nav>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
