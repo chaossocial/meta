@@ -20,6 +20,8 @@ navs:
       url: /regeln
     - name: Ressourcen
       url: /ressourcen
+    - name: Kontakt
+      url: /kontakt
   en:
     - name: Blog
       url: /
@@ -27,3 +29,5 @@ navs:
       url: /rules
     - name: Resources
       url: /resources
+    - name: Contact
+      url: /contact
