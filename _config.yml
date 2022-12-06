@@ -14,7 +14,7 @@ logo: "/assets/images/mastodon-pencil.svg"
 
 navs:
   de:
-    - name: Blog
+    - name: News
       url: /de
     - name: Regeln
       url: /regeln
@@ -23,7 +23,7 @@ navs:
     - name: Kontakt
       url: /kontakt
   en:
-    - name: Blog
+    - name: News
       url: /
     - name: Rules
       url: /rules
