@@ -26,48 +26,39 @@
     <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
-    <header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-        <nav class="main-nav clearfix">
-            {% for nav in site.navs[page.language] %}
-                {% assign current = '' %}
-                {% if nav.url == "/" %}
-                    {% if page.url == "/" %}
-                        {% assign current = 'current' %}
-                    {% endif %}
-                {% else %}
-                    {% if page.url contains nav.url %}
-                        {% assign current = 'current' %}
-                    {% endif %}
+    <nav class="side-nav">
+        {% for nav in site.navs[page.language] %}
+            {% assign current = '' %}
+            {% if nav.url == "/" %}
+                {% if page.url == "/" %}
+                    {% assign current = 'current' %}
                 {% endif %}
-                <a class="center-nav {{ current }}" href="{{ nav.url }}">{{ nav.name }}</a>&middot;
-            {% endfor %}
-            <a href="{{ site.baseurl }}{{ page.translation }}">{% if page.language == "en" %}de{% else %}en{% endif %}</a>
-        </nav>
-    </header>
+            {% else %}
+                {% if page.url contains nav.url %}
+                    {% assign current = 'current' %}
+                {% endif %}
+            {% endif %}
+            <a class="center-nav {{ current }}" href="{{ nav.url }}">{{ nav.name }}</a>
+        {% endfor %}
+        <a href="{{ site.baseurl }}{{ page.translation }}">{% if page.language == "en" %}de{% else %}en{% endif %}</a>
+
+        <img class="blog-logo" src="{{ site.logo }}" alt="Blog Logo" />
+    </nav>
 
     <main class="content" role="main">
-        {% if page.logo %}
-            <a class="blog-post-logo blog-logo" href="{{ site.baseurl }}">
-                <img src="{{ page.logo }}" alt="Blog Logo" />
-            </a>
-        {% else if site.logo %}
-            <a class="blog-post-logo blog-logo" href="{{ site.baseurl }}">
-                <img src="{{ site.logo }}" alt="Blog Logo" />
-            </a>
-        {% endif %}
 
         {{ content }}
 
+        <footer class="site-footer clearfix">
+          <section class="copyright">
+            <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 
+                  {{"now" | date: "%Y"}} &bull; All rights reserved.
+          </section>
+          <section class="poweredby">Made with Jekyll using 
+            <a href="http://github.com/rosario/kasper">Kasper theme</a>
+          </section>
+        </footer>
     </main>
-    <footer class="site-footer clearfix">
-      <section class="copyright">
-        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 
-              {{"now" | date: "%Y"}} &bull; All rights reserved.
-      </section>
-      <section class="poweredby">Made with Jekyll using 
-        <a href="http://github.com/rosario/kasper">Kasper theme</a>
-      </section>
-    </footer>
     
     <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
