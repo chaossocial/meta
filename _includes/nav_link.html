@@ -1,0 +1,21 @@
+{% assign current = '' %}
+{% assign nav = include.nav %}
+{% assign page = include.page %}
+{% assign nav_content = nav[page.language] %}
+
+{% if nav_content.url == "/" %}
+    {% if page.url == "/" %}
+        {% assign current = 'current' %}
+    {% endif %}
+{% else %}
+    {% if page.url contains nav_content.url %}
+        {% assign current = 'current' %}
+    {% endif %}
+{% endif %}
+<li>
+{% if nav_content.url %}
+    <a class="center-nav {% if nav.mobile %}important {% endif %}{{ current }}" href="{{ nav_content.url }}">{{ nav_content.name }}</a>
+{% else %}
+    <span class="center-nav {% if nav.mobile %}important {% endif %}{{ current }}">{{ nav_content.name }}</span>
+{% endif %}
+</li>

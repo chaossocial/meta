@@ -27,18 +27,9 @@
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
     <nav class="side-nav">
+        <ul>
         {% for nav in site.nav %}
-            {% assign current = '' %}
-            {% if nav[page.language].url == "/" %}
-                {% if page.url == "/" %}
-                    {% assign current = 'current' %}
-                {% endif %}
-            {% else %}
-                {% if page.url contains nav[page.language].url %}
-                    {% assign current = 'current' %}
-                {% endif %}
-            {% endif %}
-            <a class="center-nav {% if nav.mobile %}important {% endif %}{{ current }}" href="{{ nav[page.language].url }}">{{ nav[page.language].name }}</a>
+            {% include nav_link.html nav=nav page=page %}
         {% endfor %}
         {% if page.language == "en" %}
             <a class="mobile-only" href="/phone-menu">Main menu</a>
@@ -47,6 +38,7 @@
             <a class="mobile-only" href="/fon-menu">Hauptmenü</a>
             {% if page.translation %}<a class="important" href="{{ site.baseurl }}{{ page.translation }}">en</a>{% endif %}
         {% endif %}
+        </ul>
 
         <img class="blog-logo" src="{{ site.logo }}" alt="Blog Logo" />
     </nav>
