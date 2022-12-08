@@ -1,4 +1,4 @@
-name: chaos.social blog
+name: chaos.social info
 description: because anarchy is much more fun with friends
 meta_description: "Insights of chaos.social"
 
@@ -6,8 +6,8 @@ markdown: kramdown
 highlighter: pygments
 logo: false
 baseurl: ""
-domain_name: 'https://blog.chaos.social'
-url: 'https://blog.chaos.social'
+domain_name: 'https://meta.chaos.social'
+url: 'https://meta.chaos.social'
 author: 'Leah & rixx'
 
 logo: "/assets/images/mastodon-pencil.svg"

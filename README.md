@@ -1,7 +1,7 @@
-chaos.social Blog
-=================
+chaos.social meta information
+=============================
 
-This is the repo containing the [very intermittently updated blog.chaos.social](https://blog.chaos.social).
+This is the repo containing the source for [meta.chaos.social](https://meta.chaos.social).
 
 Local development
 -----------------

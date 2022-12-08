@@ -6,13 +6,13 @@ translation: terms
 
 # I. Nutzungsbedingungen
 
-chaos.social wird vom [chaos.social e.V.i.Gr.](https://blog.chaos.social/verein) betrieben.
+chaos.social wird vom [chaos.social e.V.i.Gr.](/verein) betrieben.
 Der Vorstand besteht aus @leah und @rixx, die auch die Instanz administrieren und moderieren.
 
 
 ## Regeln und Moderation
 
-Die [Instanzregeln](https://blog.chaos.social/regeln) stellen die Moderationsgrundlage dar.
+Die [Instanzregeln](/regeln) stellen die Moderationsgrundlage dar.
 Das Moderationsteam kann Accounts einfrieren, sperren und löschen.
 
 ## Zugang zu den Daten
