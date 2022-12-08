@@ -20,6 +20,9 @@ navs:
     - name: Regeln
       url: /regeln
       mobile: true
+    - name: Geld
+      url: /geld
+      mobile: true
     - name: Verein
       url: /verein
       mobile: false
@@ -35,6 +38,9 @@ navs:
       mobile: true
     - name: Rules
       url: /rules
+      mobile: true
+    - name: Money
+      url: /money
       mobile: true
     - name: Governance
       url: /governance
