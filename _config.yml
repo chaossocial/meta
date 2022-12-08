@@ -54,4 +54,10 @@ nav:
     en:
       name: Contact
       url: /contact
-    mobile: true
+  - de:
+      name: AGB, Impressum
+      url: /agb
+    en:
+      name: Terms
+      url: /terms
+    mobile: false

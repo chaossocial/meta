@@ -26,6 +26,8 @@ local timeline rules, you can post with visibility "unlisted" – posts will sti
 and everybody else), they just won't get shown on the local and federated timelines. Boosts also do not appear on the
 local timeline.
 
+Note that the instance is also subject to our [terms and privacy policy](/terms).
+
 ## Best practices
 
 We ask users on chaos.social to keep the following guidelines in mind, in order to foster a **considerate and accessible
