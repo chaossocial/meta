@@ -15,7 +15,9 @@ Es gibt verschiedene Möglichkeiten, uns Geld zukommen zu lassen:
 
 1. Ab liebsten sind uns **Überweisungen** – und noch lieber natürlich **Daueraufträge**. Halbwegs vorhersehbares
    Einkommen lässt uns nachts ruhig schlafen.<br>**Kontoinhaberin:** chaos.social e.V.<br>**IBAN:**
-   DE64830654080005279186<br>**BIC:** GENODEF1SLR
+   DE64830654080005279186<br>**BIC:** GENODEF1SLR<br><small>Wenn wir uns wirklich alles wünschen dürften: Da wir jeden
+   Monat ab der 50. Buchung Geld zahlen, sind besonders Daueraufträge mit einem größeren Turnus (Quartal+) gerne
+   gesehen.</small>
 2. Auch in Ordnung ist [PayPal](//paypal.me/chaossocial). Da gehen zwar Gebühren ab, aber dafür ist es für euch
    schneller geklickt.
 3. Im allergrößten Notfall geht auch [liberapay](//liberapay.com/chaos.social) – aber uns ist wirklich alles andere
