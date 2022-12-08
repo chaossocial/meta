@@ -16,18 +16,32 @@ navs:
   de:
     - name: News
       url: /de
+      mobile: true
     - name: Regeln
       url: /regeln
+      mobile: true
+    - name: Verein
+      url: /verein
+      mobile: false
     - name: Ressourcen
       url: /ressourcen
+      mobile: false
     - name: Kontakt
       url: /kontakt
+      mobile: true
   en:
     - name: News
       url: /
+      mobile: true
     - name: Rules
       url: /rules
+      mobile: true
+    - name: Governance
+      url: /governance
+      mobile: false
     - name: Resources
       url: /resources
+      mobile: false
     - name: Contact
       url: /contact
+      mobile: true
