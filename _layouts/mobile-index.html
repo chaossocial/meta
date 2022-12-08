@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class="post">
+    <h1>{{ page.title }}</h1>
+
+    <ul>
+        {% for nav in site.nav %}
+            {% assign current = '' %}
+            {% if nav[page.language].url == "/" %}
+                {% if page.url == "/" %}
+                    {% assign current = 'current' %}
+                {% endif %}
+            {% else %}
+                {% if page.url contains nav[page.language].url %}
+                    {% assign current = 'current' %}
+                {% endif %}
+            {% endif %}
+            <li><a class="center-nav {% if nav.mobile %}important {% endif %}{{ current }}" href="{{ nav[page.language].url }}">{{ nav[page.language].name }}</a></li>
+        {% endfor %}
+        {% if page.language == "en" %}
+            <li><a href="{{ site.baseurl }}{{ page.translation }}">de</a></li>
+        {% else %}
+            <li><a href="{{ site.baseurl }}{{ page.translation }}">en</a></li>
+        {% endif %}
+    </ul>
+</article>

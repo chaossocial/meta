@@ -52,6 +52,9 @@ nav.side-nav {
 		width: 100%;
 	}
 }
+.mobile-only {
+	display: none;
+}
 @media(max-width: 1200px) {
 	.blog-logo { max-width: 150px }
 }
@@ -68,6 +71,12 @@ nav.side-nav {
 		flex-direction: row;
 		margin: 8px auto;
 		.blog-logo {
+			display: none;
+		}
+		a.mobile-only {
+			display: block !important;
+		}
+		a:not(.important) {
 			display: none;
 		}
 	}

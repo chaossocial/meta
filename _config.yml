@@ -12,42 +12,46 @@ author: 'Leah & rixx'
 
 logo: "/assets/images/mastodon-pencil.svg"
 
-navs:
-  de:
-    - name: News
+nav:
+  - de:
+      name: News
       url: /de
-      mobile: true
-    - name: Regeln
-      url: /regeln
-      mobile: true
-    - name: Geld
-      url: /geld
-      mobile: true
-    - name: Verein
-      url: /verein
-      mobile: false
-    - name: Ressourcen
-      url: /ressourcen
-      mobile: false
-    - name: Kontakt
-      url: /kontakt
-      mobile: true
-  en:
-    - name: News
+    en:
+      name: News
       url: /
-      mobile: true
-    - name: Rules
+    mobile: true
+  - de:
+      name: Regeln
+      url: /regeln
+    en:
+      name: Rules
       url: /rules
-      mobile: true
-    - name: Money
+    mobile: true
+  - de:
+      name: Geld
+      url: /geld
+    en:
+      name: Money
       url: /money
-      mobile: true
-    - name: Governance
+    mobile: true
+  - de:
+      name: Verein
+      url: /verein
+    en:
+      name: Governance
       url: /governance
-      mobile: false
-    - name: Resources
+    mobile: false
+  - de:
+      name: Ressourcen
+      url: /ressourcen
+    en:
+      name: Resources
       url: /resources
-      mobile: false
-    - name: Contact
+    mobile: false
+  - de:
+      name: Kontakt
+      url: /kontakt
+    en:
+      name: Contact
       url: /contact
-      mobile: true
+    mobile: true
