@@ -10,3 +10,10 @@ Local development
 bundle install --path vendor/bundle
 bundle exec jekyll serve
 ```
+
+Deployment
+----------
+
+```
+./update.sh
+```
