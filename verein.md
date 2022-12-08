@@ -36,6 +36,8 @@ diese minimale Struktur seht bitte die obige Frage an. Ihr findet hier auch unse
 gemeinnützigen Zielen), da die Verwaltung eines gemeinnützigen Vereins sowohl in der Buchhaltung (Steuern!) als auch im
 Drumherum (Rechenschaftsberichte, jährliche Prüfung durchs Finanzamt) aufwendig ist.
 
+Deshalb gibt es von uns auch **keine Spendenquittungen**.
+
 **Q: Warum keine gGmbH wie mastodon.social?**
 
 **A:** Wir haben nicht das Kapital für eine gGmbH. Die Vorform, eine gUG, würde 25% jeglichen Gewinns für die
