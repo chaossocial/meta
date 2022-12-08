@@ -42,10 +42,10 @@
         {% endfor %}
         {% if page.language == "en" %}
             <a class="mobile-only" href="/phone-menu">Main menu</a>
-            <a href="{{ site.baseurl }}{{ page.translation }}">de</a>
+            <a class="important" href="{{ site.baseurl }}{{ page.translation }}">de</a>
         {% else %}
             <a class="mobile-only" href="/fon-menu">Hauptmenü</a>
-            <a href="{{ site.baseurl }}{{ page.translation }}">en</a>
+            <a class="important" href="{{ site.baseurl }}{{ page.translation }}">en</a>
         {% endif %}
 
         <img class="blog-logo" src="{{ site.logo }}" alt="Blog Logo" />

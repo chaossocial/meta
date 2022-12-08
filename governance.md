@@ -33,14 +33,14 @@ bookeeping and paperwork (regular checks by the tax office), and we'd rather not
 **Q: Why no gGmbH like mastodon.social?**
 
 **A:** A gGmbH requires capital, which we don't have. There is a smaller alternative form, which would take up 25% of
-any profit until it turns into a gGmbH – which we don't even really want to be. Plus, the same charitable organisation
-checks would apply, see above.
+any profit until it turns into a gGmbH – which we don't even really want to be. Plus, we would have to deal with regular
+checks that charitable organisation are subject to, which is a lot of paperwork.
 
 **Q: That doesn't sound terribly democratic?**
 
 **A:** chaos.social has never been a democratic instance – it's a hobby project run by Leah and rixx. This structure
 didn't change when we founded the association, it was just formalised. It may look unusually dictatorial for an
-organisation like this, which is a very good proxy for how chaos.social was and is run. Leah and rixx are always
+organisation like this. However, this is a very good proxy for how chaos.social was and is run. Leah and rixx are always
 (happily!) open for discussions about moderation and administration, but the final say is theirs.
 
 **Q: That doesn't sound terribly transparent?**
