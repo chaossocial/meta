@@ -64,13 +64,13 @@ pedophilia in the name of free speech.
 | birdsite.monster            | Twitter crossposter|
 | birdsite.oliviaappleton.com | Twitter crossposter|
 | birdsite.slashdev.space     | Twitter crossposter|
-| birdsitelive.treffler.cloud | Twitter crossposter|
 | birdsite.tcjc.uk            | Twitter crossposter|
 | birdsite.thorlaksson.com    | Twitter crossposter|
 | birdsite.toot.si            | Twitter crossposter|
 | birdsite.wilde.cloud        | Twitter crossposter|
 | birdsitelive.ffvo.dev       | Twitter crossposter|
 | birdsitelive.peanutlasko.com| Twitter crossposter|
+| birdsitelive.treffler.cloud | Twitter crossposter|
 | bridge.birb.space           | Twitter crossposter|
 | brighteon.social            | "free speech zone" |
 | cawfee.club                 | Discrimination, racism, "free speech zone" |
@@ -85,12 +85,12 @@ pedophilia in the name of free speech.
 | detroitriotcity.com         | Discrimination, racism, "free speech zone" |
 | eientei.org                 | Racism, antisemitism |
 | eveningzoo.club             | Discrimination, racism, "free speech zone" |
-| freeatlantis.com            | Conspiracy theory instance |
-| freefedifollowers.ga        | Follower spam |
-| frennet.link                | Discrimination, racism, "free speech zone" |
-| freecumextremist.com        | Discrimination, racism, "free speech zone" |
-| freespeechextremist.com     | Discrimination, racism, "free speech zone" |
 | f.haeder.net                | Discrimination |
+| freeatlantis.com            | Conspiracy theory instance |
+| freecumextremist.com        | Discrimination, racism, "free speech zone" |
+| freefedifollowers.ga        | Follower spam |
+| freespeechextremist.com     | Discrimination, racism, "free speech zone" |
+| frennet.link                | Discrimination, racism, "free speech zone" |
 | gab.com/.ai, develop.gab.com| Discrimination, racism, "free speech zone" |
 | gameliberty.club            | "free speech zone" |
 | gegenstimme.tv              | "free speech zone" |
@@ -114,23 +114,23 @@ pedophilia in the name of free speech.
 | midnightride.rs             | Discrimination |
 | misskey-forkbomb.cf         | Spam
 | mstdn.foxfam.club           | Right wing twitter mirror |
-| nicecrew.digital            | Discrimination, racism, "free speech zone" |
-| ns.auction                  | Racism etc |
 | newjack.city                | Exclusive to unwanted follow bots |
+| nicecrew.digital            | Discrimination, racism, "free speech zone" |
 | noagendasocial.com          | "free speech zone", harassment |
+| ns.auction                  | Racism etc |
 | ohai.su                     | Offline |
 | pawoo.net                   | Untagged nfsw content, unwanted follow bots, lolicon |
 | paypig.org                  | Racism |
 | pieville.net                | Racism, antisemitism |
-| play.xmr.101010.pl          | Cryptomining |
-| pleroma.rareome.ga          | Doesn't [respect blocks or status privacy](https://pleroma.rareome.ga/notice/113524), [lolicons](https://pleroma.rareome.ga/notice/55113) |
-| pleroma.kitsunemimi.club    | Discrimination |
-| pleroma.narrativerry.xyz    | Discrimination, racism, "free speech zone" |
-| pleroma.nobodyhasthe.biz    | Doxxing and discrimination |
 | pl.info.natehiggers.online  | Racism |
 | pl.natehiggers.online       | Racism |
 | pl.serialmay.link           | Racism, transphobia |
 | pl.tkammer.de               | Transphobia |
+| play.xmr.101010.pl          | Cryptomining |
+| pleroma.kitsunemimi.club    | Discrimination |
+| pleroma.narrativerry.xyz    | Discrimination, racism, "free speech zone" |
+| pleroma.nobodyhasthe.biz    | Doxxing and discrimination |
+| pleroma.rareome.ga          | Doesn't [respect blocks or status privacy](https://pleroma.rareome.ga/notice/113524), [lolicons](https://pleroma.rareome.ga/notice/55113) |
 | poa.st                      | Discrimination |
 | poster.place                | Discrimination, racism, "free speech zone", harassment in response to blocks |
 | qoto.org                    | "free speech zone", harassment |
@@ -146,9 +146,9 @@ pedophilia in the name of free speech.
 | skippers-bin.com            | Same admin as neckbeard.xyz, same behaviour |
 | sneak.berlin                | privacy violation |
 | sneed.social                | Discrimination, racism, "free speech zone" |
-| social.urspringer.de        | Conspiracy, CoVid19 denier |
 | social.ancreport.com        | Discrimination, racism, "free speech zone" |
 | social.teci.world           | Discrimination, racism, "free speech zone" |
+| social.urspringer.de        | Conspiracy, CoVid19 denier |
 | socnet.supes.com            | Right wing "free speech zone" |
 | solagg.com                  | Scammers |
 | spinster.xyz                | Discrimination, TERFs |
@@ -156,9 +156,9 @@ pedophilia in the name of free speech.
 | truthsocial.co.in           | Alt-right trolls |
 | tube.kenfm.de               | Right-wing conspiracy videos |
 | tube.querdenken-711.de      | Right-wing onspiracy videos |
+| tweetbridge.kogasa.de       | Twitter crossposter|
 | twitter.activitypub.actor   | Twitter crossposter|
 | twitterbridge.jannis.rocks  | Twitter crossposter|
-| tweetbridge.kogasa.de       | Twitter crossposter|
 | twtr.plus                   | Twitter crossposter| 
 | varishangout.net            | Transphobia and racism go unmoderated, aggressive trolling, lolicon permitted in rules |
 | wiki-tube.de                | Right-wing conspiracy videos ([initial video](https://serv3.wiki-tube.de/videos/watch/c1ba1760-21e2-42f0-9c2a-b7e8fd53c722) welcomes Querdenken and KenFM) |
