@@ -135,17 +135,17 @@ pedophilia in the name of free speech.
 | poster.place                | Discrimination, racism, "free speech zone", harassment in response to blocks |
 | qoto.org                    | "free speech zone", harassment |
 | rapemeat.solutions          | Lolicon and also, like, the domain name |
-| rdrama.cc                   | Discrimination, "free speech zone" |
+| rdrama.cc                   | Discrimination, "free speech zone", racism |
 | repl.co                     | Spam
 | ryona.agency                | Alt-right trolls, harassment |
 | seal.cafe                   | Discrimination, racism, "free speech zone" |
-| shitpost.cloud              | "Free speech zone" |
+| shitpost.cloud              | "Free speech zone", antisemitism |
 | shitposter.club             | "Free speech zone" |
 | shortstackran.ch            | Racism, homophobia, "free speech zone" |
 | shota.house                 | Lolicon |
 | skippers-bin.com            | Same admin as neckbeard.xyz, same behaviour |
 | sneak.berlin                | privacy violation |
-| sneed.social                | Discrimination, racism, "free speech zone" |
+| sneed.social                | Discrimination, racism, "free speech zone", nationalism, hate speech, completely unmoderated |
 | social.ancreport.com        | Discrimination, racism, "free speech zone" |
 | social.teci.world           | Discrimination, racism, "free speech zone" |
 | social.urspringer.de        | Conspiracy, CoVid19 denier |
