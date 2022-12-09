@@ -30,15 +30,40 @@ nav.side-nav {
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	margin-top: 60px;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 0;
 	padding-left: 40px;
 	padding-right: 56px;
-	ul, li {
+	& > ul {
 		padding: 0;
 		margin: 0;
+		li {
+			padding: 0;
+			margin: 0;
+		}
+	}
+	li {
 		list-style: none;
+		position: relative;
+		&:last-child {
+			border-color: transparent;
+		}
+	}
+	li ul {
+		padding-left: 20px;
+		margin: 0;
+		li:before {
+			content      : '';
+			display      : block;
+			position     : absolute;
+			top          : -5px;
+			left         : -10px;
+			width        : 10px;
+			height       : 20px;
+			border       : solid #ddd;
+			border-width : 0 0 2px 2px;
+		}
 	}
 	a, span {
 		text-decoration: none;

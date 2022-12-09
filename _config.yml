@@ -21,13 +21,6 @@ nav:
       url: /
     mobile: true
   - de:
-      name: Regeln
-      url: /regeln
-    en:
-      name: Rules
-      url: /rules
-    mobile: true
-  - de:
       name: Geld
       url: /geld
     en:
@@ -41,6 +34,18 @@ nav:
       name: Governance
       url: /governance
     mobile: false
+  - de:
+      name: Moderation
+    en:
+      name: Moderation
+    submenus:
+    - de:
+        name: Regeln
+        url: /regeln
+      en:
+        name: Rules
+        url: /rules
+      mobile: true
   - de:
       name: Ressourcen
       url: /ressourcen
