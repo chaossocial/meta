@@ -106,8 +106,15 @@ nav.side-nav {
 	body nav.side-nav {
 		width: 100%;
 		padding: 0;
-		flex-direction: row;
-		margin: 8px auto;
+		margin: 0;
+		ul {
+			display: flex;
+			flex-direction: row;
+			margin: 8px auto;
+			li:before {
+				display: none;
+			}
+		}
 		.blog-logo {
 			display: none;
 		}
