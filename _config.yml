@@ -38,6 +38,7 @@ nav:
       name: Moderation
     en:
       name: Moderation
+    mobile: false
     submenus:
     - de:
         name: Regeln
@@ -45,7 +46,14 @@ nav:
       en:
         name: Rules
         url: /rules
-      mobile: true
+      mobile: false
+    - de:
+        name: Föderation
+        url: /federation
+      en:
+        name: Federation
+        url: /federation
+      mobile: false
   - de:
       name: Ressourcen
       url: /ressourcen

@@ -82,6 +82,14 @@ nav.side-nav {
 		width: 100%;
 	}
 }
+#blocked-instances + p + table {
+	font-family: "Open Sans", sans-serif;
+	table-layout: fixed;
+	th:first-child {
+	  width: 250px;
+	  text-wrap: nowrap;
+	}
+}
 .mobile-only {
 	display: none;
 }
@@ -108,6 +116,12 @@ nav.side-nav {
 		}
 		a:not(.important) {
 			display: none;
+		}
+	}
+	#blocked-instances + p + table {
+		table-layout: auto;
+		th:first-child {
+			width: auto;
 		}
 	}
 }
