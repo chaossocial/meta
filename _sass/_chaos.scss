@@ -74,7 +74,7 @@ nav.side-nav {
 		color: rgba(0,0,0,0.5);
 		margin: 0 8px;
 	}
-	a.current {
+	a.current, span.current {
 		color: black;
 		text-decoration: underline;
 	}
@@ -122,10 +122,10 @@ nav.side-nav {
 		.blog-logo {
 			display: none;
 		}
-		a.mobile-only {
+		a.mobile-only, span.mobile-only {
 			display: block !important;
 		}
-		a:not(.important) {
+		a:not(.important), span:not(.important) {
 			display: none;
 		}
 	}
