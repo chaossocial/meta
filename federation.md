@@ -114,6 +114,7 @@ pedophilia in the name of free speech.
 | midnightride.rs             | Discrimination |
 | misskey-forkbomb.cf         | Spam |
 | mstdn.foxfam.club           | Right wing twitter mirror |
+| natehiggers.online          | Racism |
 | newjack.city                | Exclusive to unwanted follow bots |
 | nicecrew.digital            | Discrimination, racism, "free speech zone" |
 | noagendasocial.com          | "free speech zone", harassment |
@@ -122,8 +123,6 @@ pedophilia in the name of free speech.
 | pawoo.net                   | Untagged nfsw content, unwanted follow bots, lolicon |
 | paypig.org                  | Racism |
 | pieville.net                | Racism, antisemitism |
-| pl.info.natehiggers.online  | Racism |
-| pl.natehiggers.online       | Racism |
 | pl.serialmay.link           | Racism, transphobia |
 | pl.tkammer.de               | Transphobia |
 | play.xmr.101010.pl          | Cryptomining |
