@@ -112,7 +112,7 @@ pedophilia in the name of free speech.
 | mastodon.popps.org          | Homophobia |
 | meta-tube.de                | Conspiracy, CoVid19 denier videos https://fediblock.org/blocklist/#meta-tube.de |
 | midnightride.rs             | Discrimination |
-| misskey-forkbomb.cf         | Spam
+| misskey-forkbomb.cf         | Spam |
 | mstdn.foxfam.club           | Right wing twitter mirror |
 | newjack.city                | Exclusive to unwanted follow bots |
 | nicecrew.digital            | Discrimination, racism, "free speech zone" |
@@ -136,7 +136,7 @@ pedophilia in the name of free speech.
 | qoto.org                    | "free speech zone", harassment |
 | rapemeat.solutions          | Lolicon and also, like, the domain name |
 | rdrama.cc                   | Discrimination, "free speech zone", racism |
-| repl.co                     | Spam
+| repl.co                     | Spam |
 | ryona.agency                | Alt-right trolls, harassment |
 | seal.cafe                   | Discrimination, racism, "free speech zone" |
 | shitpost.cloud              | "Free speech zone", antisemitism |
