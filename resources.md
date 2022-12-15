@@ -32,7 +32,11 @@ Both Leah and rixx were invited to [Chaosradio](https://chaosradio.de/cr249-dece
 “Decentralize the web” (2018, de), and talked about the basics, and the experiences and hopes in their first year of running
 a Mastodon instance.
 
-## Talks
+## Talks, streams
+
+On [#heiseshow](https://www.youtube.com/watch?v=GfxFqJCTwuo) (2022, de), Leah and rixx talked about their experiences
+running chaos.social, their views on the Fediverse, and how the recent Musk Twitter acquisition has shaped the past
+months.
 
 In [Dezentrale soziale Netzwerke – Theorie und
 Praxis](https://media.ccc.de/v/gpn18-175-dezentrale-soziale-netzwerke-theorie-und-praxis) (2018, de), rixx gives an

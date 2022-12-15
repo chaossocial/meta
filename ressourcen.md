@@ -31,7 +31,10 @@ Mit [All Features Welcome](https://features-welcome.de/?podcast=all-features-wel
 Mit dem [Chaosradio](https://chaosradio.de/cr249-decentralizetheweb) redeten Leah und rixx in der Folge „Decentralize
 the web“ (2018) über Mastodon-Grundlagen, Erfahrungen und Ausblicke.
 
-## Vorträge
+## Vorträge, Streams
+
+In der [#heiseshow](https://www.youtube.com/watch?v=GfxFqJCTwuo) (2022) gaben Leah und rixx ein Interview, und redeten
+über ihre Wurzeln im Fediverse, die Entwicklung von chaos.social und die Auswirkungen der Twitter-Akquise.
 
 Mit [Dezentrale soziale Netzwerke – Theorie und
 Praxis](https://media.ccc.de/v/gpn18-175-dezentrale-soziale-netzwerke-theorie-und-praxis) (2018) gibt rixx einen
