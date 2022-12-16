@@ -19,6 +19,10 @@ admins and people interested in understanding community moderation.
 
 ## Podcasts
 
+Leah talked to [Bildung, Zukunft,
+Technik](https://bildung-zukunft-technik.de/2022/12/16/bzt098-moderation-einer-mastodon-instanz/) (2022, de), and
+talked in detail – 90 minutes! - about how we run chaos.social.
+
 In [she likes
 tech](https://www.ardaudiothek.de/episode/she-likes-tech-der-podcast-ueber-technologie/troeoet-statt-tweet-mit-leah-oswald/ndr/12114311/)
 (2022, de), Leah talks to NDR about our instance, the Fediverse in general, and differences and commonalities in the

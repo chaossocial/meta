@@ -20,6 +20,10 @@ wollen.
 
 ## Podcasts
 
+Leah war bei [Bildung, Zukunft,
+Technik](https://bildung-zukunft-technik.de/2022/12/16/bzt098-moderation-einer-mastodon-instanz/) (2022) und ging 90
+Minuten lang so richtig ins Detail darüber, wie chaos.social funktioniert.
+
 In [she likes
 tech](https://www.ardaudiothek.de/episode/she-likes-tech-der-podcast-ueber-technologie/troeoet-statt-tweet-mit-leah-oswald/ndr/12114311/)
 (2022) redet Leah mit dem NDR über unsere Instanz, das Fediverse allgemein, und Unterschiede und Gemeinsamkeiten mit
