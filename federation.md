@@ -100,6 +100,7 @@ pedophilia in the name of free speech.
 | glindr.org                  | Discrimination |
 | glowers.club                | Discrimination, racism, "free speech zone" |
 | honkwerx.tech               | Racism |
+| iamterminally.online        | Discrimination, racism, "free speech zone" |
 | iddqd.social                | Discrimination, racism, "free speech zone" |
 | itmslaves.com               | "free speech zone", noagenda affiliated |
 | jaeger.website              | Discrimination, racism, "free speech zone" |
