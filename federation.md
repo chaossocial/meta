@@ -119,6 +119,8 @@ pedophilia in the name of free speech.
 | newjack.city                | Exclusive to unwanted follow bots |
 | nicecrew.digital            | Discrimination, racism, "free speech zone" |
 | noagendasocial.com          | "free speech zone", harassment |
+| noagendatube.com            | "free speech zone", harassment |
+| noagendasocial.nl           | "free speech zone", harassment |
 | ns.auction                  | Racism etc |
 | ohai.su                     | Offline |
 | pawoo.net                   | Untagged nfsw content, unwanted follow bots, lolicon |
@@ -132,6 +134,7 @@ pedophilia in the name of free speech.
 | pleroma.nobodyhasthe.biz    | Doxxing and discrimination |
 | pleroma.rareome.ga          | Doesn't [respect blocks or status privacy](https://pleroma.rareome.ga/notice/113524), [lolicons](https://pleroma.rareome.ga/notice/55113) |
 | poa.st                      | Discrimination |
+| podcastindex.social         | noagenda affiliated |
 | poster.place                | Discrimination, racism, "free speech zone", harassment in response to blocks |
 | qoto.org                    | "free speech zone", harassment |
 | rapemeat.solutions          | Lolicon and also, like, the domain name |
