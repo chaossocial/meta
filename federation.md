@@ -91,6 +91,7 @@ pedophilia in the name of free speech.
 | freefedifollowers.ga        | Follower spam |
 | freespeechextremist.com     | Discrimination, racism, "free speech zone" |
 | frennet.link                | Discrimination, racism, "free speech zone" |
+| froth.zone                  | Calls freespeechextremist their local bubble |
 | gab.com/.ai, develop.gab.com| Discrimination, racism, "free speech zone" |
 | gameliberty.club            | "free speech zone" |
 | gegenstimme.tv              | "free speech zone" |
