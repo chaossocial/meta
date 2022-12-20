@@ -38,6 +38,9 @@ a Mastodon instance.
 
 ## Talks, streams
 
+On [tagesschau](https://www.youtube.com/watch?v=Vn3trbEbQ8Y&t=180s) (2022, de), Leah talked to the online edition of the
+German national TV news about the future of the Fediverse.
+
 On [#heiseshow](https://www.youtube.com/watch?v=GfxFqJCTwuo) (2022, de), Leah and rixx talked about their experiences
 running chaos.social, their views on the Fediverse, and how the recent Musk Twitter acquisition has shaped the past
 months.

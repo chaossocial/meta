@@ -20,6 +20,9 @@ wollen.
 
 ## Podcasts
 
+Bei der online-[tagesschau](https://www.youtube.com/watch?v=Vn3trbEbQ8Y&t=180s) (2022) sprach Leah über die Zukunft des
+Fediverse (Fediversums?).
+
 Leah war bei [Bildung, Zukunft,
 Technik](https://bildung-zukunft-technik.de/2022/12/16/bzt098-moderation-einer-mastodon-instanz/) (2022) und ging 90
 Minuten lang so richtig ins Detail darüber, wie chaos.social funktioniert.
