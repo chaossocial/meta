@@ -141,6 +141,7 @@ pedophilia in the name of free speech.
 | rapemeat.solutions          | Lolicon and also, like, the domain name |
 | rdrama.cc                   | Discrimination, "free speech zone", racism |
 | repl.co                     | Spam |
+| rojogato.com                | Harassment, "free speech zone" |
 | ryona.agency                | Alt-right trolls, harassment |
 | seal.cafe                   | Discrimination, racism, "free speech zone" |
 | shitpost.cloud              | "Free speech zone", antisemitism |
