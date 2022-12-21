@@ -54,6 +54,7 @@ pedophilia in the name of free speech.
 | bird.froth.zone             | Twitter crossposter|
 | bird.im-in.space            | Twitter crossposter|
 | bird.karatek.net            | Twitter crossposter|
+| bird.makeup                 | Twitter crossposter|
 | bird.nzbr.de                | Twitter crossposter|
 | birdbots.leptonics.com      | Twitter crossposter|
 | birdsite.b93.dece.space     | Twitter crossposter|
