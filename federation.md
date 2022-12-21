@@ -52,6 +52,7 @@ pedophilia in the name of free speech.
 | birb.elfenban.de            | Twitter crossposter|
 | bird.evilcyberhacker.net    | Twitter crossposter|
 | bird.froth.zone             | Twitter crossposter|
+| bird.geiger.ee              | Twitter crossposter|
 | bird.im-in.space            | Twitter crossposter|
 | bird.karatek.net            | Twitter crossposter|
 | bird.makeup                 | Twitter crossposter|
