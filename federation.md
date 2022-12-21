@@ -61,6 +61,7 @@ pedophilia in the name of free speech.
 | birdsite.frog.fashion       | Twitter crossposter|
 | birdsite.gabeappleton.me    | Twitter crossposter|
 | birdsite.james.moody.name   | Twitter crossposter|
+| birdsite.koyu.space         | Twitter crossposter|
 | birdsite.lakedrops.com      | Twitter crossposter|
 | birdsite.link               | Twitter crossposter|
 | birdsite.monster            | Twitter crossposter|
