@@ -74,6 +74,7 @@ pedophilia in the name of free speech.
 | birdsite.toot.si            | Twitter crossposter|
 | birdsite.wilde.cloud        | Twitter crossposter|
 | birdsitelive.ffvo.dev       | Twitter crossposter|
+| birdsitelive.kevinyank.com  | Twitter crossposter|
 | birdsitelive.peanutlasko.com| Twitter crossposter|
 | birdsitelive.treffler.cloud | Twitter crossposter|
 | bridge.birb.space           | Twitter crossposter|
