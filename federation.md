@@ -70,6 +70,7 @@ pedophilia in the name of free speech.
 | birdsite.link               | Twitter crossposter|
 | birdsite.monster            | Twitter crossposter|
 | birdsite.oliviaappleton.com | Twitter crossposter|
+| birdsite.platypush.tech     | Twitter crossposter|
 | birdsite.slashdev.space     | Twitter crossposter|
 | birdsite.tcjc.uk            | Twitter crossposter|
 | birdsite.thorlaksson.com    | Twitter crossposter|
