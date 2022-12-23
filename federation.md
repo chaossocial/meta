@@ -131,8 +131,8 @@ pedophilia in the name of free speech.
 | newjack.city                | Exclusive to unwanted follow bots |
 | nicecrew.digital            | Discrimination, racism, "free speech zone" |
 | noagendasocial.com          | "free speech zone", harassment |
-| noagendatube.com            | "free speech zone", harassment |
 | noagendasocial.nl           | "free speech zone", harassment |
+| noagendatube.com            | "free speech zone", harassment |
 | ns.auction                  | Racism etc |
 | ohai.su                     | Offline |
 | pawoo.net                   | Untagged nfsw content, unwanted follow bots, lolicon |
