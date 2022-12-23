@@ -6,7 +6,7 @@ translation: governance
 
 # Verein
 
-chaos.social wird von einem Verein, dem chaos.social e.V.i.Gr. betrieben. Der Verein dient nur dem Betrieb der Instanz
+chaos.social wird von einem Verein, dem chaos.social e.V. betrieben. Der Verein dient nur dem Betrieb der Instanz
 über möglichst unbükrokratische Wege – deshalb ist der Verein **nicht gemeinnützig** und nimmt derzeit **keine
 Mitglieder** auf.
 

@@ -6,7 +6,7 @@ translation: terms
 
 # I. Nutzungsbedingungen
 
-chaos.social wird vom [chaos.social e.V.i.Gr.](/verein) betrieben.
+chaos.social wird vom [chaos.social e.V.](/verein) betrieben.
 Der Vorstand besteht aus @leah und @rixx, die auch die Instanz administrieren und moderieren.
 
 
@@ -25,7 +25,7 @@ Aktive Benutzer\*innen können ihre Followerlisten und Beiträge über die Expor
 # II. Datenschutzhinweise
 
 Das Thema Datenschutz wird durch die EU-Datenschutzgrundverordnung (DSGVO) umfassend geregelt.
-Damit du erfährst, welche Daten wir, der chaos.social e.V.i.Gr, von dir erheben, wie wir jene verarbeiten, was wir zum Schutz deiner Daten unternehmen und an wen du dich bei Fragen wenden kannst, haben wir dir alle relevanten Informationen auf dieser Seite zusammengestellt.
+Damit du erfährst, welche Daten wir, der chaos.social e.V., von dir erheben, wie wir jene verarbeiten, was wir zum Schutz deiner Daten unternehmen und an wen du dich bei Fragen wenden kannst, haben wir dir alle relevanten Informationen auf dieser Seite zusammengestellt.
 
 ## 1. Auftragsdatenverarbeitung, Hosting und Spenden
 Für das Hosting nutzt chaos.social die Cloud Dienste und Server der Hetzner Online GmbH, Industriestr. 25 91710 Gunzenhausen, Deutschland.
@@ -132,7 +132,7 @@ Bezüglich aller genannten Rechte gilt dabei: Ein entsprechendes per E-Mail oder
 
 ## 7. Verantwortliche im Sinne des Datenschutzrechts
 
-    chaos.social e.V.i.Gr
+    chaos.social e.V.
     c/o Leah Oswald
     Fichtestr. 75
     69469 Weinheim
@@ -160,7 +160,7 @@ Für den Betrieb dieser Mastodon-Instanz zuständig ist die:
 
 Angaben gemäß § 5 TMG:
 
-    chaos.social e.V.i.Gr
+    chaos.social e.V.
     c/o Leah Oswald
     Fichtestr. 75
     69469 Weinheim

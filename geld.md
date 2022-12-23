@@ -7,7 +7,7 @@ translation: money
 # Geld
 
 Der Betrieb von chaos.social ist ausschließlich spendenfinanziert. Die Spenden gehen an den [chaos.social
-e.V.i.Gr.](/verein). 2023 werden wir anfangen, regelmäßige Finanzberichte zu veröffentlichen.
+e.V.](/verein). 2023 werden wir anfangen, regelmäßige Finanzberichte zu veröffentlichen.
 
 ## Wie spenden?
 

@@ -6,7 +6,7 @@ translation: geld
 
 # Money
 
-chaos.social runs entirely on donations to [chaos.social e.V.i.Gr.](/governance). We'll begin publishing regular
+chaos.social runs entirely on donations to [chaos.social e.V.](/governance). We'll begin publishing regular
 financial reports in 2023.
 
 ## How to donate

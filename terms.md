@@ -6,7 +6,7 @@ translation: agb
 
 # I. Terms of service
 
-chaos.social is run by [chaos.social e.V.i.Gr](/governance).
+chaos.social is run by [chaos.social e.V.](/governance).
 The sole members of the board, as well as the administrators and moderators of chaos.social, are @leah and @rixx.
 
 
@@ -134,7 +134,7 @@ With regard to all of the above rights, a corresponding request sent by e-mail o
 
 ## 7. Responsible in the sense of the data protection law
 
-    chaos.social e.V.i.Gr
+    chaos.social e.V.
     c/o Leah Oswald
     Fichtestr. 75
     69469 Weinheim
@@ -164,7 +164,7 @@ You have, in any case, the right to lodge a complaint with the data protection a
 
 According to German § 5 TMG:
 
-    chaos.social e.V.i.Gr
+    chaos.social e.V.
     c/o Leah Oswald
     Fichtestr. 75
     69469 Weinheim
