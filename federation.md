@@ -42,7 +42,7 @@ pedophilia in the name of free speech.
 
 | Instance                    | Reason                                 |
 | --------------------------- | ------------------------------------------- |
-| \*.activitypub-proxy.cf     | Only exists to evade instance blocks, [details](https://chaos.social/@rixx/109562426307905853) |
+| activitypub-proxy.cf        | Only exists to evade instance blocks, [details](https://chaos.social/@rixx/109562426307905853) |
 | activitypub-troll.cf        | Spam |
 | aethy.com                   | Lolicon |
 | bae.st                      | Discrimination, racism, "free speech zone" |
@@ -124,6 +124,7 @@ pedophilia in the name of free speech.
 | lolison.top                 | Lolicon, paedophilia |
 | mastodon.network            | Instance went down, now porn spam |
 | mastodon.popps.org          | Homophobia |
+| mastodong.lol               | Admin maintains and runs activitypub-proxy.cf |
 | meta-tube.de                | Conspiracy, CoVid19 denier videos https://fediblock.org/blocklist/#meta-tube.de |
 | midnightride.rs             | Discrimination |
 | misskey-forkbomb.cf         | Spam |
