@@ -42,6 +42,7 @@ pedophilia in the name of free speech.
 
 | Instance                    | Reason                                 |
 | --------------------------- | ------------------------------------------- |
+| \*.activitypub-proxy.cf     | Only exists to evade instance blocks, [details](https://chaos.social/@rixx/109562426307905853) |
 | activitypub-troll.cf        | Spam |
 | aethy.com                   | Lolicon |
 | bae.st                      | Discrimination, racism, "free speech zone" |
