@@ -139,6 +139,8 @@ Bezüglich aller genannten Rechte gilt dabei: Ein entsprechendes per E-Mail oder
     Telefon: 06201/
     E-Mail: contact ÄTT chaos.social (ersetze --ÄTT-- durch @!)
 
+Der Verein ist beim Amtsgericht Mannheim unter der Registernummer VR 703596 im Vereinsregister eingetragen.
+
 ## 8. Zuständige Datenschutzaufsicht
 
 Solltest du der Meinung sein, dass wir das geltende Datenschutzrecht verletzen, kannst du dich jederzeit an eine Datenschutzaufsichtsbehörde wenden.
@@ -165,8 +167,10 @@ Angaben gemäß § 5 TMG:
     Fichtestr. 75
     69469 Weinheim
 
+Der Verein ist beim Amtsgericht Mannheim unter der Registernummer VR 703596 im Vereinsregister eingetragen.
+
 Bei Fragen zu dieser Mastodon-Instanz kannst du dich auch per E-Mail an contact ÄTT chaos.social wenden (ersetze --ÄTT-- durch @!).
 
-Stand: 07.12.2022
+Stand: 23.12.2022
 
 Die Datenschutzhinweise basieren auf den Datenschutzhinweisen von legal.social und sind lizenziert unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz.

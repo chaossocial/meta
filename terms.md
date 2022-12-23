@@ -142,6 +142,8 @@ With regard to all of the above rights, a corresponding request sent by e-mail o
     Telefon: 06201/
     E-Mail: contact ÄTT chaos.social (ersetze --ÄTT-- durch @!)
 
+chaos.social e.V. is registered in Mannheim as VR 703596.
+
 ## 8. Supervisory authority
 
 You have, in any case, the right to lodge a complaint with the data protection authority as a supervisory authority.
@@ -169,8 +171,10 @@ According to German § 5 TMG:
     Fichtestr. 75
     69469 Weinheim
 
+chaos.social e.V. is registered in Mannheim as VR 703596.
+
 If you have any question you can send us an email to: contact ÄTT chaos.social (replace --ÄTT-- with @!).
 
-Last edited: 07.12.2022
+Last edited: 23.12.2022
 
 The privacy notice is based on the (German) privacy notice of legal.social and is licensed under a Creative Commons Attribution-Share Alike 3.0 Germany License.

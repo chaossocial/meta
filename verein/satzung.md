@@ -5,7 +5,8 @@ language: de
 
 # Vereinssatzung
 
-Die bindende Satzung liegt [hier](/assets/files/Satzung.pdf), aber der Einfachheit halber hier auch noch als Webseite:
+Der Verein ist unter der Registernummer VR 703596 im Vereinsregister des AG Mannheim eingetragen. Die bindende Satzung
+liegt [hier](/assets/files/Satzung.pdf), aber der Einfachheit halber hier auch noch als Webseite:
 
 ### 1. Name, Sitz, Geschäftsjahr
 
