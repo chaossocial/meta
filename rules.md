@@ -55,3 +55,5 @@ Please report behaviour that bothers you. We will keep your report confidential.
 
 we ([@leah](https://chaos.social/@leah) and [@rixx](https://chaos.social/@rixx)) are maintaining this instance on our
 spare time, hardware and nerves. Don't push either of those.
+
+The rules are licensed under CC-BY-SA by chaos.social e.V.

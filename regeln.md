@@ -58,3 +58,5 @@ Bitte meldet Verhalten, das euch stört. Meldungen werden komplett vertraulich b
 
 betreiben wir ([@leah](https://chaos.social/@leah) und [@rixx](https://chaos.social/@rixx)) diese Instanz in unserer
 Freizeit, aus Spaß an der Freude. Verderbt uns einfach nichts davon.
+
+Die Regeln stehen unter einer CC-BY-SA Lizenz. Bitte nutze dafür "CC-BY-SA chaos.social e.V.".
