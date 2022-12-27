@@ -176,6 +176,7 @@ pedophilia in the name of free speech.
 | truthsocial.co.in           | Alt-right trolls |
 | tube.kenfm.de               | Right-wing conspiracy videos |
 | tube.querdenken-711.de      | Right-wing onspiracy videos |
+| tweet.pasture.moe           | Twitter crossposter|
 | tweetbridge.kogasa.de       | Twitter crossposter|
 | twitter.activitypub.actor   | Twitter crossposter|
 | twitterbridge.jannis.rocks  | Twitter crossposter|
