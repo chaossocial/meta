@@ -97,6 +97,7 @@ pedophilia in the name of free speech.
 | eientei.org                 | Racism, antisemitism |
 | eveningzoo.club             | Discrimination, racism, "free speech zone" |
 | f.haeder.net                | Discrimination |
+| freak.university            | [Pedophilia](https://freak.university/@headmasters/109479536965092142) |
 | freeatlantis.com            | Conspiracy theory instance |
 | freecumextremist.com        | Discrimination, racism, "free speech zone" |
 | freefedifollowers.ga        | Follower spam |
