@@ -122,6 +122,7 @@ pedophilia in the name of free speech.
 | libre.tube                  | Promotion of violence and murder, multiple other violations of our rules |
 | lolicon.rocks               | Lolicon |
 | lolison.top                 | Lolicon, paedophilia |
+| mastinator.com              | Block evasion, unwanted profile mirroring, [and more](https://mastodon.ar.al/@aral/109585159213960986) |
 | mastodon.network            | Instance went down, now porn spam |
 | mastodon.popps.org          | Homophobia |
 | mastodong.lol               | Admin maintains and runs activitypub-proxy.cf |
