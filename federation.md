@@ -91,6 +91,7 @@ pedophilia in the name of free speech.
 | clubcyberia.co              | Homophobia |
 | clube.social                | Harassment |
 | comfyboy.club               | Discrimination, racism |
+| cum.camp                    | Harassment |
 | cum.salon                   | Misogynic, pedophilia |
 | daishouri.moe               | Fascism, openly advertises with swastika    |
 | detroitriotcity.com         | Discrimination, racism, "free speech zone" |
