@@ -19,6 +19,10 @@ admins and people interested in understanding community moderation.
 
 ## Podcasts
 
+rixx joined the [Deutschlandfunk
+Marktplatz](https://www.deutschlandfunk.de/marktplatz-29-12-2022-alternativen-zu-twitter-tiktok-facebook-und-co-dlf-b9ae9ddc-100.html)
+episode (2022, de) discussing Mastodon for a short bit starting at ~21:00.
+
 Leah talked to [Bildung, Zukunft,
 Technik](https://bildung-zukunft-technik.de/2022/12/16/bzt098-moderation-einer-mastodon-instanz/) (2022, de), and
 talked in detail – 90 minutes! - about how we run chaos.social.

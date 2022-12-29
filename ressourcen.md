@@ -20,6 +20,10 @@ wollen.
 
 ## Podcasts
 
+rixx war beim [Deutschlandfunk
+Marktplatz](https://www.deutschlandfunk.de/marktplatz-29-12-2022-alternativen-zu-twitter-tiktok-facebook-und-co-dlf-b9ae9ddc-100.html)
+(2022) für einen kurzen Einspieler in einer insgesamt sehr lohnenden Folge zu Mastodon (startend bei etwa Minute 21).
+
 Bei der online-[tagesschau](https://www.youtube.com/watch?v=Vn3trbEbQ8Y&t=180s) (2022) sprach Leah über die Zukunft des
 Fediverse (Fediversums?).
 
