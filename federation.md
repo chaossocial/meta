@@ -181,6 +181,7 @@ pedophilia in the name of free speech.
 | tweet.pasture.moe           | Twitter crossposter|
 | tweetbridge.kogasa.de       | Twitter crossposter|
 | twitter.activitypub.actor   | Twitter crossposter|
+| twitter.doesnotexist.club   | Twitter crossposter|
 | twitterbridge.jannis.rocks  | Twitter crossposter|
 | twtr.plus                   | Twitter crossposter| 
 | varishangout.net            | Transphobia and racism go unmoderated, aggressive trolling, lolicon permitted in rules |
