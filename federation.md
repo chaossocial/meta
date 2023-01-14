@@ -131,6 +131,7 @@ pedophilia in the name of free speech.
 | meta-tube.de                | Conspiracy, CoVid19 denier videos https://fediblock.org/blocklist/#meta-tube.de |
 | midnightride.rs             | Discrimination |
 | misskey-forkbomb.cf         | Spam |
+| morale.ch                   | [Antisemitism](https://pleroma.envs.net/notice/ARcxTACprOAT3AbP9M) and more |
 | mstdn.foxfam.club           | Right wing twitter mirror |
 | natehiggers.online          | Racism |
 | newjack.city                | Exclusive to unwanted follow bots |
