@@ -181,6 +181,7 @@ pedophilia in the name of free speech.
 | tube.querdenken-711.de      | Right-wing onspiracy videos |
 | tweet.pasture.moe           | Twitter crossposter|
 | tweetbridge.kogasa.de       | Twitter crossposter|
+| tweets.icu                  | Twitter crossposter|
 | twitter.activitypub.actor   | Twitter crossposter|
 | twitter.doesnotexist.club   | Twitter crossposter|
 | twitterbridge.jannis.rocks  | Twitter crossposter|
