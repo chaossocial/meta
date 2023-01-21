@@ -7,17 +7,23 @@ translation: ressourcen
 
 Small collection of our posts, talks, podcasts etc. Much of this is in German (and marked as such).
 
-## Blog posts
+## Text
 
 In [Scaling the Mastodon](https://leah.is/posts/scaling-the-mastodon/) (2022), Leah talks about hardware and software
 requirements of a growing Mastodon instance over the course of 5-6 years. She gives detailed stats for our servers and
 configs. Written for a technical audience.
 
+Leah and Danimo were invited [to
+Netzpolitik.org](https://netzpolitik.org/2022/neues-aus-dem-fernsehrat-86-stimmen-aus-dem-fediverse/) (2022, de) to
+discuss the Fediverse and the German media environment.
+
 In [On Running a Mastodon Instance](https://rixx.de/blog/on-running-a-mastodon-instance/) (2021), rixx collects the good
 and bad aspects of running an instance, with a particular eye to moderation and social conflicts. Written for aspiring
 admins and people interested in understanding community moderation.
 
-## Podcasts
+Early on, [Netzpolitik published an interview](https://netzpolitik.org/2017/interview-die-anfangsphase-des-alternativen-sozialen-netzwerks-mastodon-ist-vorueber/) (2017, de) with rixx commenting that the initial phase of Mastodon was over.
+
+## Audio
 
 rixx joined the [Deutschlandfunk
 Marktplatz](https://www.deutschlandfunk.de/marktplatz-29-12-2022-alternativen-zu-twitter-tiktok-facebook-und-co-dlf-b9ae9ddc-100.html)
@@ -40,7 +46,7 @@ Both Leah and rixx were invited to [Chaosradio](https://chaosradio.de/cr249-dece
 “Decentralize the web” (2018, de), and talked about the basics, and the experiences and hopes in their first year of running
 a Mastodon instance.
 
-## Talks, streams
+## Video
 
 On [tagesschau](https://www.youtube.com/watch?v=Vn3trbEbQ8Y&t=180s) (2022, de), Leah talked to the online edition of the
 German national TV news about the future of the Fediverse.

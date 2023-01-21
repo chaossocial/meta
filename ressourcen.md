@@ -7,18 +7,26 @@ translation: resources
 
 Kleine Pressesammlung von unseren Auftritten und Aufschrieben:
 
-## Blogposts
+## Texte
 
 In [Scaling the Mastodon](https://leah.is/posts/scaling-the-mastodon/) (2022, en) berichtet Leah über unsere Erfahrungen
 mit der Hardware- und Softwareskalierung von Mastodon über die ersten 5-6 Jahre Laufzeit. Enthält Details zu
 Servergrößen und Konfigurationen, an ein technisches Publikum gerichtet.
+
+Leah und Danimo waren [bei Netzpolitik.org zu
+Gast](https://netzpolitik.org/2022/neues-aus-dem-fernsehrat-86-stimmen-aus-dem-fediverse/) (2022), um über das
+Fediversum und öffentlich-rechtliche Medien zu reden.
 
 In [Über das Betreiben einer Mastodon-Instanz](https://rixx.de/de/blog/on-running-a-mastodon-instance/) (2021) berichtet
 rixx darüber, was die schönen und weniger schönen Seiten am Betrieb einer eigenen Instanz sind, mit besonderem Augenmerk
 auf Moderation und soziale Konflikte. An anstrebende Admins gerichtet, und alle, die ihre Admins besser verstehen
 wollen.
 
-## Podcasts
+Ganz früh publizierte [Netzpolitik ein
+Interview](https://netzpolitik.org/2017/interview-die-anfangsphase-des-alternativen-sozialen-netzwerks-mastodon-ist-vorueber/)
+(2017) mit rixx darüber, dass die Anfangsphase von Mastodon vorbei sei.
+
+## Audio
 
 rixx war beim [Deutschlandfunk
 Marktplatz](https://www.deutschlandfunk.de/marktplatz-29-12-2022-alternativen-zu-twitter-tiktok-facebook-und-co-dlf-b9ae9ddc-100.html)
@@ -42,7 +50,7 @@ Mit [All Features Welcome](https://features-welcome.de/?podcast=all-features-wel
 Mit dem [Chaosradio](https://chaosradio.de/cr249-decentralizetheweb) redeten Leah und rixx in der Folge „Decentralize
 the web“ (2018) über Mastodon-Grundlagen, Erfahrungen und Ausblicke.
 
-## Vorträge, Streams
+## Video
 
 In der [#heiseshow](https://www.youtube.com/watch?v=GfxFqJCTwuo) (2022) gaben Leah und rixx ein Interview, und redeten
 über ihre Wurzeln im Fediverse, die Entwicklung von chaos.social und die Auswirkungen der Twitter-Akquise.
