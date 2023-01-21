@@ -168,6 +168,7 @@ pedophilia in the name of free speech.
 | skippers-bin.com            | Same admin as neckbeard.xyz, same behaviour |
 | sneak.berlin                | privacy violation |
 | sneed.social                | Discrimination, racism, "free speech zone", nationalism, hate speech, completely unmoderated |
+| soc.ua-fediland.de          | Spam |
 | social.ancreport.com        | Discrimination, racism, "free speech zone" |
 | social.lovingexpressions.net| Transphobia |
 | social.teci.world           | Discrimination, racism, "free speech zone" |
