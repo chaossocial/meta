@@ -47,6 +47,7 @@ pedophilia in the name of free speech.
 | aethy.com                   | Lolicon |
 | bae.st                      | Discrimination, racism, "free speech zone" |
 | baraag.net                  | Lolicon |
+| banepo.st                   | Homophobia |
 | beefyboys.club              | Discrimination, racism, "free speech zone" |
 | beefyboys.win               | Discrimination, racism, "free speech zone" |
 | beta.birdsite.live          | Twitter crossposter|
