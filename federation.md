@@ -120,6 +120,7 @@ pedophilia in the name of free speech.
 | jaeger.website              | Discrimination, racism, "free speech zone" |
 | kenfm.quadplay.tv           | Conspiracy videos |
 | kiwifarms.cc                | Discrimination |
+| lgbtfree.zone               | Racism, transphobia, all that |
 | liberdon.com                | Conspiracy theories, transphobia, racism |
 | libre.tube                  | Promotion of violence and murder, multiple other violations of our rules |
 | lolicon.rocks               | Lolicon |
