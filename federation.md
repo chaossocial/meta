@@ -166,6 +166,7 @@ pedophilia in the name of free speech.
 | shortstackran.ch            | Racism, homophobia, "free speech zone" |
 | shota.house                 | Lolicon |
 | skippers-bin.com            | Same admin as neckbeard.xyz, same behaviour |
+| sleepy.cafe                 | Racism, harassment |
 | sneak.berlin                | privacy violation |
 | sneed.social                | Discrimination, racism, "free speech zone", nationalism, hate speech, completely unmoderated |
 | soc.ua-fediland.de          | Spam |
