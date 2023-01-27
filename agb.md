@@ -52,7 +52,7 @@ Diese Daten verarbeitet wir zu Zwecken der Wartung und Sicherheit des Servers, I
 
 Die Datenverarbeitung erfolgt dabei gemäß Art. 6 Abs. 1 Buchst. b) DSGVO im erforderlichen Umfang, um den Aufruf der Startseite sowie die Registrierung im Rahmen des Nutzungsverhältnisses zwischen uns (der Betreiberin der Instanz) und dir (der Betreiberin des Mastodon-Profils) zu ermöglichen, sowie zur Erfüllung der Verpflichtung zur Ergreifung technisch-organisatorischer Schutzmaßnahmen.
 
-## 2. Datenverarbeitung bei der Registrierung
+## 3. Datenverarbeitung bei der Registrierung
 
 Im Rahmen der Registrierung werden grundlegende Kontoinformationen verarbeitet: Dazu zählen Benutzername, E-Mail-Adresse und Passwort.
 Du kannst zusätzliche Profilinformationen wie einen Anzeigenamen oder eine Biografie eingeben und ein Profilbild bzw. ein Headerbild hochladen.
@@ -60,7 +60,7 @@ Der Benutzername,  Anzeigename, die Biografie, das Profilbild und das Headerbild
 
 Die Datenverarbeitung im Rahmen der Registrierung erfolgt dabei gemäß Art. 6 Abs. 1 Buchst. b) DSGVO im erforderlichen Umfang, um den Aufruf der Login-Oberfläche bzw. die Durchführung der Registrierung im Rahmen des Nutzungsverhältnisses zu ermöglichen.
 
-## 3. Datenverarbeitung bei der Nutzung des Mastodon-Profils
+## 4. Datenverarbeitung bei der Nutzung des Mastodon-Profils
 
 **Beiträge, Folge- und andere öffentliche Informationen:** Die Liste der Personen, denen du folgst, wird standardmäßig öffentlich angezeigt, das Gleiche gilt für deine Folgenden (Follower).
 Dies kann in den Einstellungen deaktiviert werden.
@@ -87,7 +87,7 @@ Ferner wird diese zur Sicherung vor Überlastung der Instanz für das Ratelimiti
 
 Die Datenverarbeitung im Rahmen der Nutzung erfolgt dabei gemäß Art. 6 Abs. 1 Buchst. b) DSGVO im erforderlichen Umfang, um Ihnen die Nutzung Ihres Mastodon Accounts im Rahmen des Nutzungsverhältnisses zu ermöglichen.
 
-## 4. Beiträge von Diensten Dritter
+## 5. Beiträge von Diensten Dritter
 
 Wir verarbeitet personenbezogene Daten, wenn Nutzer\*innen von Drittdiensten mit ActivityPub-Unterstützung mit Konten auf dieser Instanz interagieren.
 Um öffentliche Profilseiten mit Profildaten anzureichern, werden die folgenden Daten gemäß den Anforderungen des ActivityPub-Protokolls verarbeitet:
@@ -102,13 +102,13 @@ Die Datenverarbeitung ist notwendig, um eine föderierte Mastodon-Instanz bereit
 Sie erfolgt daher gemäß Artikel 6 Abs. 1  Buchst. f) DSGVO, mit Ausnahme von personenbezogenen Daten, die nicht erforderlich sind, wie der Anzeigename und das Profilbild, deren Verarbeitung auf Artikel 6 Abs. 1 Buchst. a) DSGVO beruht.
 Wir speichern Profildaten aus Abonnements von kompatiblen Drittdiensten, bis es über diesen Dienst oder direkt vom Nutzer eine Aufforderung zur Löschung oder zum Widerspruch (unsubscribe, unlike, unboost) erhalten.
 
-## 4. Nutzung von Cookies
+## 6. Nutzung von Cookies
 
 Mastodon verwendet einen Cookies (kleine Textdateien, die deinen Browser eindeutig unterscheidbar von anderen machen), um dir Kern- und Komfortfunktionen bereitzustellen.
 Diese Cookies ermöglichen es der Instanz deinen Browser wiederzuerkennen und, sofern du ein registriertes Konto besitzt, diesen mit deinem registrierten Konto zu verknüpfen, damit du dich nicht immer wieder neu anmelden musst.
 Dieses Cookie läuft nach einem Jahr oder mit der Abmeldung ab und wird daraufhin meist automatisch entfernt.
 
-## 5. Datenverarbeitung bei der E-Mail-Kommunikation
+## 7. Datenverarbeitung bei der E-Mail-Kommunikation
 
 Wenn du dich per E-Mail an die Administration der Instanz wendest, wird deine E-Mail samt Absenderadresse und Inhalt verarbeitet und gespeichert, um die Kommunikation mit dir abzuwickeln.
 Diese Informationen werden so lange gespeichert, wie es erforderlich ist, um dem Inhalt deines Anliegens gerecht zu werden.
@@ -116,7 +116,7 @@ Sofern nicht die besondere Natur unserer Kommunikation es erfordert, werden alte
 
 Die Speicherung und Nutzung der in den E-Mails enthaltenen Daten sowie deiner Kontaktdaten erfolgt im erforderlichen Umfang aufgrund unseres berechtigten Interesses an der Abwicklung der Kommunikation mit dir, soweit deine Interessen dem nicht entgegenstehen (Art. 6 Abs. 1 Buchst. f) DSGVO).
 
-## 6. Deine Rechte
+## 8. Deine Rechte
 
 Du hast das Recht, dass wir, auf Verlangen:
 
@@ -130,7 +130,7 @@ Insbesondere kannst du aus Gründen, die sich aus einer besonderen Situation erg
 
 Bezüglich aller genannten Rechte gilt dabei: Ein entsprechendes per E-Mail oder schriftlich per Post übermitteltes Verlangen genügt, um deine Rechte in Anspruch zu nehmen.
 
-## 7. Verantwortliche im Sinne des Datenschutzrechts
+## 9. Verantwortliche im Sinne des Datenschutzrechts
 
     chaos.social e.V.
     c/o Leah Oswald
@@ -141,7 +141,7 @@ Bezüglich aller genannten Rechte gilt dabei: Ein entsprechendes per E-Mail oder
 
 Der Verein ist beim Amtsgericht Mannheim unter der Registernummer VR 703596 im Vereinsregister eingetragen.
 
-## 8. Zuständige Datenschutzaufsicht
+## 10. Zuständige Datenschutzaufsicht
 
 Solltest du der Meinung sein, dass wir das geltende Datenschutzrecht verletzen, kannst du dich jederzeit an eine Datenschutzaufsichtsbehörde wenden.
 Für den Betrieb dieser Mastodon-Instanz zuständig ist die:

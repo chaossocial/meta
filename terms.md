@@ -53,7 +53,7 @@ We process this data for the purposes of server maintenance and security; IP add
 
 The data processing is carried out in accordance with Art. 6 §1 b) GDPR to the extent necessary to enable the use of the homepage, the registration and general site access in the scope of the user relationship between us (the operator of the instance) and you (the operator of the Mastodon profile), as well as for the fulfilment of the obligation to take technical-organisational protective measures.
 
-## 2. Data processing during registration
+## 3. Data processing during registration
 
 As part of the registration process we process basic account information: This includes your username, email address and password.
 You can enter additional profile information such as a display name or a biography and upload a profile picture or a header picture.
@@ -61,7 +61,7 @@ The username, display name, biography, profile picture and header picture will t
 
 The data processing within the scope of the registration is carried out in accordance with Art. 6 §1 b) GDPR to the extent necessary to enable the login interface to be called up or the registration to be carried out within the scope of the user relationship.
 
-## 3. Data processing during regular use of the Mastodon profile
+## 4. Data processing during regular use of the Mastodon profile
 
 **Posts, followers and other public information:** The list of people you follow is displayed publicly by default, the same applies to your followers.
 This can be deactivated in the settings.
@@ -88,7 +88,7 @@ Furthermore, this information is used to protect the instance by way of rate lim
 
 The data processing within the scope of the use is carried out in accordance with Art. 6 §1 b) GDPR to the extent necessary to enable you to use your Mastodon account within the scope of the user relationship.
 
-## 4. Messages from third parties
+## 5. Messages from third parties
 
 We process personal data when users of third-party services that support ActivityPub interact with accounts on this instance.
 To enrich public profile pages with profile data, the following data is processed according to the requirements of the ActivityPub protocol:
@@ -103,13 +103,13 @@ The data processing is necessary to provide a federated Mastodon instance.
 It is therefore carried out in accordance with Article 6(1)(f) of the GDPR, with the exception of personal data that is not necessary, such as the display name and profile picture, the processing of which is based on Article 6(1)(a) of the GDPR.
 We store profile data from subscriptions to compatible third-party services until we receive a request to the contracy (unsubscribe, unlike, or unboost) via that service or directly from the user.
 
-## 4. Use of cookies
+## 6. Use of cookies
 
 Mastodon uses cookies (small text files that make your browser uniquely distinguishable from others) to provide you with core and convenience features.
 These cookies allow the instance to recognise your browser and, if you have a registered account, to link it to your registered account so that you do not have to log in again and again.
 This cookie expires after one year or when you log out and is then usually removed automatically.
 
-## 5. Data processing during email communication
+## 7. Data processing during email communication
 
 If you contact the administration of the instance by email, your email, including the sender's address and content, will be processed and stored in order to handle the communication with you.
 This information will be stored for as long as is necessary to respond to the content of your request.
@@ -117,7 +117,7 @@ Unless the specific nature of our communication requires it, old emails are gene
 
 The storage and use of the data contained in the emails as well as your contact data is carried out to the extent necessary due to our legitimate interest in handling communication with you, insofar as your interests do not conflict with this (Art. 6 §1 f) GDPR).
 
-## 6. Your rights
+## 8. Your rights
 
 You have the right that we, upon request,
 
@@ -132,7 +132,7 @@ In particular, you may object at any time, on grounds relating to a particular s
 
 With regard to all of the above rights, a corresponding request sent by e-mail or in writing by post is sufficient to exercise your rights.
 
-## 7. Responsible in the sense of the data protection law
+## 9. Responsible in the sense of the data protection law
 
     chaos.social e.V.
     c/o Leah Oswald
@@ -144,7 +144,7 @@ With regard to all of the above rights, a corresponding request sent by e-mail o
 
 chaos.social e.V. is registered in Mannheim as VR 703596.
 
-## 8. Supervisory authority
+## 10. Supervisory authority
 
 You have, in any case, the right to lodge a complaint with the data protection authority as a supervisory authority.
 
