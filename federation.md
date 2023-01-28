@@ -145,6 +145,7 @@ pedophilia in the name of free speech.
 | ohai.su                     | Offline |
 | pawoo.net                   | Untagged nfsw content, unwanted follow bots, lolicon |
 | paypig.org                  | Racism |
+| pedo.school                 | Pedophilia |
 | pieville.net                | Racism, antisemitism |
 | pl.serialmay.link           | Racism, transphobia |
 | pl.tkammer.de               | Transphobia |
