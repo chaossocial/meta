@@ -9,6 +9,11 @@ Kleine Pressesammlung von unseren Auftritten und Aufschrieben:
 
 ## Texte
 
+In einem [Interview mit
+Heise/c't](https://www.heise.de/hintergrund/Mastodon-Instanz-chaos-social-Admin-Leah-Oswald-berichtet-ueber-ihre-Erfahrungen-7468272.html)
+(2023) berichtet Leah davon, wie chaos.social funktioniert, und hat Tipps für Leute, die ihre eigene Instanz aufsetzen
+wollen.
+
 In [Scaling the Mastodon](https://leah.is/posts/scaling-the-mastodon/) (2022, en) berichtet Leah über unsere Erfahrungen
 mit der Hardware- und Softwareskalierung von Mastodon über die ersten 5-6 Jahre Laufzeit. Enthält Details zu
 Servergrößen und Konfigurationen, an ein technisches Publikum gerichtet.

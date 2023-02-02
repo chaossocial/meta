@@ -9,6 +9,10 @@ Small collection of our posts, talks, podcasts etc. Much of this is in German (a
 
 ## Text
 
+Leah gave an [interview with
+Heise/c't](https://www.heise.de/hintergrund/Mastodon-Instanz-chaos-social-Admin-Leah-Oswald-berichtet-ueber-ihre-Erfahrungen-7468272.html)
+(2023, de) about how we run chaos.social, including tips for people looking to run their own instance.
+
 In [Scaling the Mastodon](https://leah.is/posts/scaling-the-mastodon/) (2022), Leah talks about hardware and software
 requirements of a growing Mastodon instance over the course of 5-6 years. She gives detailed stats for our servers and
 configs. Written for a technical audience.
