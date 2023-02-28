@@ -1,0 +1,38 @@
+<table id="money">
+   <thead><tr>
+      <th></th>
+      {% for month in site.data.money.cbrDates %}<th>{{ month[0]|truncate: 7, "" }}</th>{% endfor %}
+      <th>Total</th>
+   </tr></thead>
+   <tbody>
+      {% for report in site.data.money.cbrSubreports %}
+         <tr> <th>{{ report[0] }}</th>
+         {% for month in site.data.money.cbrDates %}<td></td>{% endfor %}<td></td>
+         </tr>
+         {% for row in report[1].prRows %}
+         <tr>
+            <td>{{ row.prrName }}</td>
+            {% for amount in row.prrAmounts %}
+            <td>
+               {% if amount[0].aquantity.floatingPoint %}
+                  {{ amount[0].aquantity.floatingPoint | monetary }}
+               {% endif %}
+            </td>
+            {% endfor %}
+            <td>{{ row.prrTotal[0].aquantity.floatingPoint | monetary }}</td>
+         </tr>
+         {% endfor %}
+      {% endfor %}
+      <tr>
+         <th>Net:</th>
+         {% for amount in site.data.money.cbrTotals.prrAmounts %}
+            <td>
+               {% if amount[0].aquantity.floatingPoint %}
+                  {{ amount[0].aquantity.floatingPoint | monetary }}
+               {% endif %}
+            </td>
+         {% endfor %}
+         <th>{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}<br><i>(Account balance)</i></th>
+      </tr>
+   </tbody>
+</table>

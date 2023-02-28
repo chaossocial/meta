@@ -94,6 +94,19 @@ nav.side-nav {
 	  text-wrap: nowrap;
 	}
 }
+table#money {
+	td, th {
+		text-align: right;
+		font-family: monospace;
+	}
+	td:first-child, th:first-child {
+		text-align: left;
+		font-family: inherit;
+	}
+	thead th {
+		font-family: inherit;
+	}
+}
 .mobile-only {
 	display: none;
 }

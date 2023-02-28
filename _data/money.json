@@ -1,0 +1,711 @@
+{
+  "cbrDates": [
+    [
+      "2022-12-01",
+      "2023-01-01"
+    ],
+    [
+      "2023-01-01",
+      "2023-02-01"
+    ],
+    [
+      "2023-02-01",
+      "2023-03-01"
+    ]
+  ],
+  "cbrSubreports": [
+    [
+      "Revenues",
+      {
+        "prDates": [
+          [
+            "2022-12-01",
+            "2023-01-01"
+          ],
+          [
+            "2023-01-01",
+            "2023-02-01"
+          ],
+          [
+            "2023-02-01",
+            "2023-03-01"
+          ]
+        ],
+        "prRows": [
+          {
+            "prrAmounts": [
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 411079,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 4110.79
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 565031,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 5650.31
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 105269,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 1052.69
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ]
+            ],
+            "prrAverage": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 36045966666667,
+                  "decimalPlaces": 10,
+                  "floatingPoint": 3604.5966666667
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            "prrName": "Income:Donations",
+            "prrTotal": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 1081379,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 10813.79
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ]
+          }
+        ],
+        "prTotals": {
+          "prrAmounts": [
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 411079,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 4110.79
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 565031,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 5650.31
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 105269,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 1052.69
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ]
+          ],
+          "prrAverage": [
+            {
+              "acommodity": "€",
+              "aprice": null,
+              "aquantity": {
+                "decimalMantissa": 36045966666667,
+                "decimalPlaces": 10,
+                "floatingPoint": 3604.5966666667
+              },
+              "astyle": {
+                "ascommodityside": "L",
+                "ascommodityspaced": false,
+                "asdecimalpoint": ",",
+                "asdigitgroups": null,
+                "asprecision": 2
+              }
+            }
+          ],
+          "prrName": [],
+          "prrTotal": [
+            {
+              "acommodity": "€",
+              "aprice": null,
+              "aquantity": {
+                "decimalMantissa": 1081379,
+                "decimalPlaces": 2,
+                "floatingPoint": 10813.79
+              },
+              "astyle": {
+                "ascommodityside": "L",
+                "ascommodityspaced": false,
+                "asdecimalpoint": ",",
+                "asdigitgroups": null,
+                "asprecision": 2
+              }
+            }
+          ]
+        }
+      },
+      true
+    ],
+    [
+      "Expenses",
+      {
+        "prDates": [
+          [
+            "2022-12-01",
+            "2023-01-01"
+          ],
+          [
+            "2023-01-01",
+            "2023-02-01"
+          ],
+          [
+            "2023-02-01",
+            "2023-03-01"
+          ]
+        ],
+        "prRows": [
+          {
+            "prrAmounts": [
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 1740,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 17.4
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 15597,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 155.97
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 39586,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 395.86
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ]
+            ],
+            "prrAverage": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 1897433333333,
+                  "decimalPlaces": 10,
+                  "floatingPoint": 189.7433333333
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            "prrName": "Expenses",
+            "prrTotal": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 56923,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 569.23
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ]
+          },
+          {
+            "prrAmounts": [
+              [],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 15207,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 152.07
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 39426,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 394.26
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ]
+            ],
+            "prrAverage": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 18211,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 182.11
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            "prrName": "Expenses:Servers",
+            "prrTotal": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 54633,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 546.33
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ]
+          },
+          {
+            "prrAmounts": [
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 1740,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 17.4
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 390,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 3.9
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 160,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 1.6
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalpoint": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2
+                  }
+                }
+              ]
+            ],
+            "prrAverage": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 76333333333,
+                  "decimalPlaces": 10,
+                  "floatingPoint": 7.6333333333
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            "prrName": "Expenses:Banking",
+            "prrTotal": [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 2290,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 22.9
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ]
+          }
+        ],
+        "prTotals": {
+          "prrAmounts": [
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 1740,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 17.4
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 15597,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 155.97
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 39586,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 395.86
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalpoint": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2
+                }
+              }
+            ]
+          ],
+          "prrAverage": [
+            {
+              "acommodity": "€",
+              "aprice": null,
+              "aquantity": {
+                "decimalMantissa": 1897433333333,
+                "decimalPlaces": 10,
+                "floatingPoint": 189.7433333333
+              },
+              "astyle": {
+                "ascommodityside": "L",
+                "ascommodityspaced": false,
+                "asdecimalpoint": ",",
+                "asdigitgroups": null,
+                "asprecision": 2
+              }
+            }
+          ],
+          "prrName": [],
+          "prrTotal": [
+            {
+              "acommodity": "€",
+              "aprice": null,
+              "aquantity": {
+                "decimalMantissa": 56923,
+                "decimalPlaces": 2,
+                "floatingPoint": 569.23
+              },
+              "astyle": {
+                "ascommodityside": "L",
+                "ascommodityspaced": false,
+                "asdecimalpoint": ",",
+                "asdigitgroups": null,
+                "asprecision": 2
+              }
+            }
+          ]
+        }
+      },
+      false
+    ]
+  ],
+  "cbrTitle": "Income Statement 2022-12-01..2023-02-28",
+  "cbrTotals": {
+    "prrAmounts": [
+      [
+        {
+          "acommodity": "€",
+          "aprice": null,
+          "aquantity": {
+            "decimalMantissa": 409339,
+            "decimalPlaces": 2,
+            "floatingPoint": 4093.39
+          },
+          "astyle": {
+            "ascommodityside": "L",
+            "ascommodityspaced": false,
+            "asdecimalpoint": ",",
+            "asdigitgroups": null,
+            "asprecision": 2
+          }
+        }
+      ],
+      [
+        {
+          "acommodity": "€",
+          "aprice": null,
+          "aquantity": {
+            "decimalMantissa": 549434,
+            "decimalPlaces": 2,
+            "floatingPoint": 5494.34
+          },
+          "astyle": {
+            "ascommodityside": "L",
+            "ascommodityspaced": false,
+            "asdecimalpoint": ",",
+            "asdigitgroups": null,
+            "asprecision": 2
+          }
+        }
+      ],
+      [
+        {
+          "acommodity": "€",
+          "aprice": null,
+          "aquantity": {
+            "decimalMantissa": 65683,
+            "decimalPlaces": 2,
+            "floatingPoint": 656.83
+          },
+          "astyle": {
+            "ascommodityside": "L",
+            "ascommodityspaced": false,
+            "asdecimalpoint": ",",
+            "asdigitgroups": null,
+            "asprecision": 2
+          }
+        }
+      ]
+    ],
+    "prrAverage": [
+      {
+        "acommodity": "€",
+        "aprice": null,
+        "aquantity": {
+          "decimalMantissa": 34148533333333,
+          "decimalPlaces": 10,
+          "floatingPoint": 3414.8533333333
+        },
+        "astyle": {
+          "ascommodityside": "L",
+          "ascommodityspaced": false,
+          "asdecimalpoint": ",",
+          "asdigitgroups": null,
+          "asprecision": 2
+        }
+      }
+    ],
+    "prrName": [],
+    "prrTotal": [
+      {
+        "acommodity": "€",
+        "aprice": null,
+        "aquantity": {
+          "decimalMantissa": 1024456,
+          "decimalPlaces": 2,
+          "floatingPoint": 10244.56
+        },
+        "astyle": {
+          "ascommodityside": "L",
+          "ascommodityspaced": false,
+          "asdecimalpoint": ",",
+          "asdigitgroups": null,
+          "asprecision": 2
+        }
+      }
+    ]
+  }
+}
