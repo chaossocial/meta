@@ -7,7 +7,8 @@ translation: money
 # Geld
 
 Der Betrieb von chaos.social ist ausschließlich spendenfinanziert. Die Spenden gehen an den [chaos.social
-e.V.](/verein). 2023 werden wir anfangen, regelmäßige Finanzberichte zu veröffentlichen.
+e.V.](/verein). Wir sind derzeit für ungefähr **zwei Jahre** vorfinanziert (einen ausführlichen Bericht findet ihr
+weiter unten). Danke euch allen!
 
 ## Wie spenden?
 
@@ -28,4 +29,16 @@ Es gibt verschiedene Möglichkeiten, uns Geld zukommen zu lassen:
 
 ## Finanzbericht
 
-Coming soon, sobald die Vereinsbuchhaltung richtig angelaufen ist.
+Das wichtige zuerst: Alles ist gut. Die Finanzen sind stabil. Wir sind derzeit für etwa **zwei Jahre** vorfinanziert.
+Unsere 
+monatlichen Serverkosten sind derzeit **€&nbsp;{{ site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**, und wir haben **€&nbsp;{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}** auf dem Konto liegen.
+
+{% include money.html %}
+
+<small>*(Tabelle betriebsbedingt auf Englisch.)*</small>
+
+## FAQ
+
+**Was war vor Dezember 2022?** – Vor unserer [Vereinsgründung](/verein) haben wir privat Spenden angenommen. Daher auch
+die beiden dicken ersten Monate: Im Januar haben wir die vorher gesammelten Spenden aufs Vereinskonto übertragen, und im
+Dezember haben wir die Vereinsgründung und Kontoverbindung veröffentlicht.

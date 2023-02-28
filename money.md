@@ -6,8 +6,8 @@ translation: geld
 
 # Money
 
-chaos.social runs entirely on donations to [chaos.social e.V.](/governance). We'll begin publishing regular
-financial reports in 2023.
+chaos.social runs entirely on donations to [chaos.social e.V.](/governance). We are currently financed for roughly **two
+years** in advance – scroll down for detailled reporting. Thank you, everybody, for making chaos.social possible.
 
 ## How to donate
 
@@ -24,6 +24,16 @@ There are three ways of sending us money. In order of preference:
    ways.<br><small>It's very hard for us to budget in any meaningful way with the way Liberapay handles donations, plus
    they are then sent via Stripe, which also takes a generous cut. Still better than nothing, but … not great.</small>
 
-## Reports
+## Reporting
 
-Coming soon, once our accounting is up and running.
+The important bit first: We're good. We're stable. We're currently financed for roughly **two years** in advance. Our
+monthly server costs are currently **€&nbsp;{{ site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**, and we have **€&nbsp;{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}** in our bank account.
+
+{% include money.html %}
+
+## FAQ
+
+**What happened before December 2022?** – We accepted donations in private before switching to a better fitting
+[governance](/governance) model. Hence also the big income bump in January 2023: we transferred the balance of all the
+donations before 2023 to our official account. (Whereas the big income bump in December 2022 is purely from us
+announcing our new governance model and bank account.)
