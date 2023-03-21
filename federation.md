@@ -30,7 +30,9 @@ others to harass them, or them to start a crusade against us.
 Silenced instances don't appear in the Federated timeline, but their accounts can still be seen, e.g. by searching for
 them, by interacting with them in conversations, or by following them.
 
-There are currently no silenced instances.
+| Instance                    | Reason                                 |
+| --------------------------- | -------------------------------------- |
+| mastodon.top                | Spam                                   |
 
 ## Blocked instances
 
@@ -41,7 +43,7 @@ pedophilia in the name of free speech.
 
 
 | Instance                    | Reason                                 |
-| --------------------------- | ------------------------------------------- |
+| --------------------------- | -------------------------------------- |
 | activitypub-proxy.cf        | Only exists to evade instance blocks, [details](https://chaos.social/@rixx/109562426307905853) |
 | activitypub-troll.cf        | Spam |
 | aethy.com                   | Lolicon |
