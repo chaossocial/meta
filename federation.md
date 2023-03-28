@@ -140,6 +140,7 @@ pedophilia in the name of free speech.
 | natehiggers.online          | Racism |
 | newjack.city                | Exclusive to unwanted follow bots |
 | nicecrew.digital            | Discrimination, racism, "free speech zone" |
+| nnia.space                  | Pedophilia |
 | noagendasocial.com          | "free speech zone", harassment |
 | noagendasocial.nl           | "free speech zone", harassment |
 | noagendatube.com            | "free speech zone", harassment |
