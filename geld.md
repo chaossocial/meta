@@ -42,3 +42,8 @@ monatlichen Serverkosten sind derzeit **€&nbsp;{{ site.data.money.cbrSubreport
 **Was war vor Dezember 2022?** – Vor unserer [Vereinsgründung](/verein) haben wir privat Spenden angenommen. Daher auch
 die beiden dicken ersten Monate: Im Januar haben wir die vorher gesammelten Spenden aufs Vereinskonto übertragen, und im
 Dezember haben wir die Vereinsgründung und Kontoverbindung veröffentlicht.
+
+**Diese Domainkosten sehen komisch aus …** – Die Tabelle oben wird automatisch aus unserem Kontoauszug gebaut, und wir
+haben glatte hundert Euro an unseren Registrar überwiesen. Klar ist das mehr, als die Domain kostet, und reicht noch ein
+weiteres Jahr. Das übrige Geld ist natürlich technisch gesehen immer noch unseres, aber es ist eben nicht auf unserem
+Konto, und da diese Seite der Transparenz und nicht der Steuererklärung dient, lassen wirs jetzt einfach so.

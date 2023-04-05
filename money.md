@@ -37,3 +37,8 @@ monthly server costs are currently **€&nbsp;{{ site.data.money.cbrSubreports[-
 [governance](/governance) model. Hence also the big income bump in January 2023: we transferred the balance of all the
 donations before 2023 to our official account. (Whereas the big income bump in December 2022 is purely from us
 announcing our new governance model and bank account.)
+
+**What's with the domain cost?** The table above is built automatically from our bank statements. We put EUR 100 flat
+into our account at our domain registrar's – that's more than the domain costs, and will be good for another year. While
+the leftover money is still technically *ours*, it's not in our bank account, and since this page doesn't have to be up
+to tax office standards, we decided to leave it like this.
