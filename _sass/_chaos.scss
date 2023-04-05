@@ -95,6 +95,10 @@ nav.side-nav {
 	}
 }
 table#money {
+	// make table scrollable horizontally
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
 	td, th {
 		text-align: right;
 		font-family: monospace;
