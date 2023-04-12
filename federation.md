@@ -149,6 +149,7 @@ pedophilia in the name of free speech.
 | pawoo.net                   | Untagged nfsw content, unwanted follow bots, lolicon |
 | paypig.org                  | Racism |
 | pedo.school                 | Pedophilia |
+| pkteerium.xyz               | Discrimination, "free speech zone" |
 | pieville.net                | Racism, antisemitism |
 | pl.serialmay.link           | Racism, transphobia |
 | pl.tkammer.de               | Transphobia |
