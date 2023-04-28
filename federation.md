@@ -137,6 +137,7 @@ pedophilia in the name of free speech.
 | midnightride.rs             | Discrimination |
 | misskey-forkbomb.cf         | Spam |
 | morale.ch                   | [Antisemitism](https://pleroma.envs.net/notice/ARcxTACprOAT3AbP9M) and more |
+| mostr.pub                   | Lack of modertion, scammers |
 | mstdn.foxfam.club           | Right wing twitter mirror |
 | natehiggers.online          | Racism |
 | newjack.city                | Exclusive to unwanted follow bots |
