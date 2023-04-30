@@ -89,6 +89,7 @@ pedophilia in the name of free speech.
 | bridge.birb.space           | Twitter crossposter|
 | bridge.yopp.me              | Twitter crossposter|
 | brighteon.social            | "free speech zone" |
+| bsite.spiderden.net         | Twitter crossposter|
 | cawfee.club                 | Discrimination, racism, "free speech zone" |
 | childpawn.shop              | Pedophilia |
 | chudbuds.lol                | Discrimination, racism, "free speech zone" |
