@@ -53,6 +53,7 @@ pedophilia in the name of free speech.
 | beefyboys.club              | Discrimination, racism, "free speech zone" |
 | beefyboys.win               | Discrimination, racism, "free speech zone" |
 | beta.birdsite.live          | Twitter crossposter|
+| beta.mstdn.cf               | Twitter crossposter|
 | birb.elfenban.de            | Twitter crossposter|
 | birb.stream                 | Twitter crossposter|
 | bird.evilcyberhacker.net    | Twitter crossposter|
