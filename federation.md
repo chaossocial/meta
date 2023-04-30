@@ -87,6 +87,7 @@ pedophilia in the name of free speech.
 | birdsitelive.treffler.cloud | Twitter crossposter|
 | boks.moe                    | Harassment |
 | bridge.birb.space           | Twitter crossposter|
+| bridge.yopp.me              | Twitter crossposter|
 | brighteon.social            | "free speech zone" |
 | cawfee.club                 | Discrimination, racism, "free speech zone" |
 | childpawn.shop              | Pedophilia |
