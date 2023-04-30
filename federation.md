@@ -199,6 +199,7 @@ pedophilia in the name of free speech.
 | tweets.icu                  | Twitter crossposter|
 | twitter.activitypub.actor   | Twitter crossposter|
 | twitter.doesnotexist.club   | Twitter crossposter|
+| twitter.piriklub.eu         | Twitter crossposter|
 | twitterbridge.jannis.rocks  | Twitter crossposter|
 | twtr.plus                   | Twitter crossposter| 
 | varishangout.net            | Transphobia and racism go unmoderated, aggressive trolling, lolicon permitted in rules |
