@@ -26,8 +26,15 @@ There are three ways of sending us money. In order of preference:
 
 ## Reporting
 
-The important bit first: We're good. We're stable. We're currently financed for roughly **two years** in advance. Our
-monthly server costs are currently **€&nbsp;{{ site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**, and we have **€&nbsp;{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}** in our bank account.
+The important bit first: We're good. We're stable. We're currently financed for roughly
+**{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | divided_by:site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | divided_by:12 | round:1 }}
+years** in advance.
+We have **€&nbsp;{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}** in our bank account.
+Last month, our server costs were
+**€&nbsp;{{ site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**,
+while we had an income of
+**€&nbsp;{{ site.data.money.cbrSubreports[0][1].prRows[0].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**
+in donations.
 
 {% include money.html %}
 

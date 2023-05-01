@@ -29,13 +29,18 @@ Es gibt verschiedene Möglichkeiten, uns Geld zukommen zu lassen:
 
 ## Finanzbericht
 
-Das wichtige zuerst: Alles ist gut. Die Finanzen sind stabil. Wir sind derzeit für etwa **zwei Jahre** vorfinanziert.
-Unsere 
-monatlichen Serverkosten sind derzeit **€&nbsp;{{ site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**, und wir haben **€&nbsp;{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}** auf dem Konto liegen.
-
-{% include money.html %}
+Das wichtige zuerst: Alles ist gut. Die Finanzen sind stabil. Wir sind derzeit für etwa
+**{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | divided_by:site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | divided_by:12 | round:1 }}
+Jahre** vorfinanziert. 
+Auf unserem Konto liegen **€&nbsp;{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}**.
+Letzten Monat betrugen unsere Serverkosten
+**€&nbsp;{{ site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**,
+und wir hatten ein Spendenaufkommen von
+**€&nbsp;{{ site.data.money.cbrSubreports[0][1].prRows[0].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**.
 
 <small>*(Tabelle betriebsbedingt auf Englisch.)*</small>
+
+{% include money.html %}
 
 ## FAQ
 
