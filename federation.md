@@ -144,6 +144,7 @@ pedophilia in the name of free speech.
 | morale.ch                   | [Antisemitism](https://pleroma.envs.net/notice/ARcxTACprOAT3AbP9M) and more |
 | mostr.pub                   | Lack of modertion, scammers |
 | mstdn.foxfam.club           | Right wing twitter mirror |
+| myxoz.port0.org             | Spam |
 | natehiggers.online          | Racism |
 | newjack.city                | Exclusive to unwanted follow bots |
 | nicecrew.digital            | Discrimination, racism, "free speech zone" |
