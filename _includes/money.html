@@ -1,7 +1,7 @@
 <table id="money">
    <thead><tr>
       <th></th>
-      {% for month in site.data.money.cbrDates %}<th>{{ month[0]|truncate: 7, "" }}</th>{% endfor %}
+      {% for month in site.data.money.cbrDates %}<th>{{ month[0]["contents"]|truncate: 7, "" }}</th>{% endfor %}
       <th>Total</th>
    </tr></thead>
    <tbody>
