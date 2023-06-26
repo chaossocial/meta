@@ -125,3 +125,13 @@ frozen accounts, or the currently hotly discussed user, and we do not think that
 However, if you have questions about our moderation decisions, please [contact us](/contact) via DM or email, and we'll
 be willing to talk things through, explain our reasons, and listen to your concerns. This offer is open to both our
 users and other instance's moderators.
+
+## A final request
+
+Content moderation is infinitely, recursively tricky, especially when doing it for a community, and doubly so when
+trying to find good (rather than easy) solutions to problems. It's a lot of work, often in very stressful and
+high-pressure situations. We're trying to get this right, and we think we're generally doing a good job, but:
+
+Please be patient with us. We will make mistakes. **Talk to us** when you're unhappy, or when you have questions.
+
+And thank you for your trust.
