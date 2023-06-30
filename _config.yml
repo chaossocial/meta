@@ -48,6 +48,13 @@ nav:
         url: /rules
       mobile: false
     - de:
+        name: Prozess
+        url: /prozess
+      en:
+        name: Process
+        url: /process
+      mobile: false
+    - de:
         name: Föderation
         url: /federation
       en:
