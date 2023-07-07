@@ -193,6 +193,7 @@ pedophilia in the name of free speech.
 | solagg.com                  | Scammers |
 | spinster.xyz                | Discrimination, TERFs |
 | tastingtraffic.net          | Homophobia |
+| threads.net                 | Transphobia, lack of moderation, [cf](https://chaos.social/@ordnung/110672632376561507) |
 | truthsocial.co.in           | Alt-right trolls |
 | tube.kenfm.de               | Right-wing conspiracy videos |
 | tube.querdenken-711.de      | Right-wing onspiracy videos |
