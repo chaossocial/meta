@@ -7,7 +7,9 @@ translation: money
 # Geld
 
 Der Betrieb von chaos.social ist ausschließlich spendenfinanziert. Die Spenden gehen an den [chaos.social
-e.V.](/verein). Wir sind derzeit für ungefähr **zwei Jahre** vorfinanziert (einen ausführlichen Bericht findet ihr
+e.V.](/verein). Wir sind derzeit für ungefähr
+**{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | divided_by:site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | divided_by:12 | round:1 }}
+Jahre** vorfinanziert (einen ausführlichen Bericht findet ihr
 weiter unten). Danke euch allen!
 
 ## Wie spenden?

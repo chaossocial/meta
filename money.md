@@ -6,7 +6,8 @@ translation: geld
 
 # Money
 
-chaos.social runs entirely on donations to [chaos.social e.V.](/governance). We are currently financed for roughly **two
+chaos.social runs entirely on donations to [chaos.social e.V.](/governance). We are currently financed for roughly
+**{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | divided_by:site.data.money.cbrSubreports[-1][1].prRows[1].prrAmounts[-1][0].aquantity.floatingPoint | divided_by:12 | round:1 }}
 years** in advance – scroll down for detailled reporting. Thank you, everybody, for making chaos.social possible.
 
 ## How to donate
