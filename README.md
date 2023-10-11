@@ -15,5 +15,5 @@ Deployment
 ----------
 
 ```
-./update.sh
+./bin/update.sh
 ```
