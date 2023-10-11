@@ -1,0 +1,1582 @@
+[
+  {
+    "instance": "activitypub-proxy.cf",
+    "tags": ["PRIVACY"],
+    "receipts": [
+      "https://chaos.social/@rixx/109562426307905853)"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "activitypub-troll.cf",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "aethy.com",
+    "tags": [
+      "LOLICON"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bae.st",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "baraag.net",
+    "tags": [
+      "LOLICON"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "banepo.st",
+    "tags": [
+      "HOMOPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "beefyboys.club",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "beefyboys.win",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "beta.birdsite.live",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "beta.mstdn.cf",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birb.elfenban.de",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birb.stream",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.evilcyberhacker.net",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.froth.zone",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.geiger.ee",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.im-in.space",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.istheguy.com",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.karatek.net",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.makeup",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.nzbr.de",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.r669.live",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bird.seafoam.space",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdbots.leptonics.com",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.b93.dece.space",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.blazelights.dev",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.frog.fashion",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.gabeappleton.me",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.james.moody.name",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.koyu.space",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.lakedrops.com",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.link",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.monster",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.oliviaappleton.com",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.platypush.tech",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.slashdev.space",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.tcjc.uk",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.thorlaksson.com",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.toot.si",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsite.wilde.cloud",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsitelive.ffvo.dev",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsitelive.kevinyank.com",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsitelive.peanutlasko.com",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "birdsitelive.treffler.cloud",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "boks.moe",
+    "tags": [
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bridge.birb.space",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "bridge.yopp.me",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "brighteon.social",
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\"",
+    "comment_de": ""
+  },
+  {
+    "instance": "bsite.spiderden.net",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "cawfee.club",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "childpawn.shop",
+    "tags": [
+      "PEDOPHILIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "chudbuds.lol",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "club.darknight-coffee.eu",
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\"",
+    "comment_de": ""
+  },
+  {
+    "instance": "clubcyberia.co",
+    "tags": [
+      "HOMOPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "clube.social",
+    "tags": [
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "comfyboy.club",
+    "tags": [
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "cum.camp",
+    "tags": [
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "cum.salon",
+    "tags": [
+      "MISOGYNIA",
+      "PEDOPHILIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "daishouri.moe",
+    "tags": [
+      "RIGHTWING"
+    ],
+    "receipts": [],
+    "comment_en": "Openly advertises with swastika",
+    "comment_de": "Wirbt mit Hakenkreuz"
+  },
+  {
+    "instance": "detroitriotcity.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "eientei.org",
+    "tags": [
+      "RACISM",
+      "ANTISEMITISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "eveningzoo.club",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "f.haeder.net",
+    "tags": [
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "freak.university",
+    "tags": [
+      "PEDOPHILIA"
+    ],
+    "receipts": [],
+    "comment_en": "[Pedophilia](https://freak.university/@headmasters/109479536965092142)",
+    "comment_de": ""
+  },
+  {
+    "instance": "freeatlantis.com",
+    "tags": [
+      "CONSPIRACY"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "freecumextremist.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "freefedifollowers.ga",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "freespeechextremist.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "frennet.link",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "froth.zone",
+    "tags": ["FREE SPEECH ZONE"],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "gab.com/.ai, develop.gab.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "gameliberty.club",
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\"",
+    "comment_de": ""
+  },
+  {
+    "instance": "gateway.occm.cc",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "gegenstimme.tv",
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\"",
+    "comment_de": ""
+  },
+  {
+    "instance": "genderheretics.xyz",
+    "tags": ["TRANSPHOBIA"],
+    "receipts": [],
+    "comment_en": "Tagline \"Now With 41% More Misgendering!\"",
+    "comment_de": "Tagline \"Now With 41% More Misgendering!\""
+  },
+  {
+    "instance": "gitmo.life",
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\"",
+    "comment_de": ""
+  },
+  {
+    "instance": "gleasonator.com",
+    "tags": [
+      "TRANSPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "glindr.org",
+    "tags": [
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "glowers.club",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "honkwerx.tech",
+    "tags": [
+      "RACISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "iamterminally.online",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "iddqd.social",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "itmslaves.com",
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\", noagenda affiliated",
+    "comment_de": ""
+  },
+  {
+    "instance": "jaeger.website",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "kenfm.quadplay.tv",
+    "tags": [
+      "CONSPIRACY"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "kiwifarms.cc",
+    "tags": [
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "lgbtfree.zone",
+    "tags": [
+      "TRANSPHOBIA",
+      "RACISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "liberdon.com",
+    "tags": [
+      "CONSPIRACY",
+      "TRANSPHOBIA",
+      "RACISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "libre.tube",
+    "tags": ["HARASSMENT"],
+    "receipts": [],
+    "comment_en": "Promotion of violence and murder",
+    "comment_de": "Aufruf zu Gewalt und Mord"
+  },
+  {
+    "instance": "lolicon.rocks",
+    "tags": [
+      "LOLICON"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "lolison.top",
+    "tags": [
+      "LOLICON",
+      "PEDOPHILIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "mastinator.com",
+    "tags": [
+        "PRIVACY"
+    ],
+    "receipts": ["https://mastodon.ar.al/@aral/109585159213960986"],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "mastodon.network",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "Instance went down, now porn spam",
+    "comment_de": "Instanz gestorben, jetzt Pornspam"
+  },
+  {
+    "instance": "mastodon.popps.org",
+    "tags": [
+      "HOMOPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "mastodong.lol",
+    "tags": ["PRIVACY"],
+    "receipts": [],
+    "comment_en": "Admin owns activitypub-proxy.cf",
+    "comment_de": "Admin betreibt activitypub-proxy.cf"
+  },
+  {
+    "instance": "meta-tube.de",
+    "tags": [
+      "CONSPIRACY"
+    ],
+    "receipts": [
+      "https://fediblock.org/blocklist/#meta-tube.de"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "midnightride.rs",
+    "tags": [
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "misskey-forkbomb.cf",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "morale.ch",
+    "tags": [
+      "ANTISEMITISM"
+    ],
+    "receipts": [],
+    "comment_en": "[Antisemitism](https://pleroma.envs.net/notice/ARcxTACprOAT3AbP9M) and more",
+    "comment_de": ""
+  },
+  {
+    "instance": "mostr.pub",
+    "tags": [
+      "SCAM",
+      "UNMODERATED"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "mstdn.foxfam.club",
+    "tags": [
+      "RIGHTWING"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "myxoz.port0.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "natehiggers.online",
+    "tags": [
+      "RACISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "newjack.city",
+    "tags": ["SPAM"],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "nicecrew.digital",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "nnia.space",
+    "tags": [
+      "PEDOPHILIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "noagendasocial.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\", harassment",
+    "comment_de": ""
+  },
+  {
+    "instance": "noagendasocial.nl",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\", harassment",
+    "comment_de": ""
+  },
+  {
+    "instance": "noagendatube.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\", harassment",
+    "comment_de": ""
+  },
+  {
+    "instance": "norwoodzero.net",
+    "tags": [
+      "TRANSPHOBIA",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "ns.auction",
+    "tags": [
+      "RACISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "ohai.su",
+    "tags": [],
+    "receipts": [],
+    "comment_en": "Offline",
+    "comment_de": "Offline"
+  },
+  {
+    "instance": "pawoo.net",
+    "tags": [
+      "LOLICON",
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "paypig.org",
+    "tags": [
+      "RACISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pedo.school",
+    "tags": [
+      "PEDOPHILIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pkteerium.xyz",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pieville.net",
+    "tags": [
+      "RACISM",
+      "ANTISEMITISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pl.serialmay.link",
+    "tags": [
+      "TRANSPHOBIA",
+      "RACISM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pl.tkammer.de",
+    "tags": [
+      "TRANSPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "play.xmr.101010.pl",
+    "tags": ["PRIVACY"],
+    "receipts": [],
+    "comment_en": "Cryptomining",
+    "comment_de": "Cryptomining"
+  },
+  {
+    "instance": "pleroma.kitsunemimi.club",
+    "tags": [
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pleroma.narrativerry.xyz",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pleroma.nobodyhasthe.biz",
+    "tags": [
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "pleroma.rareome.ga",
+    "tags": [
+      "LOLICON",
+      "PRIVACY"
+    ],
+    "receipts": [
+      "https://pleroma.rareome.ga/notice/113524",
+      "https://pleroma.rareome.ga/notice/55113"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "poa.st",
+    "tags": [
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "podcastindex.social",
+    "tags": ["RIGHTWING"],
+    "receipts": [],
+    "comment_en": "noagenda affiliated",
+    "comment_de": "mit noagenda verbandelt"
+  },
+  {
+    "instance": "poster.place",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "HARASSMENT",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "qoto.org",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "\"free speech zone\", harassment",
+    "comment_de": ""
+  },
+  {
+    "instance": "rapemeat.solutions",
+    "tags": [
+      "LOLICON",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "rdrama.cc",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "repl.co",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "rojogato.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "ryona.agency",
+    "tags": [
+      "RIGHTWING",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "seal.cafe",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "shitpost.cloud",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "ANTISEMITISM"
+    ],
+    "receipts": [],
+    "comment_en": "\"Free speech zone\", antisemitism",
+    "comment_de": ""
+  },
+  {
+    "instance": "shitposter.club",
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "\"Free speech zone\"",
+    "comment_de": ""
+  },
+  {
+    "instance": "shortstackran.ch",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "HOMOPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "shota.house",
+    "tags": [
+      "LOLICON"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "skippers-bin.com",
+    "tags": ["HARASSMENT"],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "sleepy.cafe",
+    "tags": [
+      "RACISM",
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "sneak.berlin",
+    "tags": [
+      "PRIVACY"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "sneed.social",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "NATIONALISM",
+      "UNMODERATED",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "soc.ua-fediland.de",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "social.ancreport.com",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "social.lovingexpressions.net",
+    "tags": [
+      "TRANSPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "social.teci.world",
+    "tags": [
+      "FREE SPEECH ZONE",
+      "RACISM",
+      "DISCRIMINATION"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "social.urspringer.de",
+    "tags": [
+      "CONSPIRACY"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "socnet.supes.com",
+    "tags": [
+      "RIGHTWING",
+      "FREE SPEECH ZONE"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "solagg.com",
+    "tags": [
+      "SCAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "spinster.xyz",
+    "tags": [
+      "DISCRIMINATION",
+      "TRANSPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "tastingtraffic.net",
+    "tags": [
+      "HOMOPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "threads.net",
+    "tags": [
+      "TRANSPHOBIA",
+      "UNMODERATED",
+    ],
+    "receipts": [
+      "https://chaos.social/@ordnung/110672632376561507"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "truthsocial.co.in",
+    "tags": [
+      "RIGHTWING"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "tube.kenfm.de",
+    "tags": [
+      "RIGHTWING",
+      "CONSPIRACY"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "tube.querdenken-711.de",
+    "tags": [
+      "RIGHTWING",
+      "CONSPIRACY"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "tweet.pasture.moe",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "tweetbridge.kogasa.de",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "tweets.icu",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "twitter.activitypub.actor",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "twitter.doesnotexist.club",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "twitter.piriklub.eu",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "twitterbridge.jannis.rocks",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "twtr.plus",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "varishangout.net",
+    "tags": [
+      "TRANSPHOBIA",
+      "RACISM",
+      "UNMODERATED",
+      "LOLICON"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "wiki-tube.de",
+    "tags": [
+      "RIGHTWING",
+      "CONSPIRACY"
+    ],
+    "receipts": [
+      "https://serv3.wiki-tube.de/videos/watch/c1ba1760-21e2-42f0-9c2a-b7e8fd53c722) welcomes Querdenken and KenFM)"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "wolfgirl.bar",
+    "tags": [
+      "UNMODERATED",
+      "DISCRIMINATION",
+      "HOMOPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "yggdrasil.social",
+    "tags": [
+      "HOMOPHOBIA",
+      "TRANSPHOBIA"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
+    "instance": "youjo.love",
+    "tags": [
+      "LOLICON"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  }
+]

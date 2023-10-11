@@ -86,12 +86,17 @@ nav.side-nav {
 		width: 100%;
 	}
 }
-#blocked-instances + p + table {
+table.instance-table {
 	font-family: "Open Sans", sans-serif;
 	table-layout: fixed;
 	th:first-child {
 	  width: 250px;
-	  text-wrap: nowrap;
+	}
+	th:last-child {
+		width:40px;
+	}
+	th,td  {
+		text-wrap: nowrap;
 	}
 }
 table#money {

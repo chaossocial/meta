@@ -1,0 +1,74 @@
+{
+  "ANTISEMITISM": {
+    "de": "Antisemitismus",
+    "en": "antisemitism"
+  },
+  "CONSPIRACY": {
+    "de": "Verschwörungstheorien",
+    "en": "conspiracy"
+  },
+  "CROSSPOSTER": {
+    "de": "Crossposter-Instanz",
+    "en": "crossposter instance"
+  },
+  "DISCRIMINATION": {
+    "de": "Diskriminierung",
+    "en": "discrimination"
+  },
+  "FREE SPEECH ZONE": {
+    "de": "Free speech zone¹",
+    "en": "Free speech zone¹"
+  },
+  "HARASSMENT": {
+    "de": "Belästigung",
+    "en": "harassment"
+  },
+  "HOMOPHOBIA": {
+    "de": "Homophobie",
+    "en": "homophobia"
+  },
+  "LOLICON": {
+    "de": "Lolicon",
+    "en": "lolicon"
+  },
+  "MISIGYNIA": {
+    "de": "Misogynie",
+    "en": "misogynia",
+  },
+  "NATIONALISM": {
+    "de": "Nationalismus",
+    "en": "nationalism"
+  },
+  "PEDOPHILIA": {
+    "de": "Pädophilie",
+    "en": "pedophilia"
+  },
+  "PRIVACY": {
+    "de": "Datenschutz/Malware",
+    "en": "privacy/malicious code"
+  },
+  "RACISM": {
+    "de": "Rassismus",
+    "en": "racism"
+  },
+  "RIGHTWING": {
+    "de": "Rechtsextremismus",
+    "en": "right-wing extremism"
+  },
+  "SCAM": {
+    "de": "Betrug",
+    "en": "scam"
+  },
+  "SPAM": {
+    "de": "Spam",
+    "en": "spam"
+  },
+  "TRANSPHOBIA": {
+    "de": "Transphobie",
+    "en": "transphobia"
+  },
+  "UNMODERATED": {
+    "de": "Unmoderiert",
+    "en": "unmoderated"
+  }
+}

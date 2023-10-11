@@ -1,0 +1,30 @@
+<table class="instance-table">
+    <thead>
+        <tr>
+            <th>{% if include.lang == "en" %}Instance{% else %}Instanz{% endif %}</th>
+            <th>{% if include.lang == "en" %}Reasons{% else %}Gründe{% endif %}</th>
+            <th>{% if include.lang == "en" %}Comment{% else %}Kommentar{% endif %}</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for instance in include.instances %}
+        <tr>
+            <td>{{ instance.instance }}</td>
+            <td>
+                {% for tag in instance.tags %}
+                    {% if forloop.first %}{{ site.data.defederation_reasons[tag][include.lang]|capitalize }}{% else %}{{ site.data.defederation_reasons[tag][include.lang] }}{% endif %}{% unless forloop.last %},<br>{% endunless %} 
+                {% endfor %}
+            </td>
+            <td>
+                {% if include.lang == "en" %}{{ instance.comment_en|markdownify }}{% else %}{{ instance.comment_de|markdownify }}{% endif %}
+            </td>
+            <td>
+                {% for receipt in instance.receipts %}
+                    <a href="{{ receipt.url }}">[{{ forloop.index }}]</a><br>
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
