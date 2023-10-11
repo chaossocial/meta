@@ -3,7 +3,7 @@
     "instance": "activitypub-proxy.cf",
     "tags": ["PRIVACY"],
     "receipts": [
-      "https://chaos.social/@rixx/109562426307905853)"
+      "https://chaos.social/@rixx/109562426307905853"
     ],
     "comment_en": "",
     "comment_de": ""
@@ -474,7 +474,7 @@
       "FREE SPEECH ZONE"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\"",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -579,8 +579,10 @@
     "tags": [
       "PEDOPHILIA"
     ],
-    "receipts": [],
-    "comment_en": "[Pedophilia](https://freak.university/@headmasters/109479536965092142)",
+    "receipts": [
+      "https://freak.university/@headmasters/109479536965092142"
+    ],
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -676,7 +678,7 @@
       "FREE SPEECH ZONE"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\"",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -1544,7 +1546,7 @@
       "CONSPIRACY"
     ],
     "receipts": [
-      "https://serv3.wiki-tube.de/videos/watch/c1ba1760-21e2-42f0-9c2a-b7e8fd53c722) welcomes Querdenken and KenFM)"
+      "https://serv3.wiki-tube.de/videos/watch/c1ba1760-21e2-42f0-9c2a-b7e8fd53c722"
     ],
     "comment_en": "",
     "comment_de": ""

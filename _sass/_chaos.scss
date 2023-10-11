@@ -86,17 +86,19 @@ nav.side-nav {
 		width: 100%;
 	}
 }
-table.instance-table {
-	font-family: "Open Sans", sans-serif;
-	table-layout: fixed;
-	th:first-child {
-	  width: 250px;
+dl.instance-list {
+	dt {
+		text-align: left;
+		float: none;
+		width: auto;
+		margin-bottom: 0;
 	}
-	th:last-child {
-		width:40px;
+	dd {
+		margin-left: 20px;
 	}
-	th,td  {
-		text-wrap: nowrap;
+	dd p {
+		display: inline;
+		margin-left: 4px;
 	}
 }
 table#money {
