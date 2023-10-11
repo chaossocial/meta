@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+import json
+
+import inquirer
+
+TAGS = [
+    "ANTISEMITISM",
+    "CONSPIRACY",
+    "CROSSPOSTER",
+    "DISCRIMINATION",
+    "FREE SPEECH ZONE",
+    "HARASSMENT",
+    "HOMOPHOBIA",
+    "LOLICON",
+    "NATIONALISM",
+    "PEDOPHILIA",
+    "PRIVACY",
+    "RACISM",
+    "RIGHTWING",
+    "SCAM",
+    "SPAM",
+    "TRANSPHOBIA",
+    "UNMODERATED",
+]
+
+
+def main():
+    # get instance name, block level (block / limit), reasons from list, optional comment (de+en), optional receipt
+
+    questions = [
+        inquirer.Text(name="instance", message="Instance URL"),
+        inquirer.List(
+            name="block_type",
+            message="Block level",
+            choices=(
+                ("Block", "blocked_instances.json"),
+                ("Limit", "limited_instances.json"),
+            ),
+            default="Block",
+        ),
+        inquirer.Checkbox(
+            name="tags", message="Categories", choices=TAGS, carousel=True
+        ),
+        inquirer.Text(
+            name="receipts",
+            message="Receipts, optional (comma-separated for multiple)",
+            default="",
+        ),
+        inquirer.Text(
+            name="comment_en", message="Comment (English, optional)", default=""
+        ),
+    ]
+    answers = inquirer.prompt(questions)
+    if answers.get("comment_en").strip():
+        answers["comment_de"] = inquirer.text_input(message="Comment (German)")
+    else:
+        answers["comment_de"] = ""
+
+    path = f"_data/{answers.pop('block_type')}"
+    with open(path, "r") as f:
+        data = json.load(f)
+
+    if any(instance["instance"] == answers["instance"] for instance in data):
+        print("Instance already in list")
+        return
+
+    data.append(answers)
+    data = sorted(data, key=lambda x: x["instance"])
+
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print("Instance added to block list.")
+    print(f"Now go to https://chaos.social/admin/domain_blocks/new?_domain={answers['instance']}")
+
+if __name__ == "__main__":
+    main()
