@@ -2,7 +2,7 @@
     <thead>
         <tr>
             <th>{% if include.lang == "en" %}Instance{% else %}Instanz{% endif %}</th>
-            <th>{% if include.lang == "en" %}Reasons{% else %}Gründe{% endif %}</th>
+            <th>{% if include.lang == "en" %}Categories{% else %}Kategorien{% endif %}</th>
             <th>{% if include.lang == "en" %}Comment{% else %}Kommentar{% endif %}</th>
             <th></th>
         </tr>
@@ -13,7 +13,7 @@
             <td>{{ instance.instance }}</td>
             <td>
                 {% for tag in instance.tags %}
-                    {% if forloop.first %}{{ site.data.defederation_reasons[tag][include.lang]|capitalize }}{% else %}{{ site.data.defederation_reasons[tag][include.lang] }}{% endif %}{% unless forloop.last %},<br>{% endunless %} 
+                    {% if forloop.first and include.lang == "en" %}{{ site.data.defederation_reasons[tag][include.lang]|capitalize }}{% else %}{{ site.data.defederation_reasons[tag][include.lang] }}{% endif %}{% unless forloop.last %},<br>{% endunless %} 
                 {% endfor %}
             </td>
             <td>
