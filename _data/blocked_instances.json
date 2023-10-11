@@ -425,7 +425,7 @@
       "FREE SPEECH ZONE"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\"",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -660,7 +660,7 @@
       "FREE SPEECH ZONE"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\"",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -694,7 +694,7 @@
       "FREE SPEECH ZONE"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\"",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -763,8 +763,8 @@
       "FREE SPEECH ZONE"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\", noagenda affiliated",
-    "comment_de": ""
+    "comment_en": "noagenda affiliated",
+    "comment_de": "mit noaenda verbandelt"
   },
   {
     "instance": "jaeger.website",
@@ -910,8 +910,10 @@
     "tags": [
       "ANTISEMITISM"
     ],
-    "receipts": [],
-    "comment_en": "[Antisemitism](https://pleroma.envs.net/notice/ARcxTACprOAT3AbP9M) and more",
+    "receipts": [
+      "https://pleroma.envs.net/notice/ARcxTACprOAT3AbP9M) and more"
+    ],
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -985,7 +987,7 @@
       "HARASSMENT"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\", harassment",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -995,7 +997,7 @@
       "HARASSMENT"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\", harassment",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -1005,7 +1007,7 @@
       "HARASSMENT"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\", harassment",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -1185,7 +1187,7 @@
       "HARASSMENT"
     ],
     "receipts": [],
-    "comment_en": "\"free speech zone\", harassment",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -1256,7 +1258,7 @@
       "ANTISEMITISM"
     ],
     "receipts": [],
-    "comment_en": "\"Free speech zone\", antisemitism",
+    "comment_en": "",
     "comment_de": ""
   },
   {
@@ -1265,7 +1267,7 @@
       "FREE SPEECH ZONE"
     ],
     "receipts": [],
-    "comment_en": "\"Free speech zone\"",
+    "comment_en": "",
     "comment_de": ""
   },
   {

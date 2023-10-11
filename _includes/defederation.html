@@ -3,7 +3,8 @@
         <dt>{{ instance.instance }}</dt>
         <dd>
             <i>{% if include.lang == "en" %}Categories{% else %}Kategorien{% endif %}</i>:
-                {% for tag in instance.tags %}
+                {% assign tags = instance.tags | sort %}
+                {% for tag in tags %}
                     {% if forloop.first and include.lang == "en" %}{{ site.data.defederation_reasons[tag][include.lang]|capitalize }}{% else %}{{ site.data.defederation_reasons[tag][include.lang] }}{% endif %}{% unless forloop.last %}, {% endunless %} 
                 {% endfor %}
                 {% if include.lang == "en" and instance.comment_en.size != 0 %}
