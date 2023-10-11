@@ -1,7 +1,9 @@
 [
   {
     "instance": "activitypub-proxy.cf",
-    "tags": ["PRIVACY"],
+    "tags": [
+      "PRIVACY"
+    ],
     "receipts": [
       "https://chaos.social/@rixx/109562426307905853"
     ],
@@ -38,18 +40,18 @@
     "comment_de": ""
   },
   {
-    "instance": "baraag.net",
+    "instance": "banepo.st",
     "tags": [
-      "LOLICON"
+      "HOMOPHOBIA"
     ],
     "receipts": [],
     "comment_en": "",
     "comment_de": ""
   },
   {
-    "instance": "banepo.st",
+    "instance": "baraag.net",
     "tags": [
-      "HOMOPHOBIA"
+      "LOLICON"
     ],
     "receipts": [],
     "comment_en": "",
@@ -638,7 +640,9 @@
   },
   {
     "instance": "froth.zone",
-    "tags": ["FREE SPEECH ZONE"],
+    "tags": [
+      "FREE SPEECH ZONE"
+    ],
     "receipts": [],
     "comment_en": "",
     "comment_de": ""
@@ -683,7 +687,9 @@
   },
   {
     "instance": "genderheretics.xyz",
-    "tags": ["TRANSPHOBIA"],
+    "tags": [
+      "TRANSPHOBIA"
+    ],
     "receipts": [],
     "comment_en": "Tagline \"Now With 41% More Misgendering!\"",
     "comment_de": "Tagline \"Now With 41% More Misgendering!\""
@@ -818,7 +824,9 @@
   },
   {
     "instance": "libre.tube",
-    "tags": ["HARASSMENT"],
+    "tags": [
+      "HARASSMENT"
+    ],
     "receipts": [],
     "comment_en": "Promotion of violence and murder",
     "comment_de": "Aufruf zu Gewalt und Mord"
@@ -845,9 +853,11 @@
   {
     "instance": "mastinator.com",
     "tags": [
-        "PRIVACY"
+      "PRIVACY"
     ],
-    "receipts": ["https://mastodon.ar.al/@aral/109585159213960986"],
+    "receipts": [
+      "https://mastodon.ar.al/@aral/109585159213960986"
+    ],
     "comment_en": "",
     "comment_de": ""
   },
@@ -871,7 +881,9 @@
   },
   {
     "instance": "mastodong.lol",
-    "tags": ["PRIVACY"],
+    "tags": [
+      "PRIVACY"
+    ],
     "receipts": [],
     "comment_en": "Admin owns activitypub-proxy.cf",
     "comment_de": "Admin betreibt activitypub-proxy.cf"
@@ -955,7 +967,9 @@
   },
   {
     "instance": "newjack.city",
-    "tags": ["SPAM"],
+    "tags": [
+      "SPAM"
+    ],
     "receipts": [],
     "comment_en": "",
     "comment_de": ""
@@ -1065,20 +1079,20 @@
     "comment_de": ""
   },
   {
-    "instance": "pkteerium.xyz",
+    "instance": "pieville.net",
     "tags": [
-      "FREE SPEECH ZONE",
-      "DISCRIMINATION"
+      "RACISM",
+      "ANTISEMITISM"
     ],
     "receipts": [],
     "comment_en": "",
     "comment_de": ""
   },
   {
-    "instance": "pieville.net",
+    "instance": "pkteerium.xyz",
     "tags": [
-      "RACISM",
-      "ANTISEMITISM"
+      "FREE SPEECH ZONE",
+      "DISCRIMINATION"
     ],
     "receipts": [],
     "comment_en": "",
@@ -1105,7 +1119,9 @@
   },
   {
     "instance": "play.xmr.101010.pl",
-    "tags": ["PRIVACY"],
+    "tags": [
+      "PRIVACY"
+    ],
     "receipts": [],
     "comment_en": "Cryptomining",
     "comment_de": "Cryptomining"
@@ -1163,7 +1179,9 @@
   },
   {
     "instance": "podcastindex.social",
-    "tags": ["RIGHTWING"],
+    "tags": [
+      "RIGHTWING"
+    ],
     "receipts": [],
     "comment_en": "noagenda affiliated",
     "comment_de": "mit noagenda verbandelt"
@@ -1292,7 +1310,9 @@
   },
   {
     "instance": "skippers-bin.com",
-    "tags": ["HARASSMENT"],
+    "tags": [
+      "HARASSMENT"
+    ],
     "receipts": [],
     "comment_en": "",
     "comment_de": ""
@@ -1420,7 +1440,7 @@
     "instance": "threads.net",
     "tags": [
       "TRANSPHOBIA",
-      "UNMODERATED",
+      "UNMODERATED"
     ],
     "receipts": [
       "https://chaos.social/@ordnung/110672632376561507"
