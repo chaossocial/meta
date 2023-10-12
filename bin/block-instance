@@ -56,6 +56,13 @@ def main():
     else:
         answers["comment_de"] = ""
 
+    for key in ("instance", "comment_en", "comment_de"):
+        answers[key] = answers[key].strip()
+
+    answers["receipts"] = [
+        r.strip() for r in answers["receipts"].split(",") if r.strip()
+    ]
+
     path = f"_data/{answers.pop('block_type')}"
     with open(path, "r") as f:
         data = json.load(f)
@@ -71,7 +78,10 @@ def main():
         json.dump(data, f, indent=2, ensure_ascii=False)
 
     print("Instance added to block list.")
-    print(f"Now go to https://chaos.social/admin/domain_blocks/new?_domain={answers['instance']}")
+    print(
+        f"Now go to https://chaos.social/admin/domain_blocks/new?_domain={answers['instance']}"
+    )
+
 
 if __name__ == "__main__":
     main()
