@@ -9,6 +9,10 @@ Kleine Pressesammlung von unseren Auftritten und Aufschrieben:
 
 ## Texte
 
+Zu einem
+[netzpolitik.org-Bericht](https://netzpolitik.org/2023/social-media-selber-machen-wieviel-aufwand-und-kosten-entstehen-durch-eine-mastodon-instanz/)
+(2023) über den Betrieb verschieden großer Mastodon-Instanzen trug rixx Erfahrungen und Wünsche bei.
+
 In einem [Interview mit
 Heise/c't](https://www.heise.de/hintergrund/Mastodon-Instanz-chaos-social-Admin-Leah-Oswald-berichtet-ueber-ihre-Erfahrungen-7468272.html)
 (2023) berichtet Leah davon, wie chaos.social funktioniert, und hat Tipps für Leute, die ihre eigene Instanz aufsetzen

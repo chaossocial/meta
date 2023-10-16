@@ -9,6 +9,10 @@ Small collection of our posts, talks, podcasts etc. Much of this is in German (a
 
 ## Text
 
+In a [netzpolitik.org
+report](https://netzpolitik.org/2023/social-media-selber-machen-wieviel-aufwand-und-kosten-entstehen-durch-eine-mastodon-instanz/)
+(2023, de) on the effort it takes to run a Mastodon instance, rixx shared his experiences.
+
 Leah gave an [interview with
 Heise/c't](https://www.heise.de/hintergrund/Mastodon-Instanz-chaos-social-Admin-Leah-Oswald-berichtet-ueber-ihre-Erfahrungen-7468272.html)
 (2023, de) about how we run chaos.social, including tips for people looking to run their own instance.
