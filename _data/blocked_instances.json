@@ -569,6 +569,16 @@
     "comment_de": "Wirbt mit Hakenkreuz"
   },
   {
+    "instance": "decayable.ink",
+    "tags": [
+      "HARASSMENT",
+      "UNMODERATED"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "detroitriotcity.com",
     "tags": [
       "FREE SPEECH ZONE",
