@@ -15,6 +15,21 @@
 	margin-bottom: 1.75em;
 	max-width: 150%;
 }
+.post-content figure {
+	margin: 0;
+	margin-bottom: 1.75em;
+	img.full-img {
+		margin-bottom: 0;
+	}
+	figcaption {
+		font-size: 0.8em;
+		text-align: center;
+		padding-top: 0.5em;
+		color: #666;
+		font-style: italic;
+		font-size: 0.8em;
+	}
+}
 body {
 	display: flex;
 	height: 100vh;
