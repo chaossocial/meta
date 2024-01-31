@@ -1021,6 +1021,21 @@
     "comment_de": ""
   },
   {
+    "instance": "mugicha.club",
+    "tags": [
+      "DISCRIMINATION",
+      "HARASSMENT",
+      "HOMOPHOBIA",
+      "TRANSPHOBIA"
+    ],
+    "receipts": [
+      "https://mugicha.club/objects/263cba91-a819-4d8b-98c6-51e00cd20993",
+      "https://mugicha.club/objects/37e97d11-fcaa-48ff-8a37-249b3850eae1"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "myxoz.port0.org",
     "tags": [
       "SPAM"
