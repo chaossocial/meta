@@ -129,6 +129,16 @@
         "contents": "2024-01-01",
         "tag": "Exact"
       }
+    ],
+    [
+      {
+        "contents": "2024-01-01",
+        "tag": "Exact"
+      },
+      {
+        "contents": "2024-02-01",
+        "tag": "Exact"
+      }
     ]
   ],
   "cbrSubreports": [
@@ -265,6 +275,16 @@
               "contents": "2024-01-01",
               "tag": "Exact"
             }
+          ],
+          [
+            {
+              "contents": "2024-01-01",
+              "tag": "Exact"
+            },
+            {
+              "contents": "2024-02-01",
+              "tag": "Exact"
+            }
           ]
         ],
         "prRows": [
@@ -284,7 +304,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -302,7 +323,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -320,7 +342,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -338,7 +361,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -356,7 +380,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -374,7 +399,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -392,7 +418,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -410,7 +437,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -428,7 +456,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -446,7 +475,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -464,7 +494,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -482,7 +513,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -500,7 +532,27 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 137230,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 1372.3
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ]
@@ -510,16 +562,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 16793307692308,
-                  "decimalPlaces": 10,
-                  "floatingPoint": 1679.3307692308
+                  "decimalMantissa": 16574,
+                  "decimalPlaces": 1,
+                  "floatingPoint": 1657.4
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -529,16 +582,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 2183130,
+                  "decimalMantissa": 2320360,
                   "decimalPlaces": 2,
-                  "floatingPoint": 21831.3
+                  "floatingPoint": 23203.6
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -560,7 +614,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -578,7 +633,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -596,7 +652,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -614,7 +671,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -632,7 +690,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -650,7 +709,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -668,7 +728,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -686,7 +747,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -704,7 +766,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -722,7 +785,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -740,7 +804,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -758,7 +823,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -776,7 +842,27 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
+                }
+              }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 137230,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 1372.3
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalmark": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -786,16 +872,17 @@
               "acommodity": "€",
               "aprice": null,
               "aquantity": {
-                "decimalMantissa": 16793307692308,
-                "decimalPlaces": 10,
-                "floatingPoint": 1679.3307692308
+                "decimalMantissa": 16574,
+                "decimalPlaces": 1,
+                "floatingPoint": 1657.4
               },
               "astyle": {
                 "ascommodityside": "L",
                 "ascommodityspaced": false,
                 "asdecimalmark": ",",
                 "asdigitgroups": null,
-                "asprecision": 2
+                "asprecision": 2,
+                "asrounding": "HardRounding"
               }
             }
           ],
@@ -805,16 +892,17 @@
               "acommodity": "€",
               "aprice": null,
               "aquantity": {
-                "decimalMantissa": 2183130,
+                "decimalMantissa": 2320360,
                 "decimalPlaces": 2,
-                "floatingPoint": 21831.3
+                "floatingPoint": 23203.6
               },
               "astyle": {
                 "ascommodityside": "L",
                 "ascommodityspaced": false,
                 "asdecimalmark": ",",
                 "asdigitgroups": null,
-                "asprecision": 2
+                "asprecision": 2,
+                "asrounding": "HardRounding"
               }
             }
           ]
@@ -955,6 +1043,16 @@
               "contents": "2024-01-01",
               "tag": "Exact"
             }
+          ],
+          [
+            {
+              "contents": "2024-01-01",
+              "tag": "Exact"
+            },
+            {
+              "contents": "2024-02-01",
+              "tag": "Exact"
+            }
           ]
         ],
         "prRows": [
@@ -974,7 +1072,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -992,7 +1091,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1010,7 +1110,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1028,7 +1129,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1046,7 +1148,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1064,7 +1167,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1082,7 +1186,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1100,7 +1205,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1118,7 +1224,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1136,7 +1243,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1154,7 +1262,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1172,7 +1281,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1190,7 +1300,27 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 39657,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 396.57
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ]
@@ -1200,16 +1330,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 3970092307692,
+                  "decimalMantissa": 3969778571429,
                   "decimalPlaces": 10,
-                  "floatingPoint": 397.0092307692
+                  "floatingPoint": 396.9778571429
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1219,16 +1350,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 516112,
+                  "decimalMantissa": 555769,
                   "decimalPlaces": 2,
-                  "floatingPoint": 5161.12
+                  "floatingPoint": 5557.69
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -1250,7 +1382,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1268,7 +1401,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1286,7 +1420,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1304,7 +1439,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1322,7 +1458,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1340,7 +1477,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1358,7 +1496,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1376,7 +1515,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1394,7 +1534,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1412,7 +1553,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1430,7 +1572,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1448,7 +1591,27 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 39427,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 394.27
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ]
@@ -1458,16 +1621,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 34531,
-                  "decimalPlaces": 2,
-                  "floatingPoint": 345.31
+                  "decimalMantissa": 3488071428571,
+                  "decimalPlaces": 10,
+                  "floatingPoint": 348.8071428571
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1477,16 +1641,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 448903,
+                  "decimalMantissa": 488330,
                   "decimalPlaces": 2,
-                  "floatingPoint": 4489.03
+                  "floatingPoint": 4883.3
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -1514,10 +1679,12 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
+              [],
               [],
               [],
               [],
@@ -1529,16 +1696,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 406146153846,
+                  "decimalMantissa": 377135714286,
                   "decimalPlaces": 10,
-                  "floatingPoint": 40.6146153846
+                  "floatingPoint": 37.7135714286
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1557,7 +1725,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -1581,10 +1750,12 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
+              [],
               [],
               [],
               [],
@@ -1600,16 +1771,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 76923076923,
+                  "decimalMantissa": 71428571429,
                   "decimalPlaces": 10,
-                  "floatingPoint": 7.6923076923
+                  "floatingPoint": 7.1428571429
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1628,7 +1800,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -1649,7 +1822,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1667,7 +1841,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1685,7 +1860,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1703,7 +1879,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1721,7 +1898,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1739,7 +1917,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1757,7 +1936,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1775,7 +1955,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1793,7 +1974,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1811,7 +1993,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1829,7 +2012,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1847,7 +2031,8 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ],
@@ -1865,7 +2050,27 @@
                     "ascommodityspaced": false,
                     "asdecimalmark": ",",
                     "asdigitgroups": null,
-                    "asprecision": 2
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "aprice": null,
+                  "aquantity": {
+                    "decimalMantissa": 230,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 2.3
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
                   }
                 }
               ]
@@ -1875,16 +2080,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 33923076923,
+                  "decimalMantissa": 33142857143,
                   "decimalPlaces": 10,
-                  "floatingPoint": 3.3923076923
+                  "floatingPoint": 3.3142857143
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1894,16 +2100,17 @@
                 "acommodity": "€",
                 "aprice": null,
                 "aquantity": {
-                  "decimalMantissa": 4410,
+                  "decimalMantissa": 4640,
                   "decimalPlaces": 2,
-                  "floatingPoint": 44.1
+                  "floatingPoint": 46.4
                 },
                 "astyle": {
                   "ascommodityside": "L",
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -1925,7 +2132,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1943,7 +2151,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1961,7 +2170,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1979,7 +2189,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -1997,7 +2208,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2015,7 +2227,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2033,7 +2246,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2051,7 +2265,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2069,7 +2284,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2087,7 +2303,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2105,7 +2322,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2123,7 +2341,8 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ],
@@ -2141,7 +2360,27 @@
                   "ascommodityspaced": false,
                   "asdecimalmark": ",",
                   "asdigitgroups": null,
-                  "asprecision": 2
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
+                }
+              }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "aprice": null,
+                "aquantity": {
+                  "decimalMantissa": 39657,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 396.57
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalmark": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
                 }
               }
             ]
@@ -2151,16 +2390,17 @@
               "acommodity": "€",
               "aprice": null,
               "aquantity": {
-                "decimalMantissa": 3970092307692,
+                "decimalMantissa": 3969778571429,
                 "decimalPlaces": 10,
-                "floatingPoint": 397.0092307692
+                "floatingPoint": 396.9778571429
               },
               "astyle": {
                 "ascommodityside": "L",
                 "ascommodityspaced": false,
                 "asdecimalmark": ",",
                 "asdigitgroups": null,
-                "asprecision": 2
+                "asprecision": 2,
+                "asrounding": "HardRounding"
               }
             }
           ],
@@ -2170,16 +2410,17 @@
               "acommodity": "€",
               "aprice": null,
               "aquantity": {
-                "decimalMantissa": 516112,
+                "decimalMantissa": 555769,
                 "decimalPlaces": 2,
-                "floatingPoint": 5161.12
+                "floatingPoint": 5557.69
               },
               "astyle": {
                 "ascommodityside": "L",
                 "ascommodityspaced": false,
                 "asdecimalmark": ",",
                 "asdigitgroups": null,
-                "asprecision": 2
+                "asprecision": 2,
+                "asrounding": "HardRounding"
               }
             }
           ]
@@ -2188,7 +2429,7 @@
       false
     ]
   ],
-  "cbrTitle": "Income Statement 2022-12-01..2023-12-31",
+  "cbrTitle": "Income Statement 2022-12-01..2024-01-31",
   "cbrTotals": {
     "prrAmounts": [
       [
@@ -2205,7 +2446,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2223,7 +2465,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2241,7 +2484,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2259,7 +2503,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2277,7 +2522,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2295,7 +2541,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2313,7 +2560,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2331,7 +2579,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2349,7 +2598,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2367,7 +2617,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2385,7 +2636,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2403,7 +2655,8 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ],
@@ -2421,7 +2674,27 @@
             "ascommodityspaced": false,
             "asdecimalmark": ",",
             "asdigitgroups": null,
-            "asprecision": 2
+            "asprecision": 2,
+            "asrounding": "HardRounding"
+          }
+        }
+      ],
+      [
+        {
+          "acommodity": "€",
+          "aprice": null,
+          "aquantity": {
+            "decimalMantissa": 97573,
+            "decimalPlaces": 2,
+            "floatingPoint": 975.73
+          },
+          "astyle": {
+            "ascommodityside": "L",
+            "ascommodityspaced": false,
+            "asdecimalmark": ",",
+            "asdigitgroups": null,
+            "asprecision": 2,
+            "asrounding": "HardRounding"
           }
         }
       ]
@@ -2431,16 +2704,17 @@
         "acommodity": "€",
         "aprice": null,
         "aquantity": {
-          "decimalMantissa": 12823215384615,
+          "decimalMantissa": 12604221428571,
           "decimalPlaces": 10,
-          "floatingPoint": 1282.3215384615
+          "floatingPoint": 1260.4221428571
         },
         "astyle": {
           "ascommodityside": "L",
           "ascommodityspaced": false,
           "asdecimalmark": ",",
           "asdigitgroups": null,
-          "asprecision": 2
+          "asprecision": 2,
+          "asrounding": "HardRounding"
         }
       }
     ],
@@ -2450,16 +2724,17 @@
         "acommodity": "€",
         "aprice": null,
         "aquantity": {
-          "decimalMantissa": 1667018,
+          "decimalMantissa": 1764591,
           "decimalPlaces": 2,
-          "floatingPoint": 16670.18
+          "floatingPoint": 17645.91
         },
         "astyle": {
           "ascommodityside": "L",
           "ascommodityspaced": false,
           "asdecimalmark": ",",
           "asdigitgroups": null,
-          "asprecision": 2
+          "asprecision": 2,
+          "asrounding": "HardRounding"
         }
       }
     ]
