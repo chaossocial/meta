@@ -1718,6 +1718,15 @@
     "comment_de": ""
   },
   {
+    "instance": "twitter.toot.as",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "twitterbridge.jannis.rocks",
     "tags": [
       "CROSSPOSTER"
