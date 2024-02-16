@@ -1793,6 +1793,15 @@
     "comment_de": ""
   },
   {
+    "instance": "vtdon.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "wiki-tube.de",
     "tags": [
       "RIGHTWING",
