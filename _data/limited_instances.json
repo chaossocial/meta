@@ -1,25 +1,42 @@
 [
   {
-    "instance": "mastodon.top",
-    "tags": ["SPAM"],
-    "comment_de": "",
-    "comment_en": ""
+    "instance": "beekeeping.ninja",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
   },
   {
     "instance": "cunnyborea.top",
-    "tags": ["SPAM"],
+    "tags": [
+      "SPAM"
+    ],
     "comment_de": "",
     "comment_en": ""
   },
   {
     "instance": "m.mxin.moe",
-    "tags": ["SPAM"],
+    "tags": [
+      "SPAM"
+    ],
+    "comment_de": "",
+    "comment_en": ""
+  },
+  {
+    "instance": "mastodon.top",
+    "tags": [
+      "SPAM"
+    ],
     "comment_de": "",
     "comment_en": ""
   },
   {
     "instance": "social.cutefunny.net",
-    "tags": ["SPAM"],
+    "tags": [
+      "SPAM"
+    ],
     "comment_de": "",
     "comment_en": ""
   }
