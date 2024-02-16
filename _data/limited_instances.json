@@ -33,6 +33,15 @@
     "comment_en": ""
   },
   {
+    "instance": "piaille.fr",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "social.cutefunny.net",
     "tags": [
       "SPAM"
