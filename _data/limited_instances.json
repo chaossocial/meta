@@ -70,7 +70,9 @@
   },
   {
     "instance": "planetearth.social",
-    "tags": [],
+    "tags": [
+      "SPAM"
+    ],
     "receipts": [],
     "comment_en": "",
     "comment_de": ""
