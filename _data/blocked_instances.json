@@ -1682,6 +1682,15 @@
     "comment_de": ""
   },
   {
+    "instance": "twitter-bridge.cryobyte.net",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "twitter.activitypub.actor",
     "tags": [
       "CROSSPOSTER"
