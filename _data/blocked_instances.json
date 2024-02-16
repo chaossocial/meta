@@ -1030,6 +1030,15 @@
     "comment_de": ""
   },
   {
+    "instance": "misskey.kuromame048.net",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "morale.ch",
     "tags": [
       "ANTISEMITISM"
