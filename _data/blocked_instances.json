@@ -1700,6 +1700,15 @@
     "comment_de": ""
   },
   {
+    "instance": "twitter.cryobyte.net",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "twitter.doesnotexist.club",
     "tags": [
       "CROSSPOSTER"
