@@ -345,6 +345,15 @@
     "comment_de": ""
   },
   {
+    "instance": "birdsite.rap.social",
+    "tags": [
+      "CROSSPOSTER"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "birdsite.slashdev.space",
     "tags": [
       "CROSSPOSTER"
