@@ -17,6 +17,15 @@
     "comment_en": ""
   },
   {
+    "instance": "det.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "m.mxin.moe",
     "tags": [
       "SPAM"
