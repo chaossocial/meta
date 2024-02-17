@@ -548,5 +548,14 @@
     "receipts": [],
     "comment_en": "",
     "comment_de": ""
+  },
+  {
+    "instance": "wulf.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
   }
 ]
