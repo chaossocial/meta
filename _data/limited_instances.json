@@ -123,6 +123,15 @@
     "comment_en": ""
   },
   {
+    "instance": "daotodon.me",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "det.social",
     "tags": [
       "SPAM"
