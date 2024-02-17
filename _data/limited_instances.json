@@ -247,6 +247,15 @@
     "comment_de": ""
   },
   {
+    "instance": "mstdn.shinkaifan.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "nafo.uk",
     "tags": [
       "SPAM"
