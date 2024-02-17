@@ -114,6 +114,15 @@
     "comment_de": ""
   },
   {
+    "instance": "forum-lucifer.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "fpl.social",
     "tags": [
       "SPAM"
