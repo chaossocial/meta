@@ -392,6 +392,15 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon.joaoleitao.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon.kevnet.cloud",
     "tags": [
       "SPAM"
