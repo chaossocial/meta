@@ -1,5 +1,14 @@
 [
   {
+    "instance": "airwaves.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "azemet.space",
     "tags": [
       "SPAM"
