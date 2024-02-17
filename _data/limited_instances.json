@@ -150,6 +150,15 @@
     "comment_de": ""
   },
   {
+    "instance": "nafo.uk",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "ostfrieslnd.social",
     "tags": [
       "SPAM"
