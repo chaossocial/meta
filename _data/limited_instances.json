@@ -553,6 +553,15 @@
     "comment_de": ""
   },
   {
+    "instance": "so.eddyn.net",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "social.cutefunny.net",
     "tags": [
       "SPAM"
