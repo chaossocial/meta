@@ -256,6 +256,15 @@
     "comment_en": ""
   },
   {
+    "instance": "mastodon.unpluggedrva.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "metsubo-jinrai.net",
     "tags": [
       "SPAM"
