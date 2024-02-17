@@ -43,6 +43,15 @@
     "comment_en": ""
   },
   {
+    "instance": "mas.atmx.ca",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon-swiss.org",
     "tags": [
       "SPAM"
