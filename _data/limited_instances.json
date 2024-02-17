@@ -577,6 +577,15 @@
     "comment_de": ""
   },
   {
+    "instance": "wellcr.app",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "wistodon.org",
     "tags": [
       "SPAM"
