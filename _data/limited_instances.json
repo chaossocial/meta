@@ -53,6 +53,15 @@
     "comment_de": ""
   },
   {
+    "instance": "graphvisualization.masto.host",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "gronp.masto.host",
     "tags": [
       "SPAM"
