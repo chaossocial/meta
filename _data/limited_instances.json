@@ -95,6 +95,15 @@
     "comment_en": ""
   },
   {
+    "instance": "squabble.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "subculture-space.com",
     "tags": [],
     "receipts": [],
