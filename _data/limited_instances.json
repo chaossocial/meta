@@ -185,6 +185,15 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon.spesh.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon.thedirtydis.co",
     "tags": [
       "SPAM"
