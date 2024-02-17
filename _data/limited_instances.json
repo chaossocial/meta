@@ -141,6 +141,15 @@
     "comment_de": ""
   },
   {
+    "instance": "guitar.rodeo",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "jvm.social",
     "tags": [
       "SPAM"
