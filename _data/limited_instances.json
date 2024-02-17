@@ -123,6 +123,15 @@
     "comment_de": ""
   },
   {
+    "instance": "games.retrotalk.live",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "graphvisualization.masto.host",
     "tags": [
       "SPAM"
