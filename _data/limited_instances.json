@@ -849,6 +849,18 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon-7ecc009c.cloudplane.app",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mastodon-7ecc009c.cloudplane.app/@0cnkcnttly",
+      "https://mastodon-7ecc009c.cloudplane.app/@2tuwziusdb"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon-swiss.org",
     "tags": [
       "SPAM"
