@@ -183,6 +183,19 @@
     "comment_de": ""
   },
   {
+    "instance": "cherryberry.pink",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://cherryberry.pink/@9kviqefk9r",
+      "https://cherryberry.pink/@clepinybuw",
+      "https://cherryberry.pink/@orcituemow"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "cmm.fyi",
     "tags": [
       "SPAM"
