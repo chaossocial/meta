@@ -17,8 +17,9 @@
                     <br>
                     {% if include.lang == "en" %}<i>Receipts:</i>{% else %}<i>Belege:</i>{% endif %}
                     {% for receipt in instance.receipts %}
-                        <a href="{{ receipt }}">[{{ forloop.index }}]</a><br>
+                        <a href="{{ receipt }}">[{{ forloop.index }}]</a>
                     {% endfor %}
+                    <br>
                 {% endif %}
         </dd>
     {% endfor %}
