@@ -61,30 +61,28 @@ def block_instance(
         "instance": instance,
         "tags": [t for t in tags if t in BLOCK_TAGS],
         "receipts": receipts or [],
-        "comment_de": comment_de or "",
         "comment_en": comment_en or "",
+        "comment_de": comment_de or "",
     }
     instances = get_blocked_instances(action)
     if any(i["instance"] == instance for i in instances):
         raise Exception("Instance already in list")
 
     instances.append(instance_data)
-    write_blocked_instances(instance_data, action)
+    write_blocked_instances(instances, action)
     print(f"Instance added to {action} list data.")
 
+    block_url = f"https://chaos.social/admin/domain_blocks/new?_domain={instance}"
     if not mastodon:
         try:
             mastodon = get_working_mastodon()
         except ImportError:
-            block_url = (
-                f"https://chaos.social/admin/domain_blocks/new?_domain={instance}"
-            )
             print(f"mastodon-py not installed, please block manually: {block_url}")
             raise
 
     try:
         mastodon.admin_create_domain_block(
-            domain="instance",
+            domain=instance,
             severity="suspend" if action == "block" else "silence",
         )
     except Exception as e:
