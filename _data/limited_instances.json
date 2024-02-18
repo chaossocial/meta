@@ -340,6 +340,18 @@
     "comment_de": ""
   },
   {
+    "instance": "digitaldata.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://digitaldata.social/@60abof8lpy",
+      "https://digitaldata.social/@6tmdhhqqlb"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "discourse.helenprejean.org",
     "tags": [
       "SPAM"
