@@ -1599,6 +1599,20 @@
     ]
   },
   {
+    "instance": "social.foederiert.de",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://social.foederiert.de/@4srvdnzyrm",
+      "https://social.foederiert.de/@gmdy1duym9",
+      "https://social.foederiert.de/@o3usjezf7g",
+      "https://social.foederiert.de/@zttskgjq5c"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "social.learntosolveit.com",
     "tags": [
       "SPAM"
