@@ -490,6 +490,15 @@
     "comment_de": ""
   },
   {
+    "instance": "mstdn.penguinhub.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mstdn.shinkaifan.com",
     "tags": [
       "SPAM"
