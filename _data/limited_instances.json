@@ -1847,6 +1847,18 @@
     "comment_de": ""
   },
   {
+    "instance": "tty0.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://tty0.social/@1pwttugiqw",
+      "https://tty0.social/@d5d5vomcli"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "veoh.social",
     "tags": [
       "SPAM"
