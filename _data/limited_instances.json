@@ -1261,6 +1261,17 @@
     "comment_de": ""
   },
   {
+    "instance": "nasface.cz",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://nasface.cz/@ksh1oimypq"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "odenwald.social",
     "tags": [
       "SPAM"
