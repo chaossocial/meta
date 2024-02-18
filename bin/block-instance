@@ -1,47 +1,23 @@
 #!/usr/bin/env python3
-import json
-import subprocess
-
 import inquirer
 
-from utils import get_working_mastodon
-
-TAGS = [
-    "ANTISEMITISM",
-    "CONSPIRACY",
-    "CROSSPOSTER",
-    "DISCRIMINATION",
-    "FREE SPEECH ZONE",
-    "HARASSMENT",
-    "HOMOPHOBIA",
-    "LOLICON",
-    "MISOGYNIA",
-    "NATIONALISM",
-    "PEDOPHILIA",
-    "PRIVACY",
-    "RACISM",
-    "RIGHTWING",
-    "SCAM",
-    "SPAM",
-    "TRANSPHOBIA",
-    "UNMODERATED",
-]
+from utils import BLOCK_TAGS, block_instance
 
 
 def main():
     questions = [
         inquirer.Text(name="instance", message="Instance URL"),
         inquirer.List(
-            name="block_type",
+            name="action",
             message="Block level",
             choices=(
-                ("Block", "blocked_instances.json"),
-                ("Limit", "limited_instances.json"),
+                ("Block", "block"),
+                ("Limit", "limit"),
             ),
             default="Block",
         ),
         inquirer.Checkbox(
-            name="tags", message="Categories", choices=TAGS, carousel=True
+            name="tags", message="Categories", choices=BLOCK_TAGS, carousel=True
         ),
         inquirer.Text(
             name="receipts",
@@ -65,47 +41,10 @@ def main():
         r.strip() for r in answers["receipts"].split(",") if r.strip()
     ]
 
-    path = f"_data/{answers.pop('block_type')}"
-    with open(path, "r") as f:
-        data = json.load(f)
-
-    if answers["instance"].startswith("https://"):
-        answers["instance"] = answers["instance"][len("https://") :]
-
-    if any(instance["instance"] == answers["instance"] for instance in data):
-        print("Instance already in list")
-        return
-
-    data.append(answers)
-    write_blocked_instances(data, path)
-    print("Instance added to block list data.")
-
-    block_url = (
-        f"https://chaos.social/admin/domain_blocks/new?_domain={answers['instance']}"
-    )
     try:
-        mastodon = get_working_mastodon()
-    except ImportError:
-        print(f"mastodon-py not installed, please block manually: {block_url}")
-        return
-
-    try:
-        mastodon.admin_create_domain_block(
-            domain=answers["instance"],
-            severity="suspend" if "block" in str(path) else "silence",
-        )
+        block_instance(**answers)
     except Exception as e:
-        print(f"Failed to block domain via API: {e}")
-        print(f"Please block the domain manually: {block_url}")
-        return
-
-    subprocess.run(["git", "add", path])
-    action = "Block" if "block" in str(path) else "Limit"
-    comment = answers["comment_en"] or answers["comment_de"]
-    commit_message = f"{action} {answers['instance']}"
-    if comment:
-        commit_message += f"\n\n{comment}"
-    subprocess.run(["git", "commit", "-m", commit_message])
+        print(f"Error: {e}")
 
 
 if __name__ == "__main__":
