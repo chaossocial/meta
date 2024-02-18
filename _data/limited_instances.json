@@ -746,6 +746,19 @@
     "comment_de": ""
   },
   {
+    "instance": "m.corduba.tech",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://m.corduba.tech/@0tfkdcw0k2",
+      "https://m.corduba.tech/@jpmgry6pt3",
+      "https://m.corduba.tech/@vx79xg1j2n"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "m.mxin.moe",
     "tags": [
       "SPAM"
