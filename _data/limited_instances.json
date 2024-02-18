@@ -1462,6 +1462,17 @@
     "comment_de": ""
   },
   {
+    "instance": "pxlmo.net",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://pxlmo.net/@nil77wcsbd"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "sandiegourbanists.com",
     "tags": [
       "SPAM"
