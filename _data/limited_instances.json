@@ -609,6 +609,17 @@
     "comment_de": ""
   },
   {
+    "instance": "hdty.in",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://hdty.in/@v4jwnqau8v"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "jvm.social",
     "tags": [
       "SPAM"
