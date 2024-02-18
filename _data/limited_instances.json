@@ -363,6 +363,18 @@
     "comment_de": ""
   },
   {
+    "instance": "don.neet.co.jp",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://don.neet.co.jp/@avcttjomst",
+      "https://don.neet.co.jp/@lm9ztxuz4q"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "esglife.social",
     "tags": [
       "SPAM"
