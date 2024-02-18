@@ -387,6 +387,18 @@
     "comment_de": ""
   },
   {
+    "instance": "edusocial.it",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://edusocial.it/@btjcwrbzin",
+      "https://edusocial.it/@rkoqyikoey"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "esglife.social",
     "tags": [
       "SPAM"
