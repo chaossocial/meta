@@ -620,6 +620,17 @@
     "comment_de": ""
   },
   {
+    "instance": "i.transmit.love",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://i.transmit.love/@glljgzzn7m"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "jvm.social",
     "tags": [
       "SPAM"
