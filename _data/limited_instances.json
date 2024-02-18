@@ -805,6 +805,17 @@
     ]
   },
   {
+    "instance": "m.techsocial.site",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://m.techsocial.site/@5qfaj1vkmv"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "madworld.social",
     "tags": [
       "SPAM"
