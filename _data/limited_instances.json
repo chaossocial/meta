@@ -1562,6 +1562,17 @@
     "comment_de": ""
   },
   {
+    "instance": "rtypedbs.hostdon.ne.jp",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://rtypedbs.hostdon.ne.jp/@xafsfjdx3f"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "sandiegourbanists.com",
     "tags": [
       "SPAM"
