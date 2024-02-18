@@ -1926,6 +1926,17 @@
     "comment_de": ""
   },
   {
+    "instance": "witten.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://witten.social/@iz3dctiaqi"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "wulf.social",
     "tags": [
       "SPAM"
