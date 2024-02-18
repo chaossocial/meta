@@ -1178,6 +1178,21 @@
     "comment_de": ""
   },
   {
+    "instance": "mentalhealth-masto.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mentalhealth-masto.com/@07azsk66kx",
+      "https://mentalhealth-masto.com/@6sgr2nhsek",
+      "https://mentalhealth-masto.com/@bkvukyjy9y",
+      "https://mentalhealth-masto.com/@n2e8xnyg8b",
+      "https://mentalhealth-masto.com/@st1jd1oz0u"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "metsubo-jinrai.net",
     "tags": [
       "SPAM"
