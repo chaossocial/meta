@@ -1781,6 +1781,17 @@
     "comment_de": ""
   },
   {
+    "instance": "toot.poedelwitz.de",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://toot.poedelwitz.de/@6glwapwnes"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "tootnet.nl",
     "tags": [
       "SPAM"
