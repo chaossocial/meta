@@ -1336,6 +1336,17 @@
     "comment_de": ""
   },
   {
+    "instance": "nwb.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://nwb.social/@2p8auokpxa"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "nycity.social",
     "tags": [
       "SPAM"
