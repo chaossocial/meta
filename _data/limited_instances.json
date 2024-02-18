@@ -1825,6 +1825,17 @@
     "comment_de": ""
   },
   {
+    "instance": "tribe.net",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://tribe.net/@i0ubhvpsa1"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "ttrpg-hangout.social",
     "tags": [
       "SPAM"
