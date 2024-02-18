@@ -690,6 +690,18 @@
     "comment_de": ""
   },
   {
+    "instance": "kommunismus.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://kommunismus.social/@habewknpif",
+      "https://kommunismus.social/@qwnqvgqjs0"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "left-tusk.com",
     "tags": [
       "SPAM"
