@@ -1305,6 +1305,19 @@
     "comment_de": ""
   },
   {
+    "instance": "nycity.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://nycity.social/@ampqowxbmc",
+      "https://nycity.social/@cdt5192ort",
+      "https://nycity.social/@i590bzotij"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "odenwald.social",
     "tags": [
       "SPAM"
