@@ -5,15 +5,13 @@
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-	display:inline;
+  display: inline;
 }
 
 .post-meta {
-    margin: 1.75rem 0 1em 0;
+  margin: 1.75rem 0 1em 0;
 }
-	
+
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax"
-;
-@import "chaos"
+@import "syntax";
+@import "chaos";
