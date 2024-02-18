@@ -1066,6 +1066,18 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon.snmsoc.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mastodon.snmsoc.org/@dwwnsfbnkx",
+      "https://mastodon.snmsoc.org/@mvdrigjcqu"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon.spesh.com",
     "tags": [
       "SPAM"
