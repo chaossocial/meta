@@ -1792,6 +1792,17 @@
     "comment_de": ""
   },
   {
+    "instance": "toot.quest",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://toot.quest/@zcqqahsy4v"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "tootnet.nl",
     "tags": [
       "SPAM"
