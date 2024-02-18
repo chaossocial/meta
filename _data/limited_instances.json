@@ -1711,6 +1711,18 @@
     "comment_de": ""
   },
   {
+    "instance": "tcpcat.net",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://social.tcpcat.net/@9xtqzvyg8d",
+      "https://social.tcpcat.net/@ohrf3ltmen"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "terapeldigitaal.nl",
     "tags": [
       "SPAM"
