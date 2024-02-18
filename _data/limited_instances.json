@@ -31,6 +31,17 @@
     "comment_de": ""
   },
   {
+    "instance": "aether.run",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://aether.run/@8eadtifatk"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "airwaves.social",
     "tags": [
       "SPAM"
