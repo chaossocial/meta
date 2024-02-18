@@ -1428,6 +1428,18 @@
     "comment_de": ""
   },
   {
+    "instance": "portside.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://portside.social/@6r4hslw7jz",
+      "https://portside.social/@ngdtymzkst"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "prf.me",
     "tags": [
       "SPAM"
