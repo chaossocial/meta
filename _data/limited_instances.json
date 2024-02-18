@@ -1294,6 +1294,17 @@
     "comment_de": ""
   },
   {
+    "instance": "niederbayern.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://niederbayern.social/@kuxwlaks7c"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "odenwald.social",
     "tags": [
       "SPAM"
