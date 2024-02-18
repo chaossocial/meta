@@ -1,8 +1,19 @@
+import json
+from pathlib import Path
 
+
+def write_blocked_instances(data, path):
+    try:
+        data = sorted(data, key=lambda x: x["instance"])
+        with open(path, "w") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"Failed to write to {path}: {e}")
+        print("Data:")
+        print(data)
 
 
 def get_working_mastodon():
-    from pathlib import Path
     from mastodon import Mastodon
 
     SCOPES = [

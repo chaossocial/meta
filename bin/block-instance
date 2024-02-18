@@ -77,12 +77,9 @@ def main():
         return
 
     data.append(answers)
-    data = sorted(data, key=lambda x: x["instance"])
-
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
+    write_blocked_instances(data, path)
     print("Instance added to block list data.")
+
     block_url = (
         f"https://chaos.social/admin/domain_blocks/new?_domain={answers['instance']}"
     )
