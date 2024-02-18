@@ -31,8 +31,12 @@ def get_working_mastodon():
     from mastodon import Mastodon
 
     SCOPES = [
+        "admin:read:accounts",
         "admin:read:domain_blocks",
+        "admin:read:reports",
+        "admin:write:accounts",
         "admin:write:domain_blocks",
+        "admin:write:reports",
     ]
 
     if not Path(".mastodon-client.secret").absolute().exists():
