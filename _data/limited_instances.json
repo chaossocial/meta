@@ -1166,6 +1166,18 @@
     "comment_de": ""
   },
   {
+    "instance": "meetbeauties.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://meetbeauties.social/@0lffzq0whp",
+      "https://meetbeauties.social/@8dnnqdl0bp"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "metsubo-jinrai.net",
     "tags": [
       "SPAM"
