@@ -111,6 +111,9 @@ def main():
     with open(path, "r") as f:
         data = json.load(f)
 
+    if answers["instance"].startswith("https://"):
+        answers["instance"] = answers["instance"][len("https://") :]
+
     if any(instance["instance"] == answers["instance"] for instance in data):
         print("Instance already in list")
         return
