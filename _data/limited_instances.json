@@ -512,6 +512,20 @@
     "comment_de": ""
   },
   {
+    "instance": "fusionpros.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://fusionpros.social/@5npvpbiyv7",
+      "https://fusionpros.social/@ciyodpehfr",
+      "https://fusionpros.social/@rq3z6x9vrk",
+      "https://fusionpros.social/@xrvxoltfjd"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "games.retrotalk.live",
     "tags": [
       "SPAM"
