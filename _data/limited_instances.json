@@ -1646,6 +1646,17 @@
     "comment_de": ""
   },
   {
+    "instance": "social.sargasso.nl",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://social.sargasso.nl/@86tahr1dqk"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "social.territorisostenibili.org",
     "tags": [
       "SPAM"
