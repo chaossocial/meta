@@ -914,6 +914,18 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon.acm.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mastodon.acm.org/@kypxnshi11",
+      "https://mastodon.acm.org/@x9b2p6ibmr"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon.ashevillains.org",
     "tags": [
       "SPAM"
