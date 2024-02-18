@@ -1529,6 +1529,18 @@
     "comment_de": ""
   },
   {
+    "instance": "smooth.guru",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://smooth.guru/@h9dyokzk4e",
+      "https://smooth.guru/@nlb6v0fms2"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "so.eddyn.net",
     "tags": [
       "SPAM"
