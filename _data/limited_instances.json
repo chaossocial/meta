@@ -467,6 +467,17 @@
     "comment_de": ""
   },
   {
+    "instance": "folksocial.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://folksocial.org/@iwd9wt6adh"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "forum-lucifer.com",
     "tags": [
       "SPAM"
