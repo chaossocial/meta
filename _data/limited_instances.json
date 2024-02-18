@@ -1408,6 +1408,17 @@
     "comment_de": ""
   },
   {
+    "instance": "osten.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://osten.social/@gxf2wpe3mu"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "ostfrieslnd.social",
     "tags": [
       "SPAM"
