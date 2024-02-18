@@ -1484,6 +1484,17 @@
     "comment_de": ""
   },
   {
+    "instance": "quakers.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://quakers.social/@tkynvk8r5h"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "sandiegourbanists.com",
     "tags": [
       "SPAM"
