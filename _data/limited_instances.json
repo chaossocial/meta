@@ -1903,6 +1903,18 @@
     "comment_de": ""
   },
   {
+    "instance": "westen.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://westen.social/@oxdpjxej1e",
+      "https://westen.social/@snhkc0fzmm"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "wistodon.org",
     "tags": [
       "SPAM"
