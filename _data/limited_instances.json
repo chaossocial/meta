@@ -1352,6 +1352,18 @@
     "comment_de": ""
   },
   {
+    "instance": "opensimsocial.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://opensimsocial.com/@j3amiulo1w",
+      "https://opensimsocial.com/@v8xuysdfqr"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "ostfrieslnd.social",
     "tags": [
       "SPAM"
