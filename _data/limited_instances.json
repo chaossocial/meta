@@ -583,6 +583,21 @@
     "comment_de": ""
   },
   {
+    "instance": "groupsebelah.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://groupsebelah.com/@9pfzkgq59c",
+      "https://groupsebelah.com/@br5oak2j9u",
+      "https://groupsebelah.com/@d58awxao6m",
+      "https://groupsebelah.com/@nktojnp9fb",
+      "https://groupsebelah.com/@tiqahleeqn"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "guitar.rodeo",
     "tags": [
       "SPAM"
