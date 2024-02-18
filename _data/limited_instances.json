@@ -1272,6 +1272,17 @@
     "comment_de": ""
   },
   {
+    "instance": "neuroscience-mastodon.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://neuroscience-mastodon.com/@dcwd4uppow"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "odenwald.social",
     "tags": [
       "SPAM"
