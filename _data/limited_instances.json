@@ -421,6 +421,17 @@
     "comment_de": ""
   },
   {
+    "instance": "estrogen.cat",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://estrogen.cat/@phptwvzm9s"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "extraordinarygeeks.social",
     "tags": [
       "SPAM"
