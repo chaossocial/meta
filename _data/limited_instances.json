@@ -413,6 +413,17 @@
     "comment_de": ""
   },
   {
+    "instance": "ellis.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://ellis.social/@ck1y3b6s2d"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "esglife.social",
     "tags": [
       "SPAM"
