@@ -768,6 +768,17 @@
     "comment_de": ""
   },
   {
+    "instance": "lllsecurity.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://lllsecurity.com/@c0xs2s0nno"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "loðfíll.is",
     "tags": [
       "SPAM"
