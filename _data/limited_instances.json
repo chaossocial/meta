@@ -1456,6 +1456,17 @@
     "comment_de": ""
   },
   {
+    "instance": "owo.town",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://owo.town/@dgky3wzi9n"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "pho.social",
     "tags": [
       "SPAM"
