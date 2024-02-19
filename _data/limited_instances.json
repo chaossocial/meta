@@ -517,6 +517,17 @@
     "comment_de": ""
   },
   {
+    "instance": "freesocial.co",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://freesocial.co/@kwmk7mbqhx"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "fusionpros.social",
     "tags": [
       "SPAM"
