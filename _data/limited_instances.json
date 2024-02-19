@@ -1827,6 +1827,17 @@
     "comment_de": ""
   },
   {
+    "instance": "tambayan.us",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://tambayan.us/@elxbmuxazf"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "tcpcat.net",
     "tags": [
       "SPAM"
