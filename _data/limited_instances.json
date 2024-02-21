@@ -458,6 +458,17 @@
     "comment_de": ""
   },
   {
+    "instance": "exmormon.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://exmormon.social/@bks9cshrkn"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "extraordinarygeeks.social",
     "tags": [
       "SPAM"
