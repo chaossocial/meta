@@ -994,6 +994,17 @@
     "comment_de": ""
   },
   {
+    "instance": "mainspitze.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mainspitze.social/@hoviqjrumk"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mas.atmx.ca",
     "tags": [
       "SPAM"
