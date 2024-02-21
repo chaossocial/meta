@@ -1168,6 +1168,17 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon.io.seg.br",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mastodon.io.seg.br/@iwrqvgikzo"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon.joaoleitao.org",
     "tags": [
       "SPAM"
