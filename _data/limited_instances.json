@@ -208,6 +208,17 @@
     "comment_de": ""
   },
   {
+    "instance": "closednetwork.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://closednetwork.social/@fziy0meubf"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "cmm.fyi",
     "tags": [
       "SPAM"
