@@ -32,6 +32,17 @@
     "comment_de": ""
   },
   {
+    "instance": "adforward.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://adforward.org/@buihgcvoj6"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "aether.run",
     "tags": [
       "SPAM"
