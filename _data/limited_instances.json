@@ -1317,6 +1317,18 @@
     "comment_de": ""
   },
   {
+    "instance": "molaguay.xyz",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://molaguay.xyz/@iq776mofrp",
+      "https://molaguay.xyz/@xeimowzenj"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "moth.social",
     "tags": [
       "SPAM"
