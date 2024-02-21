@@ -1763,6 +1763,17 @@
     "comment_de": ""
   },
   {
+    "instance": "social.hardlimit.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://social.hardlimit.com/@ynnmuvwof9"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "social.learntosolveit.com",
     "tags": [
       "SPAM"
