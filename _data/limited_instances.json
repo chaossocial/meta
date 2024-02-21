@@ -1908,6 +1908,17 @@
     "comment_de": ""
   },
   {
+    "instance": "spacey.space",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://spacey.space/@ohr4yyam4t"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "squabble.org",
     "tags": [
       "SPAM"
