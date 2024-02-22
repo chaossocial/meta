@@ -1785,6 +1785,17 @@
     "comment_de": ""
   },
   {
+    "instance": "s-h.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://s-h.social/@bq2cqf35yw"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "sandiegourbanists.com",
     "tags": [
       "SPAM"
