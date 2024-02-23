@@ -629,17 +629,6 @@
     "comment_de": ""
   },
   {
-    "instance": "moth.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://moth.social/@p1vjj1148z"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mstdn.shinkaifan.com",
     "tags": [
       "SPAM"
