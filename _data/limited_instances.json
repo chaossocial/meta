@@ -588,17 +588,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mastodon.lookbusy.org",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mastodon.lookbusy.org/@nuwajpxyjo"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon.spesh.com",
     "tags": [
       "SPAM"
