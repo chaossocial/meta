@@ -949,19 +949,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mstdn.penguinhub.org",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mstdn.penguinhub.org/@03tby9m2bc",
-      "https://mstdn.penguinhub.org/@d7qav3tkmj",
-      "https://mstdn.penguinhub.org/@wuoostscc3"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mstdn.shinkaifan.com",
     "tags": [
       "SPAM"
