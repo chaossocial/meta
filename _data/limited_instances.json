@@ -739,17 +739,6 @@
     "comment_de": ""
   },
   {
-    "instance": "prf.me",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://prf.me/@vu2rze1mwx"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "rtypedbs.hostdon.ne.jp",
     "tags": [
       "SPAM"
