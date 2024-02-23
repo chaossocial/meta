@@ -461,18 +461,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mastodon.ashevillains.org",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mastodon.ashevillains.org/@cwziof5u3p",
-      "https://mastodon.ashevillains.org/@ff6elgouzf"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon.io.seg.br",
     "tags": [
       "SPAM"
