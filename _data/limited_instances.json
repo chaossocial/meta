@@ -640,17 +640,6 @@
     "comment_de": ""
   },
   {
-    "instance": "nafo.uk",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://nafo.uk/@oidmbanuvl"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "nasface.cz",
     "tags": [
       "SPAM"
