@@ -186,24 +186,6 @@
     "comment_de": ""
   },
   {
-    "instance": "det.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://det.social/@hnt6nqqzxc",
-      "https://det.social/@bc7t6g9qoc",
-      "https://det.social/@sdwhgnoggr",
-      "https://det.social/@nivwxhfm9g",
-      "https://det.social/@znpclc1lfh",
-      "https://det.social/@lw0mi1ixm2",
-      "https://det.social/@ukhg66pop3",
-      "https://det.social/@qmn32juac9"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "digitaldata.social",
     "tags": [
       "SPAM"
