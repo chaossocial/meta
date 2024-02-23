@@ -296,17 +296,6 @@
     "comment_de": ""
   },
   {
-    "instance": "gronp.masto.host",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://gronp.masto.host/@ydeewjub2z"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "hdty.in",
     "tags": [
       "SPAM"
