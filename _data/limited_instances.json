@@ -401,19 +401,6 @@
     "comment_de": ""
   },
   {
-    "instance": "federated.place",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://federated.place/@ctqlpqlahl",
-      "https://federated.place/@drce17exv6",
-      "https://federated.place/@zhocjbccr3"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "fediverse.science",
     "tags": [
       "SPAM"
