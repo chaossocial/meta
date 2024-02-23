@@ -864,19 +864,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mastodon.mg",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mastodon.mg/@1uspyn9ecr",
-      "https://mastodon.mg/@4rhk1mump1",
-      "https://mastodon.mg/@yzhbzltwoi"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon.my",
     "tags": [
       "SPAM"
