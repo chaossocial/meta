@@ -929,17 +929,6 @@
     "comment_de": ""
   },
   {
-    "instance": "wistodon.org",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://wistodon.org/@t46cyqfin6"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "wulf.social",
     "tags": [
       "SPAM"
