@@ -697,17 +697,6 @@
     "comment_de": ""
   },
   {
-    "instance": "pho.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://pho.social/@5zlkwmhwqq"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "phyrexia.ru",
     "tags": [
       "SPAM"
