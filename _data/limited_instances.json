@@ -69,23 +69,6 @@
     "comment_de": ""
   },
   {
-    "instance": "birdon.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://birdon.social/@sgsgvpquiw",
-      "https://birdon.social/@kmn3x67g88",
-      "https://birdon.social/@9mjqaneeno",
-      "https://birdon.social/@outt8dgssz",
-      "https://birdon.social/@uavyalr0uh",
-      "https://birdon.social/@vurs6ls2qv",
-      "https://birdon.social/@bfsuo9qb7o"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "bondsdogs.com",
     "tags": [
       "SPAM"
