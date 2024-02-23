@@ -769,22 +769,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mastodon-ero.xyz",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mastodon-ero.xyz/@0i1bbiyj1h",
-      "https://mastodon-ero.xyz/@0xuqqxze5u",
-      "https://mastodon-ero.xyz/@bewvhw7kbq",
-      "https://mastodon-ero.xyz/@ejuvj34qip",
-      "https://mastodon-ero.xyz/@pzhwiz1onz",
-      "https://mastodon-ero.xyz/@skkctuh6pw"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon-swiss.org",
     "tags": [
       "SPAM"
