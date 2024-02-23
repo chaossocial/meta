@@ -1392,20 +1392,6 @@
     "comment_de": ""
   },
   {
-    "instance": "tty0.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://tty0.social/@1pwttugiqw",
-      "https://tty0.social/@d5d5vomcli",
-      "https://tty0.social/@8j8g4iytmn",
-      "https://tty0.social/@vnhacngxgc"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "veoh.social",
     "tags": [
       "SPAM"
