@@ -353,17 +353,6 @@
     "comment_de": ""
   },
   {
-    "instance": "gervtuber.de",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://gervtuber.de/@vimoj3seg2"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "graphvisualization.masto.host",
     "tags": [
       "SPAM"
