@@ -424,17 +424,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mas.atmx.ca",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mas.atmx.ca/@lifb38adxc"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon-7ecc009c.cloudplane.app",
     "tags": [
       "SPAM"
