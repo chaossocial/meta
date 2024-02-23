@@ -331,20 +331,6 @@
     "comment_de": ""
   },
   {
-    "instance": "detmi.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://detmi.social/@jqqbhk6rub",
-      "https://detmi.social/@f6urkyvtx1",
-      "https://detmi.social/@mo8n9rvlsk",
-      "https://detmi.social/@ixyatmqwwz"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "digitaldata.social",
     "tags": [
       "SPAM"
