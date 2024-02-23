@@ -929,17 +929,6 @@
     "comment_de": ""
   },
   {
-    "instance": "wellcr.app",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://wellcr.app/@opyruu9mzi"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "wistodon.org",
     "tags": [
       "SPAM"
