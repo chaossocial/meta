@@ -1004,20 +1004,6 @@
     "comment_de": ""
   },
   {
-    "instance": "nycity.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://nycity.social/@ampqowxbmc",
-      "https://nycity.social/@cdt5192ort",
-      "https://nycity.social/@i590bzotij",
-      "https://nycity.social/@htpry1qwfg"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "odenwald.social",
     "tags": [
       "SPAM"
