@@ -187,18 +187,6 @@
     "comment_de": ""
   },
   {
-    "instance": "closednetwork.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://closednetwork.social/@fziy0meubf",
-      "https://closednetwork.social/@rmdyximb7b"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "cmm.fyi",
     "tags": [
       "SPAM"
