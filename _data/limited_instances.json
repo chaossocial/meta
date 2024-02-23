@@ -303,17 +303,6 @@
     "comment_de": ""
   },
   {
-    "instance": "fpl.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://fpl.social/@nrbh7fqpnl"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "freesocial.co",
     "tags": [
       "SPAM"
