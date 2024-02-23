@@ -450,18 +450,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mastodon-uk.net",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mastodon-uk.net/@hdnkxwlvzo",
-      "https://mastodon-uk.net/@q94wkfyf6g"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon.aargaunet.ch",
     "tags": [
       "SPAM"
