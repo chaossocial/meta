@@ -927,16 +927,5 @@
     ],
     "comment_en": "",
     "comment_de": ""
-  },
-  {
-    "instance": "wulf.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://wulf.social/@ryypezv06z"
-    ],
-    "comment_en": "",
-    "comment_de": ""
   }
 ]
