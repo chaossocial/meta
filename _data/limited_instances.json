@@ -1303,19 +1303,6 @@
     "comment_de": ""
   },
   {
-    "instance": "tcpcat.net",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://social.tcpcat.net/@9xtqzvyg8d",
-      "https://social.tcpcat.net/@ohrf3ltmen",
-      "https://social.tcpcat.net/@n7nb2eqop4"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "teamhydra.social",
     "tags": [
       "SPAM"
