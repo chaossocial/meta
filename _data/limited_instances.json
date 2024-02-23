@@ -1103,17 +1103,6 @@
     "comment_de": ""
   },
   {
-    "instance": "pouet.evolix.org",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://pouet.evolix.org/@gravdfyeau"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "prf.me",
     "tags": [
       "SPAM"
