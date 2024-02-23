@@ -785,17 +785,6 @@
     "comment_de": ""
   },
   {
-    "instance": "so.eddyn.net",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://so.eddyn.net/@qd41eiulw0"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "social.consoledated.com",
     "tags": [
       "SPAM"
