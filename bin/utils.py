@@ -98,6 +98,47 @@ def block_instance(
     subprocess.run(["git", "commit", "-m", commit_message])
 
 
+def unblock_instance(instance, instance_id=None, action="block", mastodon=None):
+    instances = get_blocked_instances(action)
+    total_instances = len(instances)
+    instances = [i for i in instances if i["instance"] != instance]
+
+    if len(instances) == total_instances:
+        raise Exception("Instance not in list")
+
+    write_blocked_instances(instances, action)
+    print(f"Instance removed from {action} list data.")
+
+    if not mastodon:
+        try:
+            mastodon = get_working_mastodon()
+        except ImportError:
+            print(f"mastodon-py not installed, please unblock manually.")
+            raise
+
+    if not instance_id:
+        instance_id = next(
+            (
+                block["id"]
+                for block in mastodon.admin_domain_blocks()
+                if block["domain"] == instance
+            ),
+            None,
+        )
+    if not instance_id:
+        raise Exception("Instance not found in Mastodon")
+
+    try:
+        mastodon.admin_delete_domain_block(instance_id)
+    except Exception as e:
+        print(f"Failed to unblock domain via API: {e}")
+        print(f"Please unblock the domain manually.")
+        raise
+
+    subprocess.run(["git", "add", _get_data_path(action)])
+    subprocess.run(["git", "commit", "-m", f"Un{action} {instance}"])
+
+
 def get_working_mastodon():
     from mastodon import Mastodon
 
