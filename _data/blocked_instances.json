@@ -963,6 +963,15 @@
     "comment_de": ""
   },
   {
+    "instance": "mashtodon.alterracloud.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastinator.com",
     "tags": [
       "PRIVACY"
