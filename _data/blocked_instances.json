@@ -1565,6 +1565,21 @@
     "comment_de": ""
   },
   {
+    "instance": "social.holocaust.tatar",
+    "tags": [
+      "ANTISEMITISM",
+      "HARASSMENT",
+      "RACISM",
+      "RIGHTWING",
+      "UNMODERATED"
+    ],
+    "receipts": [
+      "https://social.holocaust.tatar/objects/3488cdee-6258-41a2-9b7d-42b2117ed863"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "social.lovingexpressions.net",
     "tags": [
       "TRANSPHOBIA"
