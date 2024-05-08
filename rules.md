@@ -51,6 +51,10 @@ really persistently act against them (and at that point, why are you on chaos.so
 
 Please report behaviour that bothers you. We will keep your report confidential.
 
+We run this instance in our spare time, so we can’t respond instantly. We try to react to all reports within a day, but
+please allow for delays. You can always [contact us](/contact) us in private if you have concerns about moderation. We
+will not comment in public about individual moderation cases.
+
 ## Ultimately,
 
 we ([@leah](https://chaos.social/@leah) and [@rixx](https://chaos.social/@rixx)) are maintaining this instance on our

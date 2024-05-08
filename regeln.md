@@ -54,6 +54,10 @@ hartnäckig und andauernd nach mehreren Warnungen sein (und ganz ehrlich: warum 
 
 Bitte meldet Verhalten, das euch stört. Meldungen werden komplett vertraulich behandelt.
 
+Wir moderieren in unserer Freizeit, und können nicht immer sofort reagieren. Wir bemühen uns, alle Meldungen innerhalb
+eines Tags zu beantworten, aber manchmal dauert es länger. Ihr könnt uns immer privat [kontaktieren](/kontakt), wenn ihr
+Fragen zur Moderation habt. Wir kommentieren konkrete Moderationsentscheidungen nicht öffentlich.
+
 ## Schlussendlich
 
 betreiben wir ([@leah](https://chaos.social/@leah) und [@rixx](https://chaos.social/@rixx)) diese Instanz in unserer
