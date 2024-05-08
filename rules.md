@@ -20,6 +20,7 @@ We expect users on chaos.social to adhere to the following rules:
   and politics, particularly when negative or controversial (those are the larger categories, a CW might be something
   like "uspol, elections").
 - When posting to the local timeline, provide image descriptions.
+- Provide credit for creative works that are not your own. That includes marking AI generated content clearly as such.
 
 *Clarification:* You post to the local timeline when you give your post "public" visibility. If you don't want to follow
 local timeline rules, you can post with visibility "unlisted" – posts will still be visible to everybody (your followers
@@ -36,7 +37,6 @@ unwillingness** to follow the best practices will be considered just like breaki
 
 - Use content warnings liberally, especially for topics that are potentially disturbing or controversial, or that make
   life harder for people struggling with addiction or trauma.
-- Provide credit for creative works that are not your own.
 - Don't be a reply guy – uninvited comments about another user's personal choices, lifestyle or family are strongly discouraged and may be considered harassment.
 - In discussions, please remain civil, do not insult the people you're talking to. Don't escalate.
 
