@@ -20,21 +20,18 @@ post_class: post-template
         {{content}}
     </section>
 
-    <footer class="post-footer">
-        <!-- If we want to display author's name and bio -->
-        {% if site.author %}
+    <footer class="site-footer">
             <figure class="author-image">
-                <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
-                <span class="hidden">{{site.author}}'s Picture</span></a>
+                <a class="img" href="https://chaos.social" style="background-image: url(/assets/images/profile.png)">
+                <span class="hidden">The chaos.social logo: the mastodon logo's speech bubble, but with a rocket silhouette inside</span></a>
             </figure>
             <section class="author">
-                <!-- Author Name -->
-                <h4> {{ site.author }} </h4>
-                <!-- Author Bio -->
-                <p>
-                    The admins bringing chaos.social to you.
-                </p>
+                    <a href="/{% if page.language == "en" %}contact{% else %}kontakt{% endif %}">
+                        {{ site.author }}
+                    </a>
+                    <br>
+                    chaos.social administration and moderation
             </section>
-        {% endif %}
     </footer>
+
 </article>

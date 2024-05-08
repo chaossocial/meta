@@ -905,29 +905,10 @@ margin on the iframe, cause it breaks stuff. */
   width: 80%;
   max-width: 710px;
   margin: 4rem auto;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
   border-bottom: #ebf2f6 1px solid;
   word-break: break-word;
   hyphens: auto;
-}
-
-/* Add a little circle in the middle of the border-bottom on our .post
-   just for the lolz and stylepoints. */
-.post:after {
-  display: block;
-  content: "";
-  width: 7px;
-  height: 7px;
-  border: #e7eef2 1px solid;
-  position: absolute;
-  bottom: -5px;
-  left: 50%;
-  margin-left: -5px;
-  background: #fff;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  box-shadow: #fff 0 0 0 5px;
 }
 
 body:not(.post-template) .post-title {
@@ -1084,25 +1065,6 @@ body:not(.post-template) .post-title {
   margin: 0 -13%;
 }
 
-/* The author credit area after the post */
-.post-footer {
-  position: relative;
-  margin: 6rem 0 0 0;
-  padding: 6rem 0 0 0;
-  border-top: #ebf2f6 1px solid;
-}
-
-.post-footer h4 {
-  font-size: 1.8rem;
-  margin: 0;
-}
-
-.post-footer p {
-  margin: 1rem 0;
-  font-size: 1.4rem;
-  line-height: 1.75em;
-}
-
 /* list of author links - location / url */
 .author-meta {
   padding: 0;
@@ -1119,59 +1081,6 @@ body:not(.post-template) .post-title {
 }
 .author-meta a:hover {
   color: #111;
-}
-
-/* Create some space to the right for the share links */
-.post-footer .author {
-  margin-right: 180px;
-}
-
-.post-footer h4 a {
-  color: #2e2e2e;
-  text-decoration: none;
-}
-
-.post-footer h4 a:hover {
-  text-decoration: underline;
-}
-
-/* Drop the share links in the space to the right.
-   Doing it like this means it's easier for the author bio
-   to be flexible at smaller screen sizes while the share
-   links remain at a fixed width the whole time */
-.post-footer .share {
-  position: absolute;
-  top: 6rem;
-  right: 0;
-  width: 140px;
-}
-
-.post-footer .share a {
-  font-size: 1.8rem;
-  display: inline-block;
-  margin: 1rem 1.6rem 1.6rem 0;
-  color: #bbc7cc;
-  text-decoration: none;
-}
-
-.post-footer .share a:hover {
-  color: #50585d;
-}
-
-/* The subscribe icon on the footer */
-.subscribe {
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  top: -14px;
-  left: 50%;
-  margin-left: -15px;
-  border: #ebf2f6 1px solid;
-  text-align: center;
-  line-height: 2.4rem;
-  border-radius: 50px;
-  background: #fff;
-  transition: box-shadow 0.5s;
 }
 
 /* The RSS icon, inserted via icon font */
@@ -1388,6 +1297,21 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    9. Footer - The bottom of every page
    ========================================================================== */
+/* The subscribe icon on the footer */
+.subscribe {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  margin-left: -15px;
+  border: #ebf2f6 1px solid;
+  text-align: center;
+  line-height: 2.4rem;
+  border-radius: 50px;
+  background: #fff;
+  transition: box-shadow 0.5s;
+}
 
 .site-footer {
   position: relative;
@@ -1395,7 +1319,7 @@ body:not(.post-template) .post-title {
   padding: 0.5rem 15px;
   border-top: #ebf2f6 1px solid;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.75em;
   color: #bbc7cc;
 }
@@ -1410,19 +1334,21 @@ body:not(.post-template) .post-title {
   color: #50585d;
 }
 
-.poweredby {
-  display: block;
-  width: 45%;
-  float: right;
-  text-align: right;
+
+/* Create some space to the right for the share links */
+.site-footer .author {
+  margin-right: 180px;
+  margin-top: 10px;
 }
 
-.copyright {
-  display: block;
-  width: 45%;
-  float: left;
+.site-footer h4 a {
+  color: #2e2e2e;
+  text-decoration: none;
 }
 
+.site-footer h4 a:hover {
+  text-decoration: underline;
+}
 /* ==========================================================================
    10. Media Queries - Smaller than 900px
    ========================================================================== */
