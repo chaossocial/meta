@@ -40,6 +40,9 @@ Letzten Monat betrugen unsere Serverkosten
 und wir hatten ein Spendenaufkommen von
 **€&nbsp;{{ site.data.money.cbrSubreports[0][1].prRows[0].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**.
 
+**Achtung:** In der Tabelle fehlen gerade die Daten für März und April 2024, weil unsere Bank grad nicht imstande ist,
+CSV-Exports rauszulassen. Wird geupdated, sobalds wieder geht.
+
 <small>*(Tabelle betriebsbedingt auf Englisch.)*</small>
 
 {% include money.html %}

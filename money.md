@@ -37,6 +37,9 @@ while we had an income of
 **€&nbsp;{{ site.data.money.cbrSubreports[0][1].prRows[0].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**
 in donations.
 
+**Note:** We’re lacking data for March and April 2024 currently, due to our bank failing to export CSVs for these
+months. We’ll update the table as soon as we have the data.
+
 {% include money.html %}
 
 ## FAQ
