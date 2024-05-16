@@ -22,6 +22,8 @@ Nutzer:innen von chaos.social haben sich an die folgenden Regeln zu halten:
   (insbesondere bei negativen oder kontroversen Themen). Das sind nur die Kategorien, eine CW könnte also z.B. "depol,
   Wahlen" sein.
 - Posts auf der lokalen Timeline brauchen Bildbeschreibungen.
+- Quellenangaben beim Posten von Inhalten Anderer, besonders bei kreativen Werken. Dazu gehört auch eine klare
+  Kennzeichnung von KI-generierten Inhalten.
 
 *Erläuterung:* Posts landen auf der lokalen Timeline, wenn sie mit dem Sichtbarkeitslevel "public" geschrieben werden.
 Wenn Posts nicht auf der lokalen Timeline landen sollen, bietet sich das Sichtbarkeitslevel "unlisted" an – damit sind
@@ -38,7 +40,6 @@ Regelverstoß, aber **wiederholter mutwilliger Unwille** ihnen zu folgen wird wi
 
 - CWs (Inhaltswarnungen) sollten freigiebig verwendet werden, besonders für Themen, die verstörend oder umstritten sind,
   oder die Menschen das Leben schwerer machen, die mit Suchtproblemen oder Traumata zu kämpfen haben.
-- Quellenangaben beim Posten von Inhalten Anderer, besonders bei kreativen Werken.
 - Keine nervigen Drukos – insbesondere sind ungefragte Kommentare über das Privatleben oder die Entscheidungen anderer
   Nutzer:innen unerwünscht und können als Belästigung im Sinne der Instanzregeln gelten.
 - In Diskussionen bitte höflich bleiben – keine Beleidigungen, keine Eskalation.
@@ -53,6 +54,10 @@ Warnungen und Gespräche. Verhalten gegen die Best Practices kann *auch* zum Rau
 hartnäckig und andauernd nach mehreren Warnungen sein (und ganz ehrlich: warum bist du dann auf chaos.social?).
 
 Bitte meldet Verhalten, das euch stört. Meldungen werden komplett vertraulich behandelt.
+
+Wir moderieren in unserer Freizeit, und können nicht immer sofort reagieren. Wir bemühen uns, alle Meldungen innerhalb
+eines Tags zu beantworten, aber manchmal dauert es länger. Ihr könnt uns immer privat [kontaktieren](/kontakt), wenn ihr
+Fragen zur Moderation habt. Wir kommentieren konkrete Moderationsentscheidungen nicht öffentlich.
 
 ## Schlussendlich
 
