@@ -983,6 +983,15 @@
     "comment_de": ""
   },
   {
+    "instance": "m.ating.press",
+    "tags": [
+      "UNMODERATED"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mashtodon.alterracloud.com",
     "tags": [
       "SPAM"
