@@ -31,3 +31,9 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem "webrick", "~> 1.7"
 
 gem "json", "~> 2.7"
+
+# Manually downgrading sassc, as 2.2.0 has a really phenomenal bug that misplaces the libsass.so file
+# into the incorrect bundler directory. The other option is to manually symlink the two, and ain't nobody
+# got time for that.
+# Tracking at https://github.com/sass/sassc-ruby/issues/146
+gem "sassc", "< 2.2.0"
