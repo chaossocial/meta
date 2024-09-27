@@ -7,7 +7,7 @@ Local development
 -----------------
 
 ```
-bundle install --path vendor/bundle
+bundle install
 bundle exec jekyll serve
 ```
 
