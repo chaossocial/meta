@@ -160,7 +160,7 @@ Für den Betrieb dieser Mastodon-Instanz zuständig ist die:
 
 # III. Impressum
 
-Angaben gemäß § 5 TMG:
+Angaben gemäß § 5 DDG:
 
     chaos.social e.V.
     c/o Leah Oswald
