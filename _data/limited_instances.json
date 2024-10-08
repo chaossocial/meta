@@ -625,6 +625,17 @@
     "comment_en": ""
   },
   {
+    "instance": "misskey.gg",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://misskey.gg/@p1pn5ywmnp"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "misskey.pepabo.com",
     "tags": [
       "SPAM"
