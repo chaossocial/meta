@@ -55,6 +55,17 @@
     "comment_de": ""
   },
   {
+    "instance": "asocial.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://asocial.social/@28ciyarsxl"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "besties.com",
     "tags": [
       "SPAM"
