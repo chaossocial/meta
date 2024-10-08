@@ -378,6 +378,17 @@
     "comment_de": ""
   },
   {
+    "instance": "lawsocial.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://lawsocial.org/@dykmef17j2"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "loðfíll.is",
     "tags": [
       "SPAM"
