@@ -457,6 +457,17 @@
     ]
   },
   {
+    "instance": "m.n1l.dev",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://m.n1l.dev/@foom6zywaa"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "m.techsocial.site",
     "tags": [
       "SPAM"
