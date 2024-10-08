@@ -658,6 +658,17 @@
     "comment_de": ""
   },
   {
+    "instance": "nekton.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://nekton.social/@i5dd9fx8fq"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "neuroscience-mastodon.com",
     "tags": [
       "SPAM"
