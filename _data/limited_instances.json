@@ -412,17 +412,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mastodon.aargaunet.ch",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mastodon.aargaunet.ch/@ge3viirhwa"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon.buzhangjiuzhou.com",
     "tags": [
       "SPAM"
