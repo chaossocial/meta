@@ -614,6 +614,17 @@
     "comment_en": ""
   },
   {
+    "instance": "mk.chiwa.net",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mk.chiwa.net/@7vc2c2hxxp"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mk.hoshisaki-h.com",
     "tags": [
       "SPAM"
