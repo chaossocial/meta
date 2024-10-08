@@ -301,6 +301,17 @@
     "comment_de": ""
   },
   {
+    "instance": "freifunk.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://freifunk.social/@hk71tq3rie"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "fusionpros.social",
     "tags": [
       "SPAM"
