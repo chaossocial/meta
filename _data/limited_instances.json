@@ -701,17 +701,6 @@
     ]
   },
   {
-    "instance": "social.learntosolveit.com",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://social.learntosolveit.com/@mdkie6qvka"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "startrekshitposting.com",
     "tags": [
       "SPAM"
