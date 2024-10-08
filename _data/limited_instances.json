@@ -883,6 +883,17 @@
     "comment_de": ""
   },
   {
+    "instance": "urweibo.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://urweibo.com/@r7jac2gsta"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "waterlily.tokyo",
     "tags": [
       "SPAM"
