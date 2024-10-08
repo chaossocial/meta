@@ -625,6 +625,17 @@
     "comment_en": ""
   },
   {
+    "instance": "misskey.pepabo.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://misskey.pepabo.com/@kcof9v97as"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mk.chiwa.net",
     "tags": [
       "SPAM"
