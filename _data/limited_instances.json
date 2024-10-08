@@ -593,6 +593,17 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon.cocamserverguild.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mastodon.cocamserverguild.com/@bx7n7kssio"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodon.io.seg.br",
     "tags": [
       "SPAM"
