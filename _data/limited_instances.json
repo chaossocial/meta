@@ -412,20 +412,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mastodon-swiss.org",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mastodon-swiss.org/@e2pohc8siq",
-      "https://mastodon-swiss.org/@77a2tdyi7t",
-      "https://mastodon-swiss.org/@phqm38b4ms",
-      "https://mastodon-swiss.org/@Organic_7777"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "mastodon.aargaunet.ch",
     "tags": [
       "SPAM"
