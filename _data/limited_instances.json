@@ -543,17 +543,6 @@
     "comment_de": ""
   },
   {
-    "instance": "mstdn.shinkaifan.com",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://mstdn.shinkaifan.com/@wrwmyoxr4c"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "nasface.cz",
     "tags": [
       "SPAM"
