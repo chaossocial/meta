@@ -603,6 +603,17 @@
     "comment_en": ""
   },
   {
+    "instance": "mk.hoshisaki-h.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://mk.hoshisaki-h.com/@3y8pj2tp3n"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mstdn.shinkaifan.com",
     "tags": [
       "SPAM"
