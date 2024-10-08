@@ -342,6 +342,17 @@
     "comment_de": ""
   },
   {
+    "instance": "jiaojiao.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://jiaojiao.org/@7fhovgavho"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "kernkraft.social",
     "tags": [
       "SPAM"
