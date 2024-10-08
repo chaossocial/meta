@@ -33,6 +33,17 @@
     "comment_de": ""
   },
   {
+    "instance": "a.sukazyo.cc",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://a.sukazyo.cc/@ei344jmlza"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "archaeology.social",
     "tags": [
       "SPAM"
