@@ -669,6 +669,17 @@
     "comment_de": ""
   },
   {
+    "instance": "misskey.mofumofu.me",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://misskey.mofumofu.me/@p7b7ezb6dz"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "misskey.pepabo.com",
     "tags": [
       "SPAM"
