@@ -137,6 +137,17 @@
     "comment_de": ""
   },
   {
+    "instance": "comingto.org",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://comingto.org/@43ngm0df05"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "coop.masto.host",
     "tags": [
       "SPAM"
