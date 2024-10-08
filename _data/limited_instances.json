@@ -771,5 +771,16 @@
     ],
     "comment_en": "",
     "comment_de": ""
+  },
+  {
+    "instance": "www.gctaisentl.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://www.gctaisentl.com/@gl78f3bqxy"
+    ],
+    "comment_en": "",
+    "comment_de": ""
   }
 ]
