@@ -44,6 +44,17 @@
     "comment_de": ""
   },
   {
+    "instance": "acat.world",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://acat.world/@xfzgv8dwpw"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "archaeology.social",
     "tags": [
       "SPAM"
