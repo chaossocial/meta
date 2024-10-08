@@ -389,6 +389,17 @@
     "comment_de": ""
   },
   {
+    "instance": "m.corduba.tech",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://m.corduba.tech/@6qj2i8wtyu"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "m.mxin.moe",
     "tags": [
       "SPAM"
