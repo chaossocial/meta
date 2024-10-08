@@ -651,6 +651,17 @@
     "comment_de": ""
   },
   {
+    "instance": "piclub.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://piclub.social/@a8botlakxd"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "rtypedbs.hostdon.ne.jp",
     "tags": [
       "SPAM"
