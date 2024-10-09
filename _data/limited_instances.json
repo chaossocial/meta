@@ -1,5 +1,20 @@
 [
   {
+    "instance": "\u0005misskey.doujin.games",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://misskey.doujin.games/@5wq130rvkg",
+      "https://misskey.doujin.games/@cs1x1ymita",
+      "https://misskey.doujin.games/@xo6sbc7j62",
+      "https://misskey.doujin.games/@eydj2y02yt",
+      "https://misskey.doujin.games/@ixq4hf0qvl"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "430022.xyz",
     "tags": [],
     "receipts": [
