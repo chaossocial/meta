@@ -1019,6 +1019,18 @@
     "comment_de": ""
   },
   {
+    "instance": "m.corduba.tech",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://m.corduba.tech/@6qj2i8wtyu",
+      "https://m.corduba.tech/@fpprysyqm7"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mashtodon.alterracloud.com",
     "tags": [
       "SPAM"
