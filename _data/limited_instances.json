@@ -566,6 +566,17 @@
     "comment_de": ""
   },
   {
+    "instance": "n7.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://n7.social/@jnu2touj79"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "nasface.cz",
     "tags": [
       "SPAM"
