@@ -702,17 +702,6 @@
     "comment_de": ""
   },
   {
-    "instance": "seda.social",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://seda.social/@mo0hqelzgp"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "smooth.guru",
     "tags": [
       "SPAM"
