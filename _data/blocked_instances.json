@@ -1472,6 +1472,18 @@
     "comment_de": ""
   },
   {
+    "instance": "puls.social",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://puls.social/@0ddo3osuew",
+      "https://puls.social/@lmioxlvhbj"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "px.mathias777.com",
     "tags": [
       "SPAM"
