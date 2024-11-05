@@ -17,7 +17,7 @@
          </tr>
          {% for row in report[1].prRows %}
          <tr>
-            <td>{{ row.prrName | categoryName }}</td>
+            <th>{{ row.prrName | categoryName }}</th>
             {% for amount in row.prrAmounts %}
             <td>
                {% if amount[0].aquantity.floatingPoint %}

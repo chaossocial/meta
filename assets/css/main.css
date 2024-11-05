@@ -143,6 +143,18 @@ table#money {
   }
   thead th {
     font-family: inherit;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  tbody th, thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: white;
+  }
+  thead th:first-child {
+    z-index: 2
   }
 }
 .mobile-only {
@@ -193,6 +205,7 @@ table#money {
     }
   }
 }
+
 
 /* Code highlighting */
 .highlight {
