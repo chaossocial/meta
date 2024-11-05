@@ -3,7 +3,7 @@
       <tr>
          <th></th>
          <th class="sticky">Total</th>
-         {% for month in include.data.cbrDates reversed %}<th>{{ month[0]["contents"]|truncate: 7, "" }}</th>{% endfor %}
+         {% for month in include.data.cbrDates reversed %}<th>{{ month[0]["contents"]|truncate: include.date_width, "" }}</th>{% endfor %}
       </tr>
    </thead>
    <tbody>

@@ -37,7 +37,14 @@ while we had an income of
 **€&nbsp;{{ site.data.money.cbrSubreports[0][1].prRows[0].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**
 in donations.
 
-{% include money.html data=site.data.money %}
+### Yearly overview
+
+{% include money.html data=site.data.money_per_year date_width=4 %}
+
+### Monthly details
+
+{% include money.html data=site.data.money date_width=7 %}
+
 
 ## FAQ
 

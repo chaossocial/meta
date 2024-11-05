@@ -40,9 +40,17 @@ Letzten Monat betrugen unsere Serverkosten
 und wir hatten ein Spendenaufkommen von
 **€&nbsp;{{ site.data.money.cbrSubreports[0][1].prRows[0].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**.
 
+### Jahresübersicht
+
+{% include money.html data=site.data.money_per_year date_width=4 %}
+
 <small>*(Tabelle betriebsbedingt auf Englisch.)*</small>
 
-{% include money.html data=site.data.money %}
+### Einzelne Monate
+
+{% include money.html data=site.data.money date_width=7 %}
+
+<small>*(Tabelle betriebsbedingt auf Englisch.)*</small>
 
 ## FAQ
 
