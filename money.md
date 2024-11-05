@@ -37,7 +37,7 @@ while we had an income of
 **€&nbsp;{{ site.data.money.cbrSubreports[0][1].prRows[0].prrAmounts[-1][0].aquantity.floatingPoint | monetary }}**
 in donations.
 
-{% include money.html %}
+{% include money.html data=site.data.money %}
 
 ## FAQ
 

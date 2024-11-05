@@ -42,7 +42,7 @@ und wir hatten ein Spendenaufkommen von
 
 <small>*(Tabelle betriebsbedingt auf Englisch.)*</small>
 
-{% include money.html %}
+{% include money.html data=site.data.money %}
 
 ## FAQ
 

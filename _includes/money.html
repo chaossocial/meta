@@ -3,15 +3,15 @@
       <tr>
          <th></th>
          <th class="sticky">Total</th>
-         {% for month in site.data.money.cbrDates reversed %}<th>{{ month[0]["contents"]|truncate: 7, "" }}</th>{% endfor %}
+         {% for month in include.data.cbrDates reversed %}<th>{{ month[0]["contents"]|truncate: 7, "" }}</th>{% endfor %}
       </tr>
    </thead>
    <tbody>
-      {% for report in site.data.money.cbrSubreports %}
+      {% for report in include.data.cbrSubreports %}
          <tr>
             <th>{{ report[0] }}</th>
             <td class="sticky"></td>
-            {% for month in site.data.money.cbrDates %}
+            {% for month in include.data.cbrDates %}
                <td></td>
             {% endfor %}
          </tr>
@@ -31,8 +31,8 @@
       {% endfor %}
       <tr class="total">
          <th>Net:</th>
-         <th class="sticky">{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}<br><i>(Balance)</i></th>
-         {% for amount in site.data.money.cbrTotals.prrAmounts reversed %}
+         <th class="sticky">{{ include.data.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}<br><i>(Balance)</i></th>
+         {% for amount in include.data.cbrTotals.prrAmounts reversed %}
             <td>
                {% if amount[0].aquantity.floatingPoint %}
                   <span{% if amount[0].aquantity.floatingPoint < 0 %} class="negative"{% endif %}>
