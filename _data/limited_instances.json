@@ -163,6 +163,18 @@
     "comment_de": ""
   },
   {
+    "instance": "dicekey.jp",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://dicekey.jp/@o1qqc9v4h4",
+      "https://dicekey.jp/@93hhn1iix6"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "digitaldata.social",
     "tags": [
       "SPAM"
