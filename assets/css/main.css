@@ -124,8 +124,10 @@ dl.instance-list {
     margin-left: 4px;
   }
 }
+
+
 table#money {
-  // make table scrollable horizontally
+  /* make table scrollable horizontally */
   display: block;
   overflow-x: auto;
   white-space: nowrap;
