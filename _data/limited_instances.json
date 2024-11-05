@@ -790,6 +790,22 @@
     "comment_de": ""
   },
   {
+    "instance": "usasa.ky",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://usasa.ky/@p9myq9m96z",
+      "https://usasa.ky/@we5mr816jo",
+      "\u0005https://usasa.ky/@cbn1q2o5on",
+      "https://usasa.ky/@fvb8i5tklc",
+      "https://usasa.ky/@157m615srz",
+      "https://usasa.ky/@pkdpfjafcu"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "waterlily.tokyo",
     "tags": [
       "SPAM"
