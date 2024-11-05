@@ -544,6 +544,19 @@
     "comment_de": ""
   },
   {
+    "instance": "misskey.shunrin.com",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://misskey.shunrin.com/@jvts7fctkf",
+      "https://misskey.shunrin.com/@lvenjmblch",
+      "https://misskey.shunrin.com/@1xs34gj707"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mk.chiwa.net",
     "tags": [
       "SPAM"
