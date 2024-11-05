@@ -7,10 +7,12 @@ module Jekyll
     end
     def categoryName(value, separator=":")
       # If the value doesn't contain the separator, return it as is
-      return value unless value.include? separator
+      return value + " (total)" unless value.include? separator
+      # If the value is the hard-coded value "Income:Donations", return "Donations"
+      return "Donations" if value == "Income:Donations"
       # split the value on the separator, only return the last part,
       # but prefix it with as many spaces as there are separators
-      return "─" * value.count(separator) + value.split(separator).last
+      return '<span class="indent"></span>' * value.count(separator) + "↦ " + value.split(separator).last
     end
   end
 end

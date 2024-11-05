@@ -8,15 +8,8 @@
    </thead>
    <tbody>
       {% for report in include.data.cbrSubreports %}
-         <tr class="border-top">
-            <th><em>{{ report[0] }}</em></th>
-            <td class="sticky"></td>
-            {% for month in include.data.cbrDates %}
-               <td></td>
-            {% endfor %}
-         </tr>
          {% for row in report[1].prRows %}
-         <tr>
+            <tr{% if forloop.first %} class="border-top"{% endif %}>
             <th>{{ row.prrName | categoryName }}</th>
             <td class="sticky">{{ row.prrTotal[0].aquantity.floatingPoint | monetary }}</td>
             {% for amount in row.prrAmounts reversed %}
