@@ -135,6 +135,12 @@ table#money {
   th {
     text-align: right;
     font-family: monospace;
+    min-width: 100px;
+    max-width: 100px;
+  }
+  tbody th:first-child {
+    min-width: 200px;
+    max-width: 200px;
   }
   td:first-child,
   th:first-child {
@@ -146,15 +152,24 @@ table#money {
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: white;
   }
   tbody th, thead th:first-child {
     position: sticky;
     left: 0;
     z-index: 1;
-    background: white;
   }
-  thead th:first-child {
+  tr .sticky {
+    position: sticky;
+    left: 216px;
+    z-index: 1;
+  }
+  thead th:first-child, thead .sticky {
     z-index: 2
+  }
+  .sticky {
+    /* make fake border */
+    box-shadow: 1px 0 0 0 #ccc;
   }
 }
 .mobile-only {
@@ -204,6 +219,15 @@ table#money {
       width: auto;
     }
   }
+}
+
+table tbody > tr:nth-child(odd) > td,
+table tbody > tr:nth-child(odd) > th {
+  background-color: #f6f6f6;
+}
+table tbody > tr:nth-child(even) > td,
+table tbody > tr:nth-child(even) > th {
+  background-color: white;
 }
 
 

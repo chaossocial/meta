@@ -1,23 +1,31 @@
 <table id="money">
+   <colgroup>
+      <col width="120px">
+      <col width="100px" class="sticky">
+   </colgroup>
+   <colgroup>
+      {% for month in site.data.money.cbrDates %}<col width="200px">{% endfor %}
+   </colgroup>
    <thead>
       <tr>
          <th></th>
+         <th class="sticky">Total</th>
          {% for month in site.data.money.cbrDates %}<th>{{ month[0]["contents"]|truncate: 7, "" }}</th>{% endfor %}
-         <th>Total</th>
       </tr>
    </thead>
    <tbody>
       {% for report in site.data.money.cbrSubreports %}
          <tr>
             <th>{{ report[0] }}</th>
+            <td class="sticky"></td>
             {% for month in site.data.money.cbrDates %}
                <td></td>
             {% endfor %}
-            <td></td>
          </tr>
          {% for row in report[1].prRows %}
          <tr>
             <th>{{ row.prrName | categoryName }}</th>
+            <td class="sticky">{{ row.prrTotal[0].aquantity.floatingPoint | monetary }}</td>
             {% for amount in row.prrAmounts %}
             <td>
                {% if amount[0].aquantity.floatingPoint %}
@@ -25,12 +33,12 @@
                {% endif %}
             </td>
             {% endfor %}
-            <td>{{ row.prrTotal[0].aquantity.floatingPoint | monetary }}</td>
          </tr>
          {% endfor %}
       {% endfor %}
       <tr>
          <th>Net:</th>
+         <th class="sticky">{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}<br><i>(Balance)</i></th>
          {% for amount in site.data.money.cbrTotals.prrAmounts %}
             <td>
                {% if amount[0].aquantity.floatingPoint %}
@@ -38,7 +46,6 @@
                {% endif %}
             </td>
          {% endfor %}
-         <th>{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}<br><i>(Balance)</i></th>
       </tr>
    </tbody>
 </table>
