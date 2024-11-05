@@ -137,6 +137,7 @@ table#money {
     font-family: monospace;
     min-width: 100px;
     max-width: 100px;
+    border-top-width: 0px;
   }
   tbody th:first-child {
     min-width: 200px;
@@ -168,8 +169,20 @@ table#money {
     z-index: 2
   }
   .sticky {
-    /* make fake border */
+    /* make fake border to the right */
     box-shadow: 1px 0 0 0 #ccc;
+  }
+  .total {
+    /* fake border on top */
+    th, td {
+      box-shadow: 0 -1px 0 0 #ccc;
+    }
+    .sticky {
+      box-shadow: 0 -1px 0 0 #ccc, 1px 0 0 0 #ccc;
+    }
+  }
+  .negative {
+    color: red;
   }
 }
 .mobile-only {

@@ -29,13 +29,15 @@
          </tr>
          {% endfor %}
       {% endfor %}
-      <tr>
+      <tr class="total">
          <th>Net:</th>
          <th class="sticky">{{ site.data.money.cbrTotals.prrTotal[0].aquantity.floatingPoint | monetary }}<br><i>(Balance)</i></th>
          {% for amount in site.data.money.cbrTotals.prrAmounts reversed %}
             <td>
                {% if amount[0].aquantity.floatingPoint %}
-                  {{ amount[0].aquantity.floatingPoint | monetary }}
+                  <span{% if amount[0].aquantity.floatingPoint < 0 %} class="negative"{% endif %}>
+                     {{ amount[0].aquantity.floatingPoint | monetary }}
+                  </span>
                {% endif %}
             </td>
          {% endfor %}
