@@ -667,6 +667,17 @@
     "comment_de": ""
   },
   {
+    "instance": "pika.moe",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://pika.moe/@u61g1piq3z"
+    ],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "rtypedbs.hostdon.ne.jp",
     "tags": [
       "SPAM"
