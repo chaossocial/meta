@@ -172,7 +172,16 @@ table#money {
     /* make fake border to the right */
     box-shadow: 1px 0 0 0 #ccc;
   }
-  .total {
+  thead {
+    th, td {
+      /* fake border bottom */
+      box-shadow: 0 1px 0 0 #ccc;
+    }
+    .sticky {
+      box-shadow: 0 1px 0 0 #ccc, 1px 0 0 0 #ccc;
+    }
+  }
+  .border-top {
     /* fake border on top */
     th, td {
       box-shadow: 0 -1px 0 0 #ccc;
