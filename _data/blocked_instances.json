@@ -1091,6 +1091,15 @@
     "comment_de": ""
   },
   {
+    "instance": "mastodon.sitejp.synology.me",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "mastodong.lol",
     "tags": [
       "PRIVACY"
