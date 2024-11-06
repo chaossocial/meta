@@ -2,6 +2,9 @@ import json
 import subprocess
 from pathlib import Path
 
+import inquirer
+from tqdm import tqdm
+
 BLOCK_TAGS = [
     "ANTISEMITISM",
     "CONSPIRACY",
@@ -43,6 +46,32 @@ def write_blocked_instances(data, action):
 def get_blocked_instances(action="block"):
     with open(_get_data_path(action)) as f:
         return json.load(f)
+
+
+def handle_instance_reports(instance, mastodon):
+    # If an instance has been blocked, all reports against this instance can
+    # be closed, though we need to ask the user to confirm this.
+    print(f"Checking for reports against {instance}, this may take a while.")
+    reports = [
+        report
+        for report in mastodon.admin_reports()
+        if report["target_account"]["domain"] == instance
+    ]
+    if not reports:
+        return
+    answer = inquirer.prompt(
+        [
+            inquirer.Confirm(
+                "close_reports",
+                message=f"Close all {len(reports)} reports against this instance?",
+                default=False,
+            )
+        ]
+    )["close_reports"]
+    if not answer:
+        return
+    for report in tqdm(reports):
+        mastodon.admin_report_resolve(report["id"])
 
 
 def block_instance(
@@ -96,6 +125,9 @@ def block_instance(
     if comment:
         commit_message += f"\n\n{comment}"
     subprocess.run(["git", "commit", "-m", commit_message])
+
+    if action == "block":
+        handle_instance_reports(instance, mastodon)
 
 
 def unblock_instance(instance, instance_id=None, action="block", mastodon=None):
