@@ -771,22 +771,6 @@
     "comment_de": ""
   },
   {
-    "instance": "tickler.cc",
-    "tags": [
-      "SPAM"
-    ],
-    "receipts": [
-      "https://tickler.cc/@eejod0hh88",
-      "https://tickler.cc/@5n9adshfx7",
-      "https://tickler.cc/@s1wzg4oz3q",
-      "https://tickler.cc/@09ltst93zu",
-      "https://tickler.cc/@tsygwn2eai",
-      "https://tickler.cc/@o53whenfha"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "toot.poedelwitz.de",
     "tags": [
       "SPAM"

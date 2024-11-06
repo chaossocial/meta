@@ -1830,6 +1830,15 @@
     "comment_de": ""
   },
   {
+    "instance": "tickler.cc",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "transforthe.win",
     "tags": [
       "SPAM"
