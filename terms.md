@@ -67,7 +67,7 @@ The data processing within the scope of the registration is carried out in accor
 This can be deactivated in the settings.
 As soon as you send a message, the date and time is saved along with the information about which application you used to send your message.
 Messages can contain media content, such as images and videos.
-Public and unlisted posts are publicly available.
+Public and "quiet public" posts are publicly available.
 Once you pin a post to your profile, it is also publicly available.
 Your posts are delivered to your followers, which in some cases means they are delivered to servers (other instances) and copies of them are stored there.
 Once you delete posts, this is also delivered to your followers, although we cannot guarantee that they will honour the deletion request.

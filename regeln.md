@@ -26,9 +26,9 @@ Nutzer:innen von chaos.social haben sich an die folgenden Regeln zu halten:
   Kennzeichnung von KI-generierten Inhalten.
 
 *Erläuterung:* Posts landen auf der lokalen Timeline, wenn sie mit dem Sichtbarkeitslevel "public" geschrieben werden.
-Wenn Posts nicht auf der lokalen Timeline landen sollen, bietet sich das Sichtbarkeitslevel "unlisted" an – damit sind
-die Posts immer noch für alle (Follower:innen und alle anderen) sichtbar, sie werden nur nicht auf der lokalen und
-föderierten Timeline gezeigt. Boosts landen auch nicht auf der lokalen Timeline.
+Wenn Posts nicht auf der lokalen Timeline landen sollen, bietet sich das Sichtbarkeitslevel "quiet public" (früher:
+"unlisted") an – damit sind die Posts immer noch für alle (Follower:innen und alle anderen) sichtbar, sie werden nur
+nicht auf der lokalen und föderierten Timeline gezeigt. Boosts landen auch nicht auf der lokalen Timeline.
 
 Neben den Instanzregeln gelten auch unsere [Nutzungsbedingungen und Datenschutzordnung](/agb).
 

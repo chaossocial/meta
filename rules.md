@@ -23,9 +23,9 @@ We expect users on chaos.social to adhere to the following rules:
 - Provide credit for creative works that are not your own. That includes marking AI generated content clearly as such.
 
 *Clarification:* You post to the local timeline when you give your post "public" visibility. If you don't want to follow
-local timeline rules, you can post with visibility "unlisted" – posts will still be visible to everybody (your followers
-and everybody else), they just won't get shown on the local and federated timelines. Boosts also do not appear on the
-local timeline.
+local timeline rules, you can post with visibility "quiet public" (which used to be called "unlisted") – posts will
+still be visible to everybody (your followers and everybody else), they just won't get shown on the local and federated
+timelines. Boosts also do not appear on the local timeline.
 
 Note that the instance is also subject to our [terms and privacy policy](/terms).
 
