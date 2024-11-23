@@ -1,0 +1,224 @@
+#!/usr/bin/env python3
+"""
+This is an auto-moderator script for chaos.social.
+
+Its current scope is to look at open reports, and to determine if a reported
+account is clearly a spam account, in which case the account will be blocked.
+
+The script is designed to be run as a cron job, and should be run via a non-user
+account to make its actions easily auditable via the Mastodon audit log.
+(Sadly, the Mastodon API/client doesn't allow us to leave comments on reports
+or users at this time.)
+"""
+from collections import defaultdict, Counter
+import logging
+
+from utils import get_working_mastodon
+
+REPORT_CACHE_FILE = "report_id_cache.txt"
+REPORT_LOG_FILE = "report_log.txt"
+LOG_STDOUT = True
+
+# If any of these rules match, the account will be suspended.
+BLOCK_RULES = [
+    # Only one remote report, but a TON of duplicate posts
+    {
+        "min_reporting_users": 1,
+        "min_reporting_local_users": 0,
+        "min_reports": 1,
+        "min_reported_posts": 8,
+        "min_same_posts": 8,
+    },
+    # Only one report, but local, so lower threshold
+    {
+        "min_reporting_users": 1,
+        "min_reporting_local_users": 1,
+        "min_reports": 1,
+        "min_reported_posts": 5,
+        "min_same_posts": 5,
+    },
+    # Multiple reports, at least one local, lower threshold
+    {
+        "min_reporting_users": 2,
+        "min_reporting_local_users": 1,
+        "min_reports": 2,
+        "min_reported_posts": 4,
+        "min_same_posts": 4,
+    },
+    # Multiple reports, all local, will act even with few reported posts
+    {
+        "min_reporting_users": 3,
+        "min_reporting_local_users": 3,
+        "min_reports": 3,
+        "min_reported_posts": 3,
+        "min_same_posts": 3,
+    },
+]
+# Only act if this many different users reported the same account.
+MIN_REPORTING_USERS = 2
+# Only act if an account has this many reports.
+MIN_REPORTS = 2
+# Only act if an account has this many reported posts.
+MIN_REPORTED_POSTS = 2
+# Include off-instance reports in the count.
+FEDERATED_REPORTS = True
+# Only suspend users who post the same post more than this amount of times.
+# Set to 1 if you want to use this script for more than just spam, or if
+# spammers got clever and started posting different things.
+MIN_SAME_POSTS = 2
+# Do not suspend accounts with more than this amount of LOCAL followers
+# Recommended to keep at 0.
+MAX_FOLLOWERS = 0
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+logger.addHandler(logging.FileHandler(REPORT_LOG_FILE))
+if LOG_STDOUT:
+    logger.addHandler(logging.StreamHandler())
+
+
+def get_seen_reports():
+    try:
+        with open(REPORT_CACHE_FILE, "r") as f:
+            return set([line.strip() for line in f.read().splitlines() if line.strip()])
+    except FileNotFoundError:
+        return set()
+
+
+def write_seen_reports(reports):
+    with open(REPORT_CACHE_FILE, "a") as f:
+        f.write("\n".join([str(report) for report in reports]))
+
+
+def suspend_account(account, reports, mastodon, reason):
+    """
+    Suspend an account and close all reports for it.
+    """
+    mastodon.admin_account_moderate(
+        account.id,
+        "suspend",
+        report_id=reports[0].id,
+        send_email_notification=False,
+    )
+    logger.info(
+        f"Suspended account {account.account.acct} "
+        f"based on reports {', '.join([str(report.id) for report in reports])} "
+        f"with comment: {reason}."
+    )
+    for report in reports:
+        mastodon.admin_report_resolve(report.id)
+
+
+def get_content_without_mention(content, mentions=None):
+    """
+    Remove mentions from a status content, because that's usually the only thing
+    that changes between spam posts.
+    Posts are HTML, so we can't just split by spaces. Let’s be stupid for now and just
+    remove the known Mastodon mention markup. No doubt this will go horribly wrong soonish.
+    """
+    if mentions:
+        for mention in mentions:
+            mention_content = f'<a href="{mention["url"]}" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>{mention["username"]}</span></a>'
+            content = content.replace(mention_content, "")
+    return content
+
+
+def handle_account_reports(reports, mastodon):
+    """
+    This is how reports are handled automatically:
+
+    - if the user has been suspended on their instance, suspend them here too,
+      so that local notifications etc go away, then close the reports.
+    - if there are not enough reports that qualify (reports need to be from
+      different users and have posts attached), do nothing.
+    """
+    target_account = reports[0].target_account
+    if not target_account.domain:
+        logger.debug(f"Local instance for {target_account.account.acct}")
+        return
+    if target_account.suspended:
+        suspend_account(
+            target_account, reports, mastodon, reason="Suspended on their instance"
+        )
+    if target_account.account.followers_count > MAX_FOLLOWERS:
+        logger.debug(f"Too many followers for {target_account.account.acct}")
+        return
+
+    qualified_reports = []
+    reported_statuses = {}
+    reported_status_content = Counter()
+    reporting_users = set()
+    reporting_local_users = set()
+
+    for report in reports:
+        if not FEDERATED_REPORTS and report.account.domain is not None:
+            continue
+        reporting_users.add(report.account.id)
+        if report.account.domain is None:
+            reporting_local_users.add(report.account.id)
+        qualified_reports.append(report)
+        for status in report.statuses:
+            reported_statuses[status.id] = status
+            reported_status_content.update(
+                [get_content_without_mention(status.content, status.mentions)]
+            )
+
+    most_repeated_content = 0
+    if len(reported_status_content):
+        most_repeated_content = reported_status_content.most_common(1)[0][1]
+
+    for block_rule in BLOCK_RULES:
+        if (
+            len(reporting_users) < block_rule["min_reporting_users"]
+            or len(reporting_local_users) < block_rule["min_reporting_local_users"]
+            or len(qualified_reports) < block_rule["min_reports"]
+            or len(reported_statuses) < block_rule["min_reported_posts"]
+            or most_repeated_content < block_rule["min_same_posts"]
+        ):
+            continue
+
+        logger.debug(
+            f"Applying block rule {block_rule} to {target_account.account.acct}"
+        )
+        suspend_account(
+            target_account,
+            reports,
+            mastodon,
+            reason=f"Spam account, {len(qualified_reports)} reports of which {len(reporting_local_users)} by local users, {most_repeated_content} repeated posts",
+        )
+        return True
+
+    logger.debug(f"Account {target_account.account.acct} did not meet any block rules")
+    return False
+
+
+def handle_reports():
+    mastodon = get_working_mastodon()
+    reports = mastodon.admin_reports()
+
+    # First, we need to group reports by reported account
+    reports_by_account = defaultdict(list)
+    for report in reports:
+        reports_by_account[report.target_account.id].append(report)
+
+    # We save the reports that we have already seen, and if we have seen
+    # all reports on an account, we don't need to look at it again.
+    seen_reports = get_seen_reports()
+
+    for reports in reports_by_account.values():
+        if all(str(report.id) in seen_reports for report in reports):
+            continue
+        try:
+            handle_account_reports(reports, mastodon)
+            seen_reports.update([report.id for report in reports])
+        except Exception as e:
+            logger.warning(
+                f"Error while handling reports for account {reports[0].target_account.account.acct}: {e}"
+            )
+
+    # Finally, we write the seen reports back
+    write_seen_reports(seen_reports)
+
+
+if __name__ == "__main__":
+    handle_reports()
