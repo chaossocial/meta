@@ -500,18 +500,6 @@
     "comment_de": ""
   },
   {
-    "instance": "bsky.brid.gy",
-    "tags": [
-      "CROSSPOSTER"
-    ],
-    "receipts": [
-      "https://snarfed.org/2024-02-12_52106",
-      "https://labyrinth.zone/notice/Aeoy2GS2V0zTM3VQtE"
-    ],
-    "comment_en": "",
-    "comment_de": ""
-  },
-  {
     "instance": "cannibal.cafe",
     "tags": [
       "UNMODERATED",
