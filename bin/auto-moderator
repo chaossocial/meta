@@ -15,6 +15,8 @@ import logging
 
 from utils import get_working_mastodon
 
+#TODO: log format
+
 REPORT_CACHE_FILE = "report_id_cache.txt"
 REPORT_LOG_FILE = "report_log.txt"
 LOG_STDOUT = True
@@ -140,9 +142,10 @@ def handle_account_reports(reports, mastodon):
         suspend_account(
             target_account, reports, mastodon, reason="Suspended on their instance"
         )
+        return True
     if target_account.account.followers_count > MAX_FOLLOWERS:
         logger.debug(f"Too many followers for {target_account.account.acct}")
-        return
+        return False
 
     qualified_reports = []
     reported_statuses = {}
