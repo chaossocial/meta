@@ -15,7 +15,7 @@ import logging
 
 from utils import get_working_mastodon
 
-#TODO: log format
+# TODO: log format
 
 REPORT_CACHE_FILE = "report_id_cache.txt"
 REPORT_LOG_FILE = "report_log.txt"
@@ -125,6 +125,19 @@ def get_content_without_mention(content, mentions=None):
     return content
 
 
+def handle_suspended_account(reports, mastodon):
+    if not reports:
+        return
+    account = reports[0].target_account
+    # Nonlocal accounts that are already suspended on their instance should be suspended here too
+    if account.domain and account.suspended:
+        suspend_account(
+            account, reports, mastodon, reason="Suspended on their instance"
+        )
+        return True
+    return False
+
+
 def handle_account_reports(reports, mastodon):
     """
     This is how reports are handled automatically:
@@ -138,11 +151,6 @@ def handle_account_reports(reports, mastodon):
     if not target_account.domain:
         logger.debug(f"Local instance for {target_account.account.acct}")
         return
-    if target_account.suspended:
-        suspend_account(
-            target_account, reports, mastodon, reason="Suspended on their instance"
-        )
-        return True
     if target_account.account.followers_count > MAX_FOLLOWERS:
         logger.debug(f"Too many followers for {target_account.account.acct}")
         return False
@@ -209,6 +217,10 @@ def handle_reports():
     seen_reports = get_seen_reports()
 
     for reports in reports_by_account.values():
+        # If the reported account is already suspended on their home instance,
+        # we suspend it here too, without further checks
+        if handle_suspended_account(reports, mastodon):
+            continue
         if all(str(report.id) in seen_reports for report in reports):
             continue
         try:
