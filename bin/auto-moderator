@@ -15,11 +15,10 @@ import logging
 
 from utils import get_working_mastodon
 
-# TODO: log format
-
 REPORT_CACHE_FILE = "report_id_cache.txt"
 REPORT_LOG_FILE = "report_log.txt"
-LOG_STDOUT = True
+LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+LOG_STDOUT = False
 
 # If any of these rules match, the account will be suspended.
 BLOCK_RULES = [
@@ -72,13 +71,16 @@ MIN_SAME_POSTS = 2
 # Recommended to keep at 0.
 MAX_FOLLOWERS = 0
 
-FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
-logging.basicConfig(format=FORMAT)
+formatter = logging.Formatter(LOG_FORMAT)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-logger.addHandler(logging.FileHandler(REPORT_LOG_FILE))
+fh = logging.FileHandler(REPORT_LOG_FILE)
+fh.setFormatter(formatter)
+logger.addHandler(fh)
 if LOG_STDOUT:
-    logger.addHandler(logging.StreamHandler())
+    sh = logging.StreamHandler()
+    sh.setFormatter(formatter)
+    logger.addHandler(sh)
 
 
 def get_seen_reports():
