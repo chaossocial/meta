@@ -72,6 +72,8 @@ MIN_SAME_POSTS = 2
 # Recommended to keep at 0.
 MAX_FOLLOWERS = 0
 
+FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+logging.basicConfig(format=FORMAT)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 logger.addHandler(logging.FileHandler(REPORT_LOG_FILE))
@@ -149,10 +151,10 @@ def handle_account_reports(reports, mastodon):
     """
     target_account = reports[0].target_account
     if not target_account.domain:
-        logger.debug(f"Local instance for {target_account.account.acct}")
+        logger.debug(f"Not suspending {target_account.account.acct}: local account")
         return
     if target_account.account.followers_count > MAX_FOLLOWERS:
-        logger.debug(f"Too many followers for {target_account.account.acct}")
+        logger.debug(f"Not suspending {target_account.account.acct}: Too many followers")
         return False
 
     qualified_reports = []
