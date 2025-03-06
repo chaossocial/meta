@@ -20,6 +20,12 @@ REPORT_LOG_FILE = "report_log.txt"
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 LOG_STDOUT = False
 
+# Reported posts with these strings will always be blocked, regardless of other rules,
+# unless if they are local accounts. Only to be used with long, specific strings known
+# from spam waves.
+BLOCK_STRINGS = [
+    "Hi, I’m Nicole! But you can call me the Fediverse Chick :D",
+]
 # If any of these rules match, the account will be suspended.
 BLOCK_RULES = [
     # Only one remote report, but a TON of duplicate posts
@@ -146,9 +152,13 @@ def handle_account_reports(reports, mastodon):
     """
     This is how reports are handled automatically:
 
-    - if the user has been suspended on their instance, suspend them here too,
-      so that local notifications etc go away, then close the reports.
-    - if there are not enough reports that qualify (reports need to be from
+    - Local accounts are never suspended automatically
+    - Accounts with local followers are never suspended automatically
+    - If the user has been suspended on their instance, they are suspended
+      here too (in handle_suspended_account), so that local notifications
+      go away and reports are closed.
+    - If a report contains a BLOCK_STRING, the account is suspended.
+    - If there are not enough reports that qualify (reports need to be from
       different users and have posts attached), do nothing.
     """
     target_account = reports[0].target_account
@@ -156,7 +166,9 @@ def handle_account_reports(reports, mastodon):
         logger.debug(f"Not suspending {target_account.account.acct}: local account")
         return
     if target_account.account.followers_count > MAX_FOLLOWERS:
-        logger.debug(f"Not suspending {target_account.account.acct}: Too many followers")
+        logger.debug(
+            f"Not suspending {target_account.account.acct}: Too many followers"
+        )
         return False
 
     qualified_reports = []
@@ -174,9 +186,25 @@ def handle_account_reports(reports, mastodon):
         qualified_reports.append(report)
         for status in report.statuses:
             reported_statuses[status.id] = status
-            reported_status_content.update(
-                [get_content_without_mention(status.content, status.mentions)]
-            )
+            plain_content = get_content_without_mention(status.content, status.mentions)
+            block_string = [
+                block_string
+                for block_string in BLOCK_STRINGS
+                if block_string in plain_content
+            ]
+            if block_string:
+                block_string = block_string[0]
+                logger.debug(
+                    f"Applying block rule for “{block_string}” to {target_account.account.acct}"
+                )
+                suspend_account(
+                    target_account,
+                    reports,
+                    mastodon,
+                    reason=f"Spam account, known spam detected",
+                )
+                return True
+            reported_status_content.update([plain_content])
 
     most_repeated_content = 0
     if len(reported_status_content):
