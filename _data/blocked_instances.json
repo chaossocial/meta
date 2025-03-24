@@ -1720,6 +1720,15 @@
     "comment_de": ""
   },
   {
+    "instance": "social.freysa.ai",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "social.holocaust.tatar",
     "tags": [
       "ANTISEMITISM",
