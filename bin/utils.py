@@ -175,6 +175,8 @@ def get_working_mastodon():
     from mastodon import Mastodon
 
     SCOPES = [
+        "read:accounts",
+        "read:follows",
         "admin:read:accounts",
         "admin:read:domain_blocks",
         "admin:read:reports",

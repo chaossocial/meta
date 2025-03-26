@@ -165,7 +165,8 @@ def handle_account_reports(reports, mastodon):
     if not target_account.domain:
         logger.debug(f"Not suspending {target_account.account.acct}: local account")
         return
-    if target_account.account.followers_count > MAX_FOLLOWERS:
+    follower_count = len(mastodon.account_followers(target_account.account.id))
+    if follower_count > MAX_FOLLOWERS:
         logger.debug(
             f"Not suspending {target_account.account.acct}: Too many followers"
         )
