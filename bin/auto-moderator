@@ -25,6 +25,7 @@ LOG_STDOUT = False
 # from spam waves.
 BLOCK_STRINGS = [
     "Hi, I’m Nicole! But you can call me the Fediverse Chick :D",
+    "BTCTurboMiner Made Me $500 in 3 Hours",
 ]
 # If any of these rules match, the account will be suspended.
 BLOCK_RULES = [
