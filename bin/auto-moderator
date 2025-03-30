@@ -118,8 +118,8 @@ def suspend_account(account, reports, mastodon, reason):
         f"based on reports {', '.join([str(report.id) for report in reports])} "
         f"with comment: {reason}."
     )
-    for report in reports:
-        mastodon.admin_report_resolve(report.id)
+    # for report in reports:
+        # mastodon.admin_report_resolve(report.id)
 
 
 def get_content_without_mention(content, mentions=None):
