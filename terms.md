@@ -95,7 +95,7 @@ To enrich public profile pages with profile data, the following data is processe
 
 * IP address of the third-party service
 * Name of the user's software
-* Display name, username und profile pictures
+* Display name, username and profile pictures
 * Date and time of the interaction
 * Profile data
 
