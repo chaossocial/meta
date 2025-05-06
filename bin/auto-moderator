@@ -10,13 +10,13 @@ account to make its actions easily auditable via the Mastodon audit log.
 (Sadly, the Mastodon API/client doesn't allow us to leave comments on reports
 or users at this time.)
 """
-from collections import defaultdict, Counter
 import logging
+from collections import Counter, defaultdict
 
 from utils import get_working_mastodon
 
-REPORT_CACHE_FILE = "report_id_cache.txt"
-REPORT_LOG_FILE = "report_log.txt"
+REPORT_CACHE_FILE = "bin/report_id_cache.txt"
+REPORT_LOG_FILE = "bin/report_log.txt"
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 LOG_STDOUT = False
 
@@ -119,7 +119,7 @@ def suspend_account(account, reports, mastodon, reason):
         f"with comment: {reason}."
     )
     # for report in reports:
-        # mastodon.admin_report_resolve(report.id)
+    # mastodon.admin_report_resolve(report.id)
 
 
 def get_content_without_mention(content, mentions=None):
@@ -203,7 +203,7 @@ def handle_account_reports(reports, mastodon):
                     target_account,
                     reports,
                     mastodon,
-                    reason=f"Spam account, known spam detected",
+                    reason="Spam account, known spam detected",
                 )
                 return True
             reported_status_content.update([plain_content])
@@ -249,6 +249,7 @@ def handle_reports():
     # We save the reports that we have already seen, and if we have seen
     # all reports on an account, we don't need to look at it again.
     seen_reports = get_seen_reports()
+    new_seen_reports = []
 
     for reports in reports_by_account.values():
         # If the reported account is already suspended on their home instance,
@@ -259,14 +260,14 @@ def handle_reports():
             continue
         try:
             handle_account_reports(reports, mastodon)
-            seen_reports.update([report.id for report in reports])
+            new_seen_reports.update([report.id for report in reports])
         except Exception as e:
             logger.warning(
                 f"Error while handling reports for account {reports[0].target_account.account.acct}: {e}"
             )
 
     # Finally, we write the seen reports back
-    write_seen_reports(seen_reports)
+    write_seen_reports(new_seen_reports)
 
 
 if __name__ == "__main__":

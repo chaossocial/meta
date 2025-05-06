@@ -73,3 +73,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # End of https://www.gitignore.io/api/jekyll,ruby
+
+bin/report_log.txt
+bin/report_id_cache.txt
