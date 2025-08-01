@@ -27,6 +27,12 @@ LOG_STDOUT = False
 BLOCK_STRINGS = [
     "Hi, I’m Nicole! But you can call me the Fediverse Chick :D",
     "BTCTurboMiner Made Me $500 in 3 Hours",
+
+    # Mastodon Admin Scams
+    "Sustain unrestricted access by validating your account:",
+    "Failure to verify will result in a locked account.",
+    "Action Required: Verify Your Mastodon Account",
+    "Your access privileges require revalidation.",
 ]
 # If any of these rules match, the account will be suspended.
 BLOCK_RULES = [
