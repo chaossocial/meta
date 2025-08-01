@@ -11,6 +11,7 @@ account to make its actions easily auditable via the Mastodon audit log.
 or users at this time.)
 """
 import logging
+import re
 from collections import Counter, defaultdict
 
 from utils import get_working_mastodon
@@ -129,10 +130,22 @@ def get_content_without_mention(content, mentions=None):
     Posts are HTML, so we can't just split by spaces. Let’s be stupid for now and just
     remove the known Mastodon mention markup. No doubt this will go horribly wrong soonish.
     """
-    if mentions:
-        for mention in mentions:
-            mention_content = f'<a href="{mention["url"]}" class="u-url mention" rel="nofollow noopener noreferrer" target="_blank">@<span>{mention["username"]}</span></a>'
-            content = content.replace(mention_content, "")
+    if not mentions:
+        return content
+    for mention in mentions:
+        escaped_url = re.escape(mention["url"])
+        escaped_username = re.escape(mention["username"])
+        # Mentions usually look like this:
+        # <a href="{mention["url"]}" class="u-url mention" rel="nofollow noopener" target="_blank">@<span>{mention["username"]}</span></a>
+        # However, some Fedi software can change the link content, which *should* not impact mentions, but might.
+        # Additionally, Mastodon likes to change class names and rel attributes occasionally, so we regex match rather than
+        # having to update the script every couple of months.
+        pattern = (
+            r'<a\s+[^>]*href="' + escaped_url + r'"[^>]*>'
+            r"@(?:<span[^>]*>)?" + escaped_username + r"(?:</span>)?"
+            r"</a>"
+        )
+        content = re.sub(pattern, "", content, flags=re.IGNORECASE)
     return content
 
 
@@ -260,7 +273,7 @@ def handle_reports():
             continue
         try:
             handle_account_reports(reports, mastodon)
-            new_seen_reports.update([report.id for report in reports])
+            new_seen_reports += [report.id for report in reports]
         except Exception as e:
             logger.warning(
                 f"Error while handling reports for account {reports[0].target_account.account.acct}: {e}"
