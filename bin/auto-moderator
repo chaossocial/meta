@@ -214,7 +214,7 @@ def handle_account_reports(reports, mastodon):
             block_string = [
                 block_string
                 for block_string in BLOCK_STRINGS
-                if block_string in plain_content
+                if block_string.lower() in plain_content.lower()
             ]
             if block_string:
                 block_string = block_string[0]
