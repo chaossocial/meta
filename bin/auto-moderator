@@ -29,13 +29,16 @@ BLOCK_STRINGS = [
     "BTCTurboMiner Made Me $500 in 3 Hours",
 
     # Mastodon Admin Scams
-    "Sustain unrestricted access by validating your account:",
-    "Failure to verify will result in a locked account.",
     "Action Required: Verify Your Mastodon Account",
-    "Your access privileges require revalidation.",
+    "Failure to verify will result in a locked account.",
     "Greetings from the Mastodon moderation team.",
+    "Hello from the Mastodon moderation team",
+    "Sustain unrestricted access by validating your account:",
+    "To avoid any restrictions on your account",
+    "To maintain access to your Mastodon account",
     "Your Mastodon account requires immediate verification",
-    "To avoid any restrictions on your account, we kindly ask you to complete verification",
+    "Your access privileges require revalidation.",
+    "we kindly ask you to complete verification",
 ]
 # If any of these rules match, the account will be suspended.
 BLOCK_RULES = [
