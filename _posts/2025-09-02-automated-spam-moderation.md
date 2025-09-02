@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Automated spam moderation"
-date:   2025-09-04 08:00:00
+date:   2025-09-02 08:00:00
 language: en
+translation: automatisierte-spam-moderation
 ---
 
 Mastodon’s moderation tooling is, after using it for a couple of years, … hard to describe in polite language. Normally,
@@ -25,8 +26,7 @@ more evidence if it’s only remote reports, etc. The thresholds have been tuned
 but we can also temporarily adjust them to respond to new spam waves.
 
 For convenience, the script also auto-suspends accounts that are already suspended on their home instance (mostly to
-clean up lingering notifications that do not get auto-removed). The same limits apply here as before: no users that have
-local followers will be impacted.
+clean up lingering notifications that do not get auto-removed).
 
 **The script never touches local users or anyone followed by our users.** It only acts on external accounts that
 multiple people have reported as spam and that have no other interactions with our instance. For anything more
