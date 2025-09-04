@@ -119,6 +119,15 @@
     "comment_de": ""
   },
   {
+    "instance": "clube.social",
+    "tags": [
+      "HARASSMENT"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "comingto.org",
     "tags": [
       "SPAM"
