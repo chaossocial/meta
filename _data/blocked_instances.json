@@ -895,6 +895,15 @@
     "comment_de": ""
   },
   {
+    "instance": "gup.pe",
+    "tags": [
+      "UNMODERATED"
+    ],
+    "receipts": [],
+    "comment_en": "Domain sniped",
+    "comment_de": "Domain gesniped"
+  },
+  {
     "instance": "honkwerx.tech",
     "tags": [
       "RACISM"
