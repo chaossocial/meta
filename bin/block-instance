@@ -30,7 +30,7 @@ def main():
     ]
     answers = inquirer.prompt(questions)
     if answers.get("comment_en").strip():
-        answers["comment_de"] = inquirer.text_input(message="Comment (German)")
+        answers["comment_de"] = inquirer.text(message="Comment (German)")
     else:
         answers["comment_de"] = ""
 
