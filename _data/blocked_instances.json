@@ -13,6 +13,15 @@
     "comment_de": ""
   },
   {
+    "instance": "a.gup.pe",
+    "tags": [
+      "UNMODERATED"
+    ],
+    "receipts": [],
+    "comment_en": "Domain sniped",
+    "comment_de": "Domain gesniped"
+  },
+  {
     "instance": "activitypub-proxy.cf",
     "tags": [
       "PRIVACY"
