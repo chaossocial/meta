@@ -26,6 +26,8 @@ BLOCK_TAGS = [
     "UNMODERATED",
 ]
 
+BASE = Path(__file__).parent.parent
+
 
 def _get_data_path(action):
     return f"_data/{action}ed_instances.json"
@@ -185,30 +187,32 @@ def get_working_mastodon():
         "admin:write:reports",
     ]
 
-    if not Path(".mastodon-client.secret").absolute().exists():
+    client_secret_path = (BASE / ".mastodon-client.secret").absolute()
+    if not client_secret_path.exists():
         Mastodon.create_app(
             "meta.chaos.social automation",
             api_base_url="https://chaos.social",
-            to_file=".mastodon-client.secret",
+            to_file=str(client_secret_path),
             scopes=SCOPES,
         )
 
-    if not Path(".mastodon-usercred.secret").absolute().exists():
+    usercred_path = (BASE / ".mastodon-usercred.secret").absolute()
+    if not usercred_path.exists():
         mastodon = Mastodon(
-            client_id=".mastodon-client.secret", api_base_url="https://chaos.social"
+            client_id=str(client_secret_path), api_base_url="https://chaos.social"
         )
         url = mastodon.auth_request_url(
-            client_id=".mastodon-client.secret",
+            client_id=str(client_secret_path),
             scopes=SCOPES,
         )
         mastodon.log_in(
             code=input(f"Enter the code from {url}").strip(),
-            to_file=".mastodon-usercred.secret",
+            to_file=str(usercred_path),
             scopes=SCOPES,
         )
     else:
         mastodon = Mastodon(
-            access_token=".mastodon-usercred.secret",
+            access_token=str(usercred_path),
             api_base_url="https://chaos.social",
         )
     return mastodon

@@ -21,11 +21,13 @@ or users at this time.)
 import logging
 import re
 from collections import Counter, defaultdict
+from pathlib import Path
 
 from utils import get_working_mastodon
 
-REPORT_CACHE_FILE = "bin/report_id_cache.txt"
-REPORT_LOG_FILE = "bin/report_log.txt"
+BASE = Path(__file__).parent
+REPORT_CACHE_FILE = BASE / "report_id_cache.txt"
+REPORT_LOG_FILE = BASE / "report_log.txt"
 LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
 LOG_STDOUT = False
 
