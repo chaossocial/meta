@@ -440,9 +440,9 @@
                   "acommodity": "€",
                   "acost": null,
                   "aquantity": {
-                    "decimalMantissa": 501962,
+                    "decimalMantissa": 506912,
                     "decimalPlaces": 2,
-                    "floatingPoint": 5019.62
+                    "floatingPoint": 5069.12
                   },
                   "astyle": {
                     "ascommodityside": "L",
@@ -460,9 +460,9 @@
                 "acommodity": "€",
                 "acost": null,
                 "aquantity": {
-                  "decimalMantissa": 424414,
-                  "decimalPlaces": 2,
-                  "floatingPoint": 4244.14
+                  "decimalMantissa": 4256515,
+                  "decimalPlaces": 3,
+                  "floatingPoint": 4256.515
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -480,9 +480,9 @@
                 "acommodity": "€",
                 "acost": null,
                 "aquantity": {
-                  "decimalMantissa": 1697656,
+                  "decimalMantissa": 1702606,
                   "decimalPlaces": 2,
-                  "floatingPoint": 16976.56
+                  "floatingPoint": 17026.06
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -1102,7 +1102,7 @@
                 }
               }
             ],
-            "prrName": "expenses:unknown",
+            "prrName": "Expenses:Transparenzregister",
             "prrTotal": [
               {
                 "acommodity": "€",
