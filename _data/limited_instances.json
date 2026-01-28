@@ -589,6 +589,17 @@
     "comment_de": ""
   },
   {
+    "instance": "mostr.pub",
+    "tags": [
+      "SPAM"
+    ],
+    "receipts": [
+      "https://github.com/mastodon/mastodon/issues/37625"
+    ],
+    "comment_en": "Posts tagging thousands of users",
+    "comment_de": "Posts, die tausende von Accounts taggen"
+  },
+  {
     "instance": "n7.social",
     "tags": [
       "SPAM"
