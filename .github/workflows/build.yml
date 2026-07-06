@@ -14,7 +14,7 @@ jobs:
         with:
           bundler-cache: true
 
-      - uses: extractions/setup-just@v3
+      - uses: extractions/setup-just@v4
 
       - name: Install dependencies
         run: just install
