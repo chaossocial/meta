@@ -9,21 +9,41 @@
 # ///
 import inquirer
 
-from utils import BLOCK_TAGS, block_instance
+from utils import (
+    BLOCK_TAGS,
+    block_instance,
+    get_working_mastodon,
+    normalize_instance,
+    print_instance_stats,
+)
 
 
 def main():
-    questions = [
-        inquirer.Text(name="instance", message="Instance URL"),
-        inquirer.List(
-            name="action",
-            message="Block level",
-            choices=(
-                ("Block", "block"),
-                ("Limit", "limit"),
+    answers = inquirer.prompt(
+        [
+            inquirer.Text(name="instance", message="Instance URL"),
+            inquirer.List(
+                name="action",
+                message="Block level",
+                choices=(
+                    ("Block", "block"),
+                    ("Limit", "limit"),
+                ),
+                default="Block",
             ),
-            default="Block",
-        ),
+        ]
+    )
+    answers["instance"] = normalize_instance(answers["instance"])
+
+    mastodon = None
+    if answers["action"] == "block":
+        mastodon = get_working_mastodon()
+        print_instance_stats(answers["instance"], mastodon)
+        if not inquirer.confirm(f"Block {answers['instance']}?", default=False):
+            print("Aborted.")
+            return
+
+    questions = [
         inquirer.Checkbox(
             name="tags", message="Categories", choices=BLOCK_TAGS, carousel=True
         ),
@@ -36,7 +56,7 @@ def main():
             name="comment_en", message="Comment (English, optional)", default=""
         ),
     ]
-    answers = inquirer.prompt(questions)
+    answers.update(inquirer.prompt(questions))
     if answers.get("comment_en").strip():
         answers["comment_de"] = inquirer.text(message="Comment (German)")
     else:
@@ -50,7 +70,7 @@ def main():
     ]
 
     try:
-        block_instance(**answers)
+        block_instance(mastodon=mastodon, **answers)
     except Exception as e:
         print(f"Error: {e}")
 

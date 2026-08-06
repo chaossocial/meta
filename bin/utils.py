@@ -1,3 +1,4 @@
+import datetime
 import json
 import subprocess
 from pathlib import Path
@@ -27,6 +28,45 @@ BLOCK_TAGS = [
 ]
 
 BASE = Path(__file__).parent.parent
+
+# Measure keys and labels as used on https://chaos.social/admin/instances/<domain>.
+# instance_statuses is deliberately left out: it is slow enough to time out.
+INSTANCE_MEASURES = (
+    ("instance_accounts", "stored accounts"),
+    ("instance_follows", "their followers here"),
+    ("instance_followers", "our followers there"),
+    ("instance_reports", "reports about them"),
+)
+
+
+def normalize_instance(instance):
+    instance = instance.strip()
+    if instance.startswith("https://"):
+        instance = instance[len("https://") :]
+    return instance.strip("/")
+
+
+def get_instance_stats(instance, mastodon):
+    # Totals are cumulative; the date range only bounds the daily series, which we drop.
+    end = datetime.datetime.now(datetime.timezone.utc)
+    start = end - datetime.timedelta(days=1)
+    keys = {key: instance for key, _ in INSTANCE_MEASURES}
+    measures = mastodon.admin_measures(start, end, **keys)
+    return {measure["key"]: measure["total"] for measure in measures}
+
+
+def print_instance_stats(instance, mastodon):
+    admin_url = f"https://chaos.social/admin/instances/{instance}"
+    print(f"\n{instance}:")
+    try:
+        stats = get_instance_stats(instance, mastodon)
+    except Exception as e:
+        print(f"  Could not fetch instance stats: {e}")
+    else:
+        width = max(len(label) for _, label in INSTANCE_MEASURES)
+        for key, label in INSTANCE_MEASURES:
+            print(f"  {label:<{width}}  {stats.get(key, '?')}")
+    print(f"  {admin_url}\n")
 
 
 def _get_data_path(action):
@@ -85,8 +125,7 @@ def block_instance(
     comment_en=None,
     mastodon=None,
 ):
-    if instance.startswith("https://"):
-        instance = instance[len("https://") :]
+    instance = normalize_instance(instance)
 
     instance_data = {
         "instance": instance,
@@ -179,6 +218,7 @@ def get_working_mastodon():
     SCOPES = [
         "read:accounts",
         "read:follows",
+        "admin:read",
         "admin:read:accounts",
         "admin:read:domain_blocks",
         "admin:read:reports",
