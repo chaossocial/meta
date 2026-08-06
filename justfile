@@ -1,11 +1,7 @@
 set shell := ["bash", "-euo", "pipefail", "-c"]
 set quiet
-
-_ := require("bundle")
-
-[private]
-default:
-    just --list
+set fallback
+set default-list
 
 # Install dependencies
 [group('development')]
