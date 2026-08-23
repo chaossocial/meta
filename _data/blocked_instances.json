@@ -1204,6 +1204,17 @@
     "comment_de": "Admin betreibt activitypub-proxy.cf"
   },
   {
+    "instance": "merovingian.club",
+    "tags": [
+      "ANTISEMITISM",
+      "RACISM",
+      "RIGHTWING"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "meta-tube.de",
     "tags": [
       "CONSPIRACY"
