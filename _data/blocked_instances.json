@@ -42,6 +42,15 @@
     "comment_de": ""
   },
   {
+    "instance": "activitypub.academy",
+    "tags": [
+      "UNMODERATED"
+    ],
+    "receipts": [],
+    "comment_en": "",
+    "comment_de": ""
+  },
+  {
     "instance": "aethy.com",
     "tags": [
       "LOLICON"
