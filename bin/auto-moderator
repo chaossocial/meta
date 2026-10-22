@@ -50,6 +50,14 @@ BLOCK_STRINGS = [
     "Your access privileges require revalidation.",
     "we kindly ask you to complete verification",
 ]
+# Same as BLOCK_STRINGS, but regular expressions matched against the post HTML.
+BLOCK_PATTERNS = [
+    # 2026-10 wave: a google.<any tld>/share.google?q= redirect link plus a bunch of mentions
+    re.compile(
+        r'href="https?://(?:www\.)?google\.[a-z]{2,3}(?:\.[a-z]{2})?/share\.google\?q=',
+        re.IGNORECASE,
+    ),
+]
 # If any of these rules match, the account will be suspended.
 BLOCK_RULES = [
     # Only one remote report, but a TON of duplicate posts
@@ -123,7 +131,7 @@ def get_seen_reports():
 
 def write_seen_reports(reports):
     with open(REPORT_CACHE_FILE, "a") as f:
-        f.write("\n".join([str(report) for report in reports]))
+        f.write("".join(f"{report}\n" for report in reports))
 
 
 def suspend_account(account, reports, mastodon, reason):
@@ -169,6 +177,15 @@ def get_content_without_mention(content, mentions=None):
         )
         content = re.sub(pattern, "", content, flags=re.IGNORECASE)
     return content
+
+
+def get_block_match(content):
+    for block_string in BLOCK_STRINGS:
+        if block_string.lower() in content.lower():
+            return block_string
+    for pattern in BLOCK_PATTERNS:
+        if pattern.search(content):
+            return pattern.pattern
 
 
 def handle_suspended_account(reports, mastodon):
@@ -224,13 +241,8 @@ def handle_account_reports(reports, mastodon):
         for status in report.statuses:
             reported_statuses[status.id] = status
             plain_content = get_content_without_mention(status.content, status.mentions)
-            block_string = [
-                block_string
-                for block_string in BLOCK_STRINGS
-                if block_string.lower() in plain_content.lower()
-            ]
+            block_string = get_block_match(plain_content)
             if block_string:
-                block_string = block_string[0]
                 logger.debug(
                     f"Applying block rule for “{block_string}” to {target_account.account.acct}"
                 )
