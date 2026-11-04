@@ -459,6 +459,16 @@
         "contents": "2026-10-01",
         "tag": "Exact"
       }
+    ],
+    [
+      {
+        "contents": "2026-10-01",
+        "tag": "Exact"
+      },
+      {
+        "contents": "2026-11-01",
+        "tag": "Exact"
+      }
     ]
   ],
   "cbrSubreports": [
@@ -923,6 +933,16 @@
             },
             {
               "contents": "2026-10-01",
+              "tag": "Exact"
+            }
+          ],
+          [
+            {
+              "contents": "2026-10-01",
+              "tag": "Exact"
+            },
+            {
+              "contents": "2026-11-01",
               "tag": "Exact"
             }
           ]
@@ -1849,6 +1869,26 @@
                     "asrounding": "HardRounding"
                   }
                 }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "acost": null,
+                  "acostbasis": null,
+                  "aquantity": {
+                    "decimalMantissa": 69419,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 694.19
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
               ]
             ],
             "prrAverage": [
@@ -1857,9 +1897,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 8745556521739,
+                  "decimalMantissa": 8707180851064,
                   "decimalPlaces": 10,
-                  "floatingPoint": 874.5556521739
+                  "floatingPoint": 870.7180851064
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -1878,9 +1918,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 4022956,
+                  "decimalMantissa": 4092375,
                   "decimalPlaces": 2,
-                  "floatingPoint": 40229.56
+                  "floatingPoint": 40923.75
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -2815,6 +2855,26 @@
                   "asrounding": "HardRounding"
                 }
               }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "acost": null,
+                "acostbasis": null,
+                "aquantity": {
+                  "decimalMantissa": 69419,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 694.19
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalmark": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
+                }
+              }
             ]
           ],
           "prrAverage": [
@@ -2823,9 +2883,9 @@
               "acost": null,
               "acostbasis": null,
               "aquantity": {
-                "decimalMantissa": 8745556521739,
+                "decimalMantissa": 8707180851064,
                 "decimalPlaces": 10,
-                "floatingPoint": 874.5556521739
+                "floatingPoint": 870.7180851064
               },
               "astyle": {
                 "ascommodityside": "L",
@@ -2844,9 +2904,9 @@
               "acost": null,
               "acostbasis": null,
               "aquantity": {
-                "decimalMantissa": 4022956,
+                "decimalMantissa": 4092375,
                 "decimalPlaces": 2,
-                "floatingPoint": 40229.56
+                "floatingPoint": 40923.75
               },
               "astyle": {
                 "ascommodityside": "L",
@@ -3323,6 +3383,16 @@
             },
             {
               "contents": "2026-10-01",
+              "tag": "Exact"
+            }
+          ],
+          [
+            {
+              "contents": "2026-10-01",
+              "tag": "Exact"
+            },
+            {
+              "contents": "2026-11-01",
               "tag": "Exact"
             }
           ]
@@ -4249,6 +4319,26 @@
                     "asrounding": "HardRounding"
                   }
                 }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "acost": null,
+                  "acostbasis": null,
+                  "aquantity": {
+                    "decimalMantissa": 46715,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 467.15
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
               ]
             ],
             "prrAverage": [
@@ -4257,9 +4347,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 4555267391304,
+                  "decimalMantissa": 4557740425532,
                   "decimalPlaces": 10,
-                  "floatingPoint": 455.5267391304
+                  "floatingPoint": 455.7740425532
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -4278,9 +4368,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 2095423,
+                  "decimalMantissa": 2142138,
                   "decimalPlaces": 2,
-                  "floatingPoint": 20954.23
+                  "floatingPoint": 21421.38
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5195,6 +5285,26 @@
                     "asrounding": "HardRounding"
                   }
                 }
+              ],
+              [
+                {
+                  "acommodity": "€",
+                  "acost": null,
+                  "acostbasis": null,
+                  "aquantity": {
+                    "decimalMantissa": 44359,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 443.59
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
               ]
             ],
             "prrAverage": [
@@ -5203,9 +5313,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 3887993478261,
+                  "decimalMantissa": 3899651063830,
                   "decimalPlaces": 10,
-                  "floatingPoint": 388.7993478261
+                  "floatingPoint": 389.965106383
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5224,9 +5334,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 1788477,
+                  "decimalMantissa": 1832836,
                   "decimalPlaces": 2,
-                  "floatingPoint": 17884.77
+                  "floatingPoint": 18328.36
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5324,6 +5434,7 @@
               [],
               [],
               [],
+              [],
               []
             ],
             "prrAverage": [
@@ -5332,9 +5443,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 479473913043,
+                  "decimalMantissa": 469272340426,
                   "decimalPlaces": 10,
-                  "floatingPoint": 47.9473913043
+                  "floatingPoint": 46.9272340426
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5434,6 +5545,7 @@
               [],
               [],
               [],
+              [],
               []
             ],
             "prrAverage": [
@@ -5442,9 +5554,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 263039130435,
+                  "decimalMantissa": 257442553191,
                   "decimalPlaces": 10,
-                  "floatingPoint": 26.3039130435
+                  "floatingPoint": 25.7442553191
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5544,6 +5656,7 @@
               [],
               [],
               [],
+              [],
               []
             ],
             "prrAverage": [
@@ -5552,9 +5665,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 216434782609,
+                  "decimalMantissa": 211829787234,
                   "decimalPlaces": 10,
-                  "floatingPoint": 21.6434782609
+                  "floatingPoint": 21.1829787234
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5654,6 +5767,7 @@
               [],
               [],
               [],
+              [],
               []
             ],
             "prrAverage": [
@@ -5662,9 +5776,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 114780434783,
+                  "decimalMantissa": 112338297872,
                   "decimalPlaces": 10,
-                  "floatingPoint": 11.4780434783
+                  "floatingPoint": 11.2338297872
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5802,6 +5916,7 @@
               [],
               [],
               [],
+              [],
               []
             ],
             "prrAverage": [
@@ -5810,9 +5925,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 43593478261,
+                  "decimalMantissa": 42665957447,
                   "decimalPlaces": 10,
-                  "floatingPoint": 4.3593478261
+                  "floatingPoint": 4.2665957447
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5931,7 +6046,27 @@
                 }
               ],
               [],
-              []
+              [],
+              [
+                {
+                  "acommodity": "€",
+                  "acost": null,
+                  "acostbasis": null,
+                  "aquantity": {
+                    "decimalMantissa": 2356,
+                    "decimalPlaces": 2,
+                    "floatingPoint": 23.56
+                  },
+                  "astyle": {
+                    "ascommodityside": "L",
+                    "ascommodityspaced": false,
+                    "asdecimalmark": ",",
+                    "asdigitgroups": null,
+                    "asprecision": 2,
+                    "asrounding": "HardRounding"
+                  }
+                }
+              ]
             ],
             "prrAverage": [
               {
@@ -5939,9 +6074,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 15882608696,
+                  "decimalMantissa": 20557446809,
                   "decimalPlaces": 10,
-                  "floatingPoint": 1.5882608696
+                  "floatingPoint": 2.0557446809
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -5960,9 +6095,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 7306,
+                  "decimalMantissa": 9662,
                   "decimalPlaces": 2,
-                  "floatingPoint": 73.06
+                  "floatingPoint": 96.62
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -6402,6 +6537,7 @@
               [],
               [],
               [],
+              [],
               []
             ],
             "prrAverage": [
@@ -6410,9 +6546,9 @@
                 "acost": null,
                 "acostbasis": null,
                 "aquantity": {
-                  "decimalMantissa": 13543478261,
+                  "decimalMantissa": 13255319149,
                   "decimalPlaces": 10,
-                  "floatingPoint": 1.3543478261
+                  "floatingPoint": 1.3255319149
                 },
                 "astyle": {
                   "ascommodityside": "L",
@@ -7368,6 +7504,26 @@
                   "asrounding": "HardRounding"
                 }
               }
+            ],
+            [
+              {
+                "acommodity": "€",
+                "acost": null,
+                "acostbasis": null,
+                "aquantity": {
+                  "decimalMantissa": 46715,
+                  "decimalPlaces": 2,
+                  "floatingPoint": 467.15
+                },
+                "astyle": {
+                  "ascommodityside": "L",
+                  "ascommodityspaced": false,
+                  "asdecimalmark": ",",
+                  "asdigitgroups": null,
+                  "asprecision": 2,
+                  "asrounding": "HardRounding"
+                }
+              }
             ]
           ],
           "prrAverage": [
@@ -7376,9 +7532,9 @@
               "acost": null,
               "acostbasis": null,
               "aquantity": {
-                "decimalMantissa": 4555267391304,
+                "decimalMantissa": 4557740425532,
                 "decimalPlaces": 10,
-                "floatingPoint": 455.5267391304
+                "floatingPoint": 455.7740425532
               },
               "astyle": {
                 "ascommodityside": "L",
@@ -7397,9 +7553,9 @@
               "acost": null,
               "acostbasis": null,
               "aquantity": {
-                "decimalMantissa": 2095423,
+                "decimalMantissa": 2142138,
                 "decimalPlaces": 2,
-                "floatingPoint": 20954.23
+                "floatingPoint": 21421.38
               },
               "astyle": {
                 "ascommodityside": "L",
@@ -7416,7 +7572,7 @@
       false
     ]
   ],
-  "cbrTitle": "Monthly Income Statement 2022-12-01..2026-09-30",
+  "cbrTitle": "Monthly Income Statement 2022-12-01..2026-10-31",
   "cbrTotals": {
     "prrAmounts": [
       [
@@ -8338,6 +8494,26 @@
             "asrounding": "HardRounding"
           }
         }
+      ],
+      [
+        {
+          "acommodity": "€",
+          "acost": null,
+          "acostbasis": null,
+          "aquantity": {
+            "decimalMantissa": 22704,
+            "decimalPlaces": 2,
+            "floatingPoint": 227.04
+          },
+          "astyle": {
+            "ascommodityside": "L",
+            "ascommodityspaced": false,
+            "asdecimalmark": ",",
+            "asdigitgroups": null,
+            "asprecision": 2,
+            "asrounding": "HardRounding"
+          }
+        }
       ]
     ],
     "prrAverage": [
@@ -8346,9 +8522,9 @@
         "acost": null,
         "acostbasis": null,
         "aquantity": {
-          "decimalMantissa": 4190289130435,
+          "decimalMantissa": 4149440425532,
           "decimalPlaces": 10,
-          "floatingPoint": 419.0289130435
+          "floatingPoint": 414.9440425532
         },
         "astyle": {
           "ascommodityside": "L",
@@ -8367,9 +8543,9 @@
         "acost": null,
         "acostbasis": null,
         "aquantity": {
-          "decimalMantissa": 1927533,
+          "decimalMantissa": 1950237,
           "decimalPlaces": 2,
-          "floatingPoint": 19275.33
+          "floatingPoint": 19502.37
         },
         "astyle": {
           "ascommodityside": "L",
